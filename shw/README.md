@@ -143,7 +143,7 @@ aws ec2-instance-connect send-ssh-public-key --instance-id i-032802861b7c9c59c -
 
 ![dados ip](/shw/pics/dado-ip.png)
 
-- Chave enviado com sucesso
+- Chave enviada com sucesso
 
 ![chave enviada](/shw/pics/ec2-send-key-ok.png)
 
