@@ -1,4 +1,4 @@
-# Anatoções
+# Anatações
 
 ## Dia 01 - Recon Scritps
 
