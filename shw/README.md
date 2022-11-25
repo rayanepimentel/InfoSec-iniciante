@@ -1,11 +1,24 @@
 # Anotações
 
+`Os teste realizado na aplicação web de notas hospedada na cloud AWS, resultando no acesso ao console de gerenciamento da AWs`
+
 Durante as 4 aulas realizamos teste de intrusão, encontrando vulnerabilidades de:
 
 - git exposed
 - IDOR
 - SSRF
 - Mass assignment
+
+Os desafios:
+
+- Fuzzing: git exposed
+- Code review
+- IDOR: acesso a notas de outros usuários
+- Mass assignment: permitiu a alteração do usuário para admin, conseguindo com sucesso acesso ao webhook.
+- SSRF: acesso as credenciais da instância da AWS e conseguimos acessar aos arquivos no S3
+- EC2: conectamos na instância EC2
+- privesc: enviamos a chave shh para o servidor e conseguimos o acesso ao servidor desse cliente na AWS.
+
 
 ## Dia 01 - Recon Scritps
 
