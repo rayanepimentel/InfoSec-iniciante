@@ -174,6 +174,8 @@ Identificar → analisar → explorar
 
 Na identificação do diretório **./git/**, foi feito Code Review e depois a exploração.
 
+### Resumo
+
 Vulnerabilidades encontradas:
 
 - **IDOR** (Insecure Direct Object Reference) - Não verifica o usuário autenticado, permite acesso a conteúdo de outro usuário.
@@ -183,6 +185,250 @@ Vulnerabilidades encontradas:
 **Desafio**: Explorar a vulnerabilidade IDOR
 
 ![flag desafio 02](/shw/pics/flag02.png)
+
+### Detalhe da exploração
+
+```markdown
+#### Material da aula
+
+https://tattered-cushion-387.notion.site/AV-Code-Review-26a169068a254202b48217f15e2b8b14
+
+https://owasp.org/Top10/
+
+https://owasp.org/www-project-api-security/
+
+https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html
+
+http://www.pentest-standard.org/index.php/Main_Page
+```
+
+#### Identificar → analisar → explorar
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6540a517-05b4-4a69-a51a-87c8577b6ad4/Untitled.png)
+
+Git → podemos reversionar e voltar o que era antes.
+
+```markdown
+Qual o risco de uma pasta como essa tá expostar no servidor?
+```
+
+Arquivo zlib → descontactar e dentro dele tem as alterações feito no “nesse commit”
+
+```bash
+zlib-flate: sudo apt-get install qpdf
+
+zlib-falt -uncompress < hashDoCommit > a
+
+# ira descompactar e add/criar no arquio a
+
+file a
+# exemplo: a: Git commit 277
+
+cat a
+# retorna histórico do commit/todos os arquivos
+```
+
+dotgit → extensão identifica se a pasta .git tá exposta
+
+Você pode configurar outras pastas, por exemplo: .env
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e504ef67-614f-4431-a175-df881f99b713/Untitled.png)
+
+#### Baixar pasta /.git de um site
+
+##### **→ Instalar ferramenta git-dumper**
+
+```bash
+# git-dumper 
+git clone https://github.com/carlosevieira/git-dumper
+
+cd git-dumper
+
+pip3 install -r requirements.txt 
+# instalar as bibliotecas
+```
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4b19484b-80f9-4376-a307-433937dd3c3b/Untitled.png)
+
+##### **→ Rodar o script**
+
+```bash
+python3 git_dumper.py URL pastaParaGravarOutput
+
+python3 git_dumper.py http://52.2.30.210/ notes
+```
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2c8e383-1aaa-4a62-80ec-67b550a0aaf3/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/188e4bf2-49e2-4047-b560-c7ef752e5c40/Untitled.png)
+
+Temos uma boa parte do código fonte. Agora podemos fazer o code review.
+
+#### → **Code review**
+
+**Analisando o arquivo `.env`:**
+
+Credenciais vazadas: 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f91e87b6-48cc-4405-ba52-43f1f22d7616/Untitled.png)
+
+Nunca commitar o arquivo .env no git!
+
+<aside>
+💡 O **.env** deve ser usado apenas em desemvolvimento(ambiente local) e em produção devem estarem setadas como variáveis de ambiente no servidor.
+
+</aside>
+
+**→ Readme.md**
+
+- Logo do laravel, informando o que ele é.
+
+**→ Estrutura do laravel**
+
+**`App`** → terá as controllers, middleware e models.
+
+Modelo MVC → separar em 3 partes. 
+
+- Model: responsável por interagir com o banco de dados. Ou seja, para pegar dados p atualizar, gravar ou deletar os dados do banco de dados.
+- Controller: responsável por controlar a aplicação. Coletar do banco de dados, o que deve ou não exibir para o usuário, qual ação tomar. é onde normalmente fica a lógica do negócio.
+- View: é a tela que o usuário final irá ver.
+
+View: exiba meu nome → solicita para controller → controller busca no banco de dados (pela model) → faz a renderização da view, para exibir o seu nome.
+
+**Vulnerabilidade para exibir notas:**
+
+Qualquer usuário pode exibir uma nota.
+
+Ou seja, qualquer usuário que chamar essa function show, poderia exibir notas de outro usuário.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d464b67-24a0-4133-ba8b-dd993332de37/Untitled.png)
+
+Deveria ter uma condição: -> where('user', 'id', auth() -> id())
+
+```php
+/**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        $note = Note::find($id)-> where('user', 'id', auth() -> id());
+        return Response()->json($note);
+    }
+```
+
+A mesma coisa vale para edit:
+
+```php
+/**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        $note = Note::find($id);
+        return view('notes.edit', compact('note'));
+    }
+```
+
+Exemplo: loguei na minha conta e editei uma nota. Ela tem o **id 23**
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a70ecaac-36a9-45bd-8450-8d319da26b13/Untitled.png)
+
+Mudei para 100 e ela existe e eu consigo ler notas de outros usuários.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee9f9038-c385-47b7-874e-b862b5281112/Untitled.png)
+
+ É uma vulnerabilidade: **IDOR** = Insecure Direct Object Reference.
+
+É uma function insegura porque ela não valida se a nota é minha ou não é. Ou seja, se é a nota do usuário autenticado.
+
+Deveria verificar se a nota é do usuário autenticado:
+
+`**if($note->user_id == auth()->id()){..}**`
+
+```php
+/**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        $note = Note::find($id);
+        if($note->user_id == auth()->id()){
+            return view('notes.edit', compact('note'));
+        }else{
+            echo " Voce nao tem permissao";
+        }
+        
+    }
+```
+
+<aside>
+💡 Vulnerabilidade **IDOR** nas funções show e edit da NotesController
+
+</aside>
+
+**Sanitização**: estamos fazendo uma req http para uma url que o usuario controla, podendo levar a uma vulnerabilidade conhecida como **SSRF** (server side request forgery)⇒ é uma vulnerabilidade que permite que vc faça requisições se passando pelo servidor.
+
+O usuario controla para onde essa requisição http vai ser feita, nao valida se pode ou não. 
+
+- url == [http://localhost](http://localhost)
+- url == [http://10.40.2.120](http://10.40.2.120) IP dentro da rede do cliente (requisição da dentro do servidor da empresa)
+- url == [http://169.254.169.245](http://169.254.169.245) IP metadaos da AWS
+- Pode fazer requisição para qualquer site que ele quiser.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d03c9b1-9dfe-4ced-87f4-6eb3b8e60803/Untitled.png)
+
+<aside>
+💡 SSRF  (Server Side Request Forgery) que pode levar ao comprometimento do servidor e da rede do cliente.
+
+</aside>
+
+**UPDATE**
+
+rota:
+
+```php
+Route::get('/user/me', [App\Http\Controllers\UserController::class, 'show'])->name('user.show')->middleware('auth');
+Route::put('/user/me', [App\Http\Controllers\UserController::class, 'update'])->name('user.update')->middleware('auth');
+```
+
+Req GET:
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98f55a11-d337-498a-9b27-23cbc048c3fa/Untitled.png)
+
+Chama a **function show**
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b11ff3e6-e8b7-431c-8807-e245d4451cdc/Untitled.png)
+
+Req PUT
+
+**Mass Assignment** - é possível editar qualquer campo no perfil do usuário.
+
+Pego todos os dados que o usuario me enviou(front-back), passando tudo pro banco de dados atualizar. Permite que o usuário altere campos que ele nao deveria atualizar.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/467f1f8e-dda4-4e18-a1e5-311e45ef5423/Untitled.png)
+
+site para encontrar exemplos no github [https://grep.app/search?q=update(%24request->all())](https://grep.app/search?q=update%28%24request-%3Eall%28%29%29)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d98a4845-423d-496c-92e3-577d797c3d48/Untitled.png)
+
+#### Desafio
+
+Encontrar a vulnerabilidade IDOR em uma das notas:
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f1888cd-2a01-4496-85c8-c8d69aa1294c/Untitled.png)
+
+Flag encontrada:
+
+**`swh{1D0R_1s_Th3_N3w_SQL1_N3w_Fl4g}`**
 
 ## Dia 03 - Exploração / Invasão
 
