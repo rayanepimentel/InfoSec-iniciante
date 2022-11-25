@@ -1,6 +1,6 @@
 # Anotações
 
-Durante as 4 aulas realizamos teste de instrusão, encontrando vulnerabilidades de:
+Durante as 4 aulas realizamos teste de intrusão, encontrando vulnerabilidades de:
 
 - git exposed
 - IDOR
