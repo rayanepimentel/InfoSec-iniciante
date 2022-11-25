@@ -1,5 +1,12 @@
 # Anotações
 
+Durante as 4 aulas realizamos teste de instrusão, encontrando vulnerabilidades de:
+
+- git exposed
+- IDOR
+- SSRF
+- Mass assignment
+
 ## Dia 01 - Recon Scritps
 
 Reconhecimento da aplicação.
