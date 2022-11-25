@@ -1,6 +1,6 @@
 # Anotações
 
-`Os teste realizado na aplicação web de notas hospedada na cloud AWS, resultando no acesso ao console de gerenciamento da AWs`
+`Os testes realizado na aplicação web de notas hospedada na cloud AWS, resultando no acesso ao console de gerenciamento da AWs`
 
 Durante as 4 aulas realizamos teste de intrusão, encontrando vulnerabilidades de:
 
