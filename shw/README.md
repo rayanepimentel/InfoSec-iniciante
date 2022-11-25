@@ -158,13 +158,15 @@ http://52.2.30.210/.git/logs/HEAD # Possivel vulnerabilidade
 
 ![GIT HEAD](/shw/pics/git-head.png)
 
-Temos os commits que foram feitos para build e publicar no servidor.  
+Temos os commits que foram feitos para build e publicar aplicação no servidor.  
 
 ### Git exposed
 
 Primeira vulnerabilidade e encontramos a flag.
 
-Pasta .git exposta, conseguimos ter acesso a código fonte da aplicação.
+> swh{fsdfsdfsdf}
+
+Com a pasta .git exposta, conseguimos ter acesso a código fonte da aplicação (próxima aula).
 
 ## Dia 02 - Análise e identificação de vulnerabilidades
 
