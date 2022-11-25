@@ -17,7 +17,8 @@ Os desafios:
 - Mass assignment: permitiu a alteração do usuário para admin, conseguindo com sucesso acesso ao webhook.
 - SSRF: acesso as credenciais da instância da AWS e conseguimos acessar aos arquivos no S3
 - EC2: conectamos na instância EC2
-- privesc: enviamos a chave shh para o servidor e conseguimos o acesso ao servidor desse cliente na AWS.
+- Acesso servidor: enviamos a chave shh para o servidor e conseguimos o acesso ao servidor desse cliente na AWS
+- privesc: 
 
 
 ## Dia 01 - Recon Scritps
