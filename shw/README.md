@@ -275,7 +275,7 @@ Credenciais vazadas:
 Nunca commitar o arquivo .env no git!
 
 <aside>
-💡 O **.env** deve ser usado apenas em desemvolvimento(ambiente local) e em produção devem estarem setadas como variáveis de ambiente no servidor.
+💡 O **.env** deve ser usado apenas em desenvolvimento(ambiente local) e em produção devem estarem setadas como variáveis de ambiente no servidor.
 
 </aside>
 
@@ -290,7 +290,7 @@ Nunca commitar o arquivo .env no git!
 Modelo MVC → separar em 3 partes. 
 
 - Model: responsável por interagir com o banco de dados. Ou seja, para pegar dados p atualizar, gravar ou deletar os dados do banco de dados.
-- Controller: responsável por controlar a aplicação. Coletar do banco de dados, o que deve ou não exibir para o usuário, qual ação tomar. é onde normalmente fica a lógica do negócio.
+- Controller: responsável por controlar a aplicação. Coletar do banco de dados, o que deve ou não exibir para o usuário, qual ação tomar. É onde normalmente fica a lógica do negócio.
 - View: é a tela que o usuário final irá ver.
 
 View: exiba meu nome → solicita para controller → controller busca no banco de dados (pela model) → faz a renderização da view, para exibir o seu nome.
@@ -299,7 +299,7 @@ View: exiba meu nome → solicita para controller → controller busca no banco 
 
 Qualquer usuário pode exibir uma nota.
 
-Ou seja, qualquer usuário que chamar essa function show, poderia exibir notas de outro usuário.
+Ou seja, qualquer usuário que chamar essa function **show**, poderá exibir notas de outro usuário.
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d464b67-24a0-4133-ba8b-dd993332de37/Untitled.png)
 
@@ -339,7 +339,7 @@ Exemplo: loguei na minha conta e editei uma nota. Ela tem o **id 23**
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a70ecaac-36a9-45bd-8450-8d319da26b13/Untitled.png)
 
-Mudei para 100 e ela existe e eu consigo ler notas de outros usuários.
+Mudei para 100 e ela existe e eu consigo ler e editar notas de outros usuários.
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee9f9038-c385-47b7-874e-b862b5281112/Untitled.png)
 
@@ -377,11 +377,11 @@ Deveria verificar se a nota é do usuário autenticado:
 
 **Sanitização**: estamos fazendo uma req http para uma url que o usuario controla, podendo levar a uma vulnerabilidade conhecida como **SSRF** (server side request forgery)⇒ é uma vulnerabilidade que permite que vc faça requisições se passando pelo servidor.
 
-O usuario controla para onde essa requisição http vai ser feita, nao valida se pode ou não. 
+O usuario controla para onde essa requisição http vai ser feita, não valida se pode ou não. 
 
 - url == [http://localhost](http://localhost)
 - url == [http://10.40.2.120](http://10.40.2.120) IP dentro da rede do cliente (requisição da dentro do servidor da empresa)
-- url == [http://169.254.169.245](http://169.254.169.245) IP metadaos da AWS
+- url == [http://169.254.169.245](http://169.254.169.245) IP metadados da AWS
 - Pode fazer requisição para qualquer site que ele quiser.
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d03c9b1-9dfe-4ced-87f4-6eb3b8e60803/Untitled.png)
@@ -412,7 +412,7 @@ Req PUT
 
 **Mass Assignment** - é possível editar qualquer campo no perfil do usuário.
 
-Pego todos os dados que o usuario me enviou(front-back), passando tudo pro banco de dados atualizar. Permite que o usuário altere campos que ele nao deveria atualizar.
+Pego todos os dados que o usuario me enviou(front-back), passando tudo pro banco de dados atualizar. Permite que o usuário altere campos que ele não deveria atualizar.
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/467f1f8e-dda4-4e18-a1e5-311e45ef5423/Untitled.png)
 
