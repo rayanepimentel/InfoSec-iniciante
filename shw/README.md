@@ -18,7 +18,7 @@ Os desafios:
 - SSRF: acesso as credenciais da instância da AWS e conseguimos acessar aos arquivos no S3
 - EC2: conectamos na instância EC2
 - Acesso servidor: enviamos a chave shh para o servidor e conseguimos o acesso ao servidor desse cliente na AWS
-- privesc: 
+- Federation token: Geramos a URL ferderadae conseguindo acesso a console AWS sem ser pelo CLI.
 
 
 ## Dia 01 - Recon Scritps
