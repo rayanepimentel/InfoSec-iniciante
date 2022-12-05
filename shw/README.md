@@ -2,6 +2,8 @@
 
 `Os testes realizado na aplicação web de notas hospedada na cloud AWS, resultando no acesso ao console de gerenciamento da AWs`
 
+[Certificado de participação](https://mega.nz/file/sa5lEZIA#oE8OsfINgOlcO9V9mJkATCT0gTofzJnfKC7Ps9R1O1E)
+
 Durante as 4 aulas realizamos teste de intrusão, encontrando vulnerabilidades de:
 
 - git exposed
