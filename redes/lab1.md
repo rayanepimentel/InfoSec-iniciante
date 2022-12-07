@@ -1,4 +1,4 @@
-# Introdução a redes e varreduras de portas usando Namp
+# [Introdução a redes e varreduras de portas usando Namp](https://learning.oreilly.com/scenarios/ethical-hacking-introducing/9780137673469X001/)
 
 # 1.1 Reconhecimento
 
@@ -394,3 +394,23 @@ O Nmap possui scripts integrados para cada um dos itens a seguir e muito mais!
 - Enumeração de grupo
 - Enumeração de Compartilhamento de Rede
 - Enumeração de serviço
+
+# Referências
+
+[https://www.codecademy.com/article/passive-active-reconnaissance](https://www.codecademy.com/article/passive-active-reconnaissance)
+
+[https://www.securitymadesimple.org/cybersecurity-blog/active-vs-passive-cyber-reconnaissance-in-information-security](https://www.securitymadesimple.org/cybersecurity-blog/active-vs-passive-cyber-reconnaissance-in-information-security)
+
+[https://nmap.org/man/pt_BR/man-port-scanning-basics.html](https://nmap.org/man/pt_BR/man-port-scanning-basics.html)
+
+[http://www.bosontreinamentos.com.br/redes-computadores/curso-de-redes-protocolo-tcp-handshake-de-tres-vias/](http://www.bosontreinamentos.com.br/redes-computadores/curso-de-redes-protocolo-tcp-handshake-de-tres-vias/)
+
+[https://koayyongcett.medium.com/lesson-5-network-vulnerability-and-scanning-tcp-connect-scan-d24ae7099cfd](https://koayyongcett.medium.com/lesson-5-network-vulnerability-and-scanning-tcp-connect-scan-d24ae7099cfd)
+
+[https://www.avast.com/pt-br/business/resources/what-is-port-scanning](https://www.avast.com/pt-br/business/resources/what-is-port-scanning)
+
+[https://www.gta.ufrj.br/grad/16_2/2016VARPORT/](https://www.gta.ufrj.br/grad/16_2/2016VARPORT/)
+
+[https://www.gta.ufrj.br/grad/16_2/2016VARPORT/2016VARPORT.pptx](https://www.gta.ufrj.br/grad/16_2/2016VARPORT/2016VARPORT.pptx)
+
+[https://seginfo.com.br/2012/12/17/utilizando-o-nmap-scripting-engine-nse-funcionalidade-do-nmap-que-permite-executar-scripts-do-usuario-via-clavissecurity-2/](https://seginfo.com.br/2012/12/17/utilizando-o-nmap-scripting-engine-nse-funcionalidade-do-nmap-que-permite-executar-scripts-do-usuario-via-clavissecurity-2/)
