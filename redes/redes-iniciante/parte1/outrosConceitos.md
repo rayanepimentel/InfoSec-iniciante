@@ -1,8 +1,8 @@
 # Conceitos importantes
 
-1. O que é internet
-2. Roteador - entendendo suas portas/entradas
-3. MAC
+1. [O que é internet](#o-que-é-internet)
+2. [Roteador](#roteador)
+3. [MAC](#endereço-mac)
 4. DHCP
 
 ## O que é internet
@@ -144,3 +144,49 @@ Se o seu provedor for "vivo", o app é: Vivo Smart Wi-Fi
 ---------------------------
 
 ## Endereço MAC
+
+>Media Access Control / Controle de Acesso ao Meio
+
+É o endereço físico que vem gravado no hardware(chip na placa de rede), é uma espécie de RG de sua placa de rede.
+
+O endereço MAC, que tem como objetivo identificar individualmente cada computador a partir da fábrica, pode ser alterado manualmente.
+
+O endereço MAC é um endereço de 48 bits(0 e 1) escrito em número hexadecimal de 12 dígitos que geralmente é exibido entre dois pontos ou hífen separando a cada dois dígitos (um octeto), facilitando a leitura.
+
+> Exemplo: Um endereço MAC de 2c549188c9e3 normalmente é exibido como 2C:54:91:88:C9:E3 ou 2c-54-91-88-c9-e3.
+
+Endereço MAC é dividido em duas partes:
+
+![MAC](../pics/mac.webp)
+
+- Identifica o fabricante: 3 primeiros octetos* identifica a marca.
+  - chamada de identificador exclusivo organizacional ou OUI
+  - Os OUIs para alguns fabricantes conhecidos são:
+    - Dell: 00-14-22
+    - Nortel: 00-04-DC
+    - Cisco: 00-40-96
+    - Belkin: 00-30-BD
+- Identifica a placa de rede. Quem é aquele dispositivo.
+  - Teoricamente, eles nunca serão repetidos mas é muito raro acontecer de dois dispositivos terem o mesmo.
+
+> *Observe que, na linguagem do computador, um octeto significa um conjunto de 8 bits.
+> Dois dígitos hexadecimais representam 8 bits e, portanto, um octeto.
+
+Fonte e mais informações: [boson treinamentos](http://www.bosontreinamentos.com.br/redes-computadores/o-que-e-um-endereco-mac-mac-address/)
+
+### Principais funções do endereço MAC
+
+Ao conectar no seu wifi você recebe um IP no seu celular (dhcp).
+
+Essa distribuição de ip é feita pelo MAC do seu dispositivo.
+
+> Roteador → identifica o MAC → MAC distribui o IP
+
+- **Atribuição de IP estático**: Onde o dispositivo se conecta e, se possuir o endereço MAC, é atribuído o IP estático, pelo roteador.
+- **Filtragem de MAC Adress**: Uma forma de permitir que somente determinados MACs possam se conectar à rede.
+- **Identificação de um dispositivo**: Redes públicas e determinados locais utilizam o MAC para identificar o dispositivo e restringir, a ele, a utilização da rede por determinado tempo.
+- **Dispositivo de rastreamento**: Por ser único o seu número MAC, ele pode ser utilizado para saber sua localização a partir de seu celular, por exemplo, que, mesmo em movimento, realiza buscas por redes wi-fi próximas para acesso.
+
+É possível fazer a alteração de seu MAC, e a maioria das placas de rede permite que você faça a mudança a partir do painel de configurações em seu ‘gerenciador de dispositivos’. 
+
+Fonte: [psafe](https://www.psafe.com/blog/como-descobrir-seu-endereco-mac-serve/)
