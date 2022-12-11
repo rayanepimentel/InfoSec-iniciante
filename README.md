@@ -5,4 +5,5 @@ Esse material é totalmente iniciante. Se encontrar alguma informação errada o
 Obrigada ˆ ˆ
 
 - [Bash](/bash/bash.md)
-- [Redes - Inicio](/redes//redes-iniciante/)
+- [Redes - Inicio](/redes/redes-iniciante/start.md)
+- [SWH](/shw/README.md)

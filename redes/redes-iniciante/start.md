@@ -1,6 +1,6 @@
 # Começo - Básico
 
-[Rede Básico](/redes/redes-iniciante/rede-basico.md)
+[Rede parte I ](/redes/redes-iniciante/parte1/0.menu.md)
 
 Refêrencias:
 
