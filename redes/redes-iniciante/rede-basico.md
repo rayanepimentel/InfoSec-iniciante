@@ -40,13 +40,13 @@ Essas camadas, junto com alguns exemplos de protocolos, são:
 
 Fonte/Citação: [weblink](https://www.weblink.com.br/blog/tecnologia/conheca-os-principais-protocolos-de-internet/)
 
-1. IP
+**1. IP**
 
 O protocolo IP, do termo em inglês Internet Protocol (Protocolo de Internet) faz parte da camada de internet e é um dos protocolos mais importantes da web. Ele permite a elaboração e transporte dos pacotes de dados, porém sem assegurar a sua entrega.
 
 O destinatário da mensagem é determinado por meio dos campos de endereço **IP** (endereço do computador), **máscara de sub rede** (determina parte do endereço que se refere à rede) e o campo **gateway** estreita por padrão (permite saber qual o computador de destino, caso não esteja localizado na rede local).
 
-1.1 IP, máscara de sub rede e gateway
+**1.1 IP, máscara de sub rede e gateway**
 
 O endereço de IP, parece como o endereço da nossa casa.
 Para recebemos coisas/pacotes dos correrios, precisamos informar o endereço da nossa casa.
@@ -82,7 +82,7 @@ O IP local (ou IP interno) identifica cada dispositivo individualmente. Ou seja,
 
 Já o IP externo é a identificação que o seu provedor de internet forneceu para sua residência ou empresa. É pelo IP externo que o seu dispositivo consegue se conectar à rede mundial.
 
-A principal diferença entre endereços IP públicos e privados é o alcance e a que estão conectados. Um endereço IP público te identifica na Internet, para que todas as informações que procura possam chegar a você. Um endereço IP privado é usado em uma rede privada para se conectar com segurança a outros dispositivos nessa mesma rede.
+A principal diferença entre endereços IP externos e internos é o alcance e a que estão conectados. Um endereço IP externo te identifica na Internet, para que todas as informações que procura possam chegar a você. Um endereço IP interno é usado em uma rede privada para se conectar com segurança a outros dispositivos nessa mesma rede.
 
 Fonte/Citação: [avast](https://www.avast.com/pt-br/c-ip-address-public-vs-private)
 
