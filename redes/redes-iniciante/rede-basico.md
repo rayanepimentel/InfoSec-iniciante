@@ -76,7 +76,7 @@ Essas três opções(wifi, cabo e rede móveis) funcionam como o portão princip
 
 Fonte/Citação: [e-tinet](https://e-tinet.com/linux/ifconfig/) e [tecnoblog](https://tecnoblog.net/responde/o-que-e-gateway/)
 
-1.2 IP interno e IP externo
+**1.2 IP interno e IP externo**
 
 O IP local (ou IP interno) identifica cada dispositivo individualmente. Ou seja, é o endereço atribuído pelo roteador à sua máquina na rede local.
 
