@@ -3,7 +3,7 @@
 1. [O que é internet](#o-que-é-internet)
 2. [Roteador](#roteador)
 3. [MAC](#endereço-mac)
-4. DHCP
+4. [DHCP](#dhcp)
 
 ## O que é internet
 
@@ -190,3 +190,51 @@ Essa distribuição de ip é feita pelo MAC do seu dispositivo.
 É possível fazer a alteração de seu MAC, e a maioria das placas de rede permite que você faça a mudança a partir do painel de configurações em seu ‘gerenciador de dispositivos’. 
 
 Fonte: [psafe](https://www.psafe.com/blog/como-descobrir-seu-endereco-mac-serve/)
+
+---------------------------
+
+## DHCP
+
+> Dynamic Host Configuration Protocol
+
+DHCP concede automaticamente endereços IP diferentes a todos os computadores, impressoras de rede, e dispositivos conectados a sua rede local ou da internet.
+
+Sua função é atribuir automaticamente aos dispositivos conectados:
+
+- endereço IP;
+- gateway padrão;
+- máscara de sub-rede;
+- entre outras configurações.
+
+Fonte e mais informações: [Lívia Bentini - GoDaddy](https://br.godaddy.com/blog/o-que-e-dhcp-e-para-que-serve/
+
+### IP Dinâmico e Estático/Fixo rede local
+
+#### IP dinâmico**
+
+Ao desconectar meu dispositivo do wi-fi/cabo/internet, o IP desse dispositivo ficará disponível e outro dispositivo ao conectar na minha rede, poderá obter esse IP.
+
+Pode acontecer tbm quando eu reiniciar o meu dispositivo, ele obtenha um novo IP.
+
+#### IP Fixo
+
+A atribuir um IP pro meu dispositivo, um pc, esse IP sempre será desse pc, desse endereço MAC.
+
+Ou seja, é vinculado o endereço MAC desse pc ao IP fixo.
+Mesmo que eu desconect esse pc, outro dispositivo não poderá obter esse IP, pq ele não possui o mesmo endereço MAC do meu pc.
+E ao iniciar meu pc, ele receberá o mesmo IP de antes.
+
+### DHCP algumas configurações
+
+- **Range**
+
+Posso configurar para distruibuir apenas 10 IPs no range **192.168.0.100 - 192.168.0.110** dentro da tabela DHCP.
+Se eu tiver 10 dispositivo com IP dinâmico, e outro dispositivo tentar se conectar na minha rede, ele não vai conseguir pq não tem IP disponível.
+
+O IP fixo não precisa ficar nesse range.
+
+- **Bloqueio de dispositivo**
+
+Você pode bloqueiar pelo endereço MAC, esse MAC não irá receber IP.
+
+---------------------------
