@@ -64,8 +64,6 @@ Aqui tem um mapa dos cabos submarino da internet: [submarinecablemap](https://ww
 
 Vídeo: [como funciona a internet por dentro](https://www.youtube.com/watch?v=M7OWQDblzkA)
 
-</br></br>
-
 ---------------------------
 
 ## Roteador
@@ -94,7 +92,7 @@ Via: [cloudflare](https://www.cloudflare.com/pt-br/learning/network-layer/what-i
 
 Mais sobre roteadores e tipos: [cisco](https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/what-is-a-router.html#~como-escolher-roteadores-para-empresas-de-pequeno-porte)
 
-Mais sobre diferênças entre roteador e modem: [](https://tecnoblog.net/responde/qual-a-diferenca-entre-modem-e-roteador/)
+Mais sobre diferênças entre roteador e modem: [tecnoblog](https://tecnoblog.net/responde/qual-a-diferenca-entre-modem-e-roteador/)
 
 ### Portas
 
@@ -137,7 +135,11 @@ Salve essa senha em um local seguro. Recomendo um gerenciador de senha.
 
 Alguns porvedores de internet disponibilizam no próprio app a criação da rede "Convidado", verifique se existe essa opção no seu provedor de internet.
 
-Se o seu provedor é "vivo", o app é: Vivo Smart Wi-Fi
+Se o seu provedor for "vivo", o app é: Vivo Smart Wi-Fi
+
+[Por que você deve alterar a senha padrão em um roteador Wi-Fi](https://www.lifewire.com/changing-default-password-on-wifi-network-816567)
+
+[Mais](https://www.quora.com/Does-changing-my-routers-admin-password-change-anything-else-in-the-router-I-want-to-make-the-router-secret-but-I-don-t-want-to-get-in-problems-with-my-family-for-doing-that)
 
 ---------------------------
 
