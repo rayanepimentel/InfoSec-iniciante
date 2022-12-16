@@ -187,7 +187,7 @@ Essa distribuição de ip é feita pelo MAC do seu dispositivo.
 - **Identificação de um dispositivo**: Redes públicas e determinados locais utilizam o MAC para identificar o dispositivo e restringir, a ele, a utilização da rede por determinado tempo.
 - **Dispositivo de rastreamento**: Por ser único o seu número MAC, ele pode ser utilizado para saber sua localização a partir de seu celular, por exemplo, que, mesmo em movimento, realiza buscas por redes wi-fi próximas para acesso.
 
-É possível fazer a alteração de seu MAC, e a maioria das placas de rede permite que você faça a mudança a partir do painel de configurações em seu ‘gerenciador de dispositivos’. 
+É possível fazer a alteração de seu MAC, e a maioria das placas de rede permite que você faça a mudança a partir do painel de configurações em seu ‘gerenciador de dispositivos’.
 
 Fonte: [psafe](https://www.psafe.com/blog/como-descobrir-seu-endereco-mac-serve/)
 
