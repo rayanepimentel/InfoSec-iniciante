@@ -3,6 +3,8 @@ Crie sua conta em https://tryhackme.com/ e se Inscreva na trilha:
 - Introduction to Cybersecurity e escolha a sala **Introduction to Defensive Security**. 
 - Caso você já tenha realizado essa sala antes, recomendo exercitar sua escrita, escrevendo um relatório sobre a sala 'Intro to Offensive Security'.
 
+## 01/30 :white_check_mark:
+
 ## Relatório
 
 Link do laboratório: [Lab - Introduction to Defensive Securit](https://tryhackme.com/room/introtooffensivesecurity)
