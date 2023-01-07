@@ -14,9 +14,9 @@ Redes Para Segurança da Informação - https://www.udemy.com/course/redes-para-
 
 [Pausa → Recesso natal, aniversário e ano novo]
 
-07.12.2023
+07.01.2023
 Estou fazendo esse curso e parei em seção 2 - HTTP e HTTPS
 Redes Para Segurança da Informação - https://www.udemy.com/course/redes-para-seguranca-da-informacao/
 
 Estou fazendo #30Days-Challenge do servidor Menina de CyberSec
-Estou no dia 04/30
+Estou no dia 04/30 [https://github.com/rayanepimentel/InfoSec-iniciante/blob/main/desafios/30days-MeninaDeCybeSec/0start.md]
