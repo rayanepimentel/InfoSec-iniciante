@@ -87,7 +87,7 @@ Servidor tá hospedado na AWS 52.2.30.210 - na AWS - us-east-1 (us-east-1a) (us-
 
 > AWS 52.2.30.210 - na AWS - us-east-1 (us-east-1a) (us-east-1b)
 
-![servidor](/shw/pics/servidor-descobrir.png)
+![servidor](./pics/servidor-descobrir.png)
 
 #### Acessando na porta 80
 
@@ -175,11 +175,11 @@ wfuzz -c -z file,common.txt --hc 404 https://52.2.30.210/FUZZ
 http://52.2.30.210/.git/logs/HEAD # Possivel vulnerabilidade
 ```
 
-![git logs](/shw/pics/git-logs.png)
+![git logs](./pics/git-logs.png)
 
 ### Explorando ./git/logs/HEAD
 
-![GIT HEAD](/shw/pics/git-head.png)
+![GIT HEAD](./pics/git-head.png)
 
 Temos os commits que foram feitos para build e publicar aplicação no servidor.  
 
@@ -207,7 +207,7 @@ Vulnerabilidades encontradas:
 
 **Desafio**: Explorar a vulnerabilidade IDOR
 
-![flag desafio 02](/shw/pics/flag02.png)
+![flag desafio 02](./pics/flag02.png)
 
 ### Detalhe da exploração
 
@@ -509,7 +509,7 @@ Basicamente eu chamaria o cp passando o Bucket com o . --recusive, assim eu copi
 
 Depois fiz um cat no arquivo user-data.txt, encontrando a flag.
 
-![flag desafio 03](/shw/pics/flag03.png)
+![flag desafio 03](./pics/flag03.png)
 
 ## Dia 04 - Pós-Exploração na AWS
 
@@ -519,11 +519,11 @@ Depois fiz um cat no arquivo user-data.txt, encontrando a flag.
 aws ec2 describe-instances
 ```
 
-![ec2 IP](/shw/pics/ec2-ip-new.png)
+![ec2 IP](./pics/ec2-ip-new.png)
 
 Colocamos a lista em leitor de JSON
 
-![lista json](/shw/pics/ec2-retorno-ip.png)
+![lista json](./pics/ec2-retorno-ip.png)
 
 Ao listar ec2, vimos IP que não conhecemos, fizemos um nmap e depois nmap sem o ping.
 
@@ -533,7 +533,7 @@ Ao listar ec2, vimos IP que não conhecemos, fizemos um nmap e depois nmap sem o
 ec2-instace-connect help
 ```
 
-![ec2 help](/shw/pics/ec2.help.png)
+![ec2 help](./pics/ec2.help.png)
 
 EC2 permite que o administrador de sistema envie uma chave ssh publica deles para um servidor.
 
@@ -543,7 +543,7 @@ Olhamos o que precisamos enviar para ter esse acesso:
 aws ec2-instance-connect send-ssh-public-key help
 ```
 
-![send-ssh-help](/shw/pics/send-ssh-help.png)
+![send-ssh-help](./pics/send-ssh-help.png)
 
 ```bash
 aws ec2-instance-connect send-ssh-public-key \
@@ -567,11 +567,11 @@ aws ec2-instance-connect send-ssh-public-key --instance-id i-032802861b7c9c59c -
 
 - instance-id e availability-zone são daquele IP que não conhecemos.
 
-![dados ip](/shw/pics/dado-ip.png)
+![dados ip](./pics/dado-ip.png)
 
 - Chave enviada com sucesso
 
-![chave enviada](/shw/pics/ec2-send-key-ok.png)
+![chave enviada](./pics/ec2-send-key-ok.png)
 
 - Agora vamos conectar com o servidor passando a chave ssh(chave privada)
 
@@ -579,7 +579,7 @@ aws ec2-instance-connect send-ssh-public-key --instance-id i-032802861b7c9c59c -
 ssh -i /home/kali/.ssh/id_rsa ec2-user@44.202.22.33
 ```
 
-![aws](/shw/pics/acessando-aws.png)
+![aws](./pics/acessando-aws.png)
 
 **Desafio**: Virar usuario root da máquina
 **Solução**:
@@ -589,4 +589,4 @@ ssh -i /home/kali/.ssh/id_rsa ec2-user@44.202.22.33
 - ls -la: listei diretórios
 - cat root.txt : encontrei a flag
 
-![flag desafio 04](/shw/pics/flag04.png)
+![flag desafio 04](./pics/flag04.png)
