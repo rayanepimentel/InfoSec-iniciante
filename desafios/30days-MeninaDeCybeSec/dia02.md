@@ -3,13 +3,13 @@ Crie sua conta em https://tryhackme.com/ e se Inscreva na trilha:
 - Introduction to Cybersecurity e escolha a sala **Introduction to Defensive Security**. 
 - Caso você já tenha realizado essa sala antes, recomendo exercitar sua escrita, escrevendo um relatório sobre a sala 'Intro to Offensive Security'.
 
-## 01/30 :white_check_mark:
+## 02/30 :white_check_mark:
 
-## Relatório
+### Relatório
 
 Link do laboratório: [Lab - Introduction to Defensive Securit](https://tryhackme.com/room/introtooffensivesecurity)
 
-### Task 1 Hacking your first machine 
+#### Task 1 Hacking your first machine 
 
 Foi apresentado o site **FakeBank**, que se trata de um sistema bancário onde existe uma falha de segurança nas transações bancárias. E temos autorização para analisarmos(por se tratar de um banco fake, mas na vida real precisarimos de um "contrato" detalhado do que podemos analisar)
 
