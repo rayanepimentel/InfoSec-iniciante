@@ -6,4 +6,3 @@ Obrigada ˆ ˆ
 
 - [Bash](/bash/bash.md)
 - [Redes - Inicio](/redes/redes-iniciante/start.md) :pushpin: Estou aqui!
-- [SWH](/shw/README.md)
