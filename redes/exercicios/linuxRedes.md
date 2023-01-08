@@ -16,3 +16,7 @@ Encontro realizado no dia 02/01/2022 no discord **Cantinho da Infosec**
 - [ ]  Instalar apache, php e php mysql
 
 Todos os passos estão aqui: [Lab → Linux e Redes Parte I](https://denim-flight-0a6.notion.site/Lab-Linux-e-Redes-f79242e6db3b4a6184e9e413c0956b35)
+
+## Cronograma Part II
+
+[O que você precisa saber antes de continuar](https://denim-flight-0a6.notion.site/Lab-Linux-e-Redes-Parte-II-pre-estudo-129f5e1c738240b6bc4ff4dc1e8cf047)
