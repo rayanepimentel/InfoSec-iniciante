@@ -4,6 +4,8 @@
 
 É gratuito! Link: https://app.letsdefend.io/training/lessons/phishing-email-analysis
 
+## 09/30 :white_check_mark:
+
 ## Phishing
 
 ```js

@@ -3,6 +3,8 @@
 - Link: https://youtu.be/fsGluS9FIMQ](https://youtu.be/fsGluS9FIMQ). 
 - Caso você já tenha assistido, escreva em poucas linhas o que você entende por Cross-site Scripting e mande aqui no canal.
 
+## 07/30 :white_check_mark:
+
 ## Série OWASP Top 10 - 7/10 Cross-site Scripting XSS. Código Seguro
 
 ### Cross-site Scripting XSS

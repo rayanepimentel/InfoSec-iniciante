@@ -3,6 +3,7 @@
 - Link da Aula: [https://youtu.be/AK4kCM7m2fk](https://youtu.be/AK4kCM7m2fk). 
 - Caso você já tenha assistido, escreva em poucas linhas o que você entende por Vulnerabilidade e mande aqui no canal.
 
+## 06/30 :white_check_mark:
 
 ## Vulnerabilidade
 

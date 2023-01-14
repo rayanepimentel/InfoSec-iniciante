@@ -8,6 +8,8 @@ IP, ASN, principais tecnologias utilizadas e o domínio principal.
 
 - Utilizar sites ou ferramentas de análise de URLs, exemplo Whois, para coletar essas informações. Seja criativo(a)!
 
+## 11/30 :white_check_mark:
+
 [https://urlscan.io](https://urlscan.io)
 
 

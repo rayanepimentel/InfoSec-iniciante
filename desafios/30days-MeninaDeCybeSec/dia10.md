@@ -4,6 +4,8 @@
 
 Para encontrar: Aba - Challenges. Filtros: Free e Easy.
 
+## 10/30 :white_check_mark:
+
 ```js
 - whois.domaintools.com: DNS reverso
 - URL2PNG: Captura de tela do site mesmo que não esteja mais no ar.

@@ -4,6 +4,7 @@
 
 O livro está disponível aqui no servidor e está em anexo aqui embaixo.
 
+## 12/30 :white_check_mark:
 
 
 Introdução ...........................................25
