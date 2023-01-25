@@ -1,0 +1,1 @@
+O Open Web Application Security Project, ou OWASP, é uma organização sem fins lucrativos com foco em melhorar a segurança do software. 
