@@ -1,0 +1,27 @@
+html {
+    background-color: #222831;
+    color: #e4e4e4;
+}
+
+body {
+    padding: 50px;
+    font: 18px "Roboto Mono", mono, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #bc4bd8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
