@@ -2,21 +2,17 @@ const express = require("express")
 const app = express()
 const bodyParser = require("body-parser")
 const path = require('path');
-const router = express.Router();
-
+const indexRouter = require('./routes/rotas');
 
 app.use(bodyParser.json());
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
-// app.get('/', function(req, res) {
-//     res.render("./")
-// })
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, 'public')));
 
-router.get('/', function(req, res) {
-    res.sendFile(path.join(`${__dirname}/public/menu.html`));
-    //__dirname : It will resolve to your project folder.
-});
+app.use('/', indexRouter);
 
-app.use('/', router);
 
 module.exports = app;
