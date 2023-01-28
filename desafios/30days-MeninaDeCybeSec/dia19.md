@@ -15,4 +15,7 @@ Tipos básicos de escaneamentos:
 - SYN Varreduras "semi-abertas" ( -sS)
 - Varreduras UDP ( -sU)
 
-Em termos de varredura de rede, também veremos brevemente a varredura de ICMP (ou "ping"). 
+
+Concluído!
+
+![dia 19](./pics/dia19.png)
