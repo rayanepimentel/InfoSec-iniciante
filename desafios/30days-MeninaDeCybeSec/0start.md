@@ -31,3 +31,4 @@ O servidor da Menina de cyberSec propos 1 desafio por dia durante 30 dias sobre 
 - [Dia 27](dia27.md)
 - [Dia 28](dia28.md)
 - [Dia 29](dia29.md)
+- [Dia 30](dia30.md)
