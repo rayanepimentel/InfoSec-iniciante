@@ -28,3 +28,13 @@ Encontro realizado no dia 09/01/2022 no discord **Cantinho da Infosec**
 - Overview sobre Security Group.
 
 [Lab → Linux e Redes Parte II](https://denim-flight-0a6.notion.site/Lab-Linux-e-Redes-Parte-II-d4071a0967d243ffa0d8106e22ba6321)
+
+## Cronograma Parte III
+Encontro realizado no dia 23/01/2022 no discord **Cantinho da Infosec**
+
+💡 Hoje: Subir a aplicação e fazer o hardening e tuning do Apache.
+
+- Criar serviço
+- Banco de dados
+
+[Lab → Linux e Redes Parte III](https://denim-flight-0a6.notion.site/Lab-Linux-e-Redes-Parte-III-e820a9470b6b4a30ae17c6fadcf6c7c0)
