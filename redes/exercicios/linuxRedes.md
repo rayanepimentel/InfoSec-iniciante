@@ -38,3 +38,10 @@ Encontro realizado no dia 23/01/2022 no discord **Cantinho da Infosec**
 - Banco de dados
 
 [Lab → Linux e Redes Parte III](https://denim-flight-0a6.notion.site/Lab-Linux-e-Redes-Parte-III-e820a9470b6b4a30ae17c6fadcf6c7c0)
+
+## Cronograma Parte IIV
+Encontro realizado no dia 06/02/2022 no discord **Cantinho da Infosec**
+
+💡 Fazer o hardening e performance tuning do Apache.
+
+[Lab → Linux e Redes Parte IV](https://denim-flight-0a6.notion.site/Lab-Linux-e-Redes-Parte-IV-fd7dde5a04ce4c5793dd318c93c7445a)
