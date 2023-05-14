@@ -68,7 +68,7 @@ Vimos que tem `[-p port]`, que podemos usar para porta `-p 2220`
 Sabendo disso, então ficaria assim:
 
 ```bash
-ssh bandit0bandit.labs.overthewire.org -p 2220
+ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 - Vai aparecer uma pergunta: `yes`
 - Digite a senha: `bandit0`
