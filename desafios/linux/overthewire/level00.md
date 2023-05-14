@@ -52,23 +52,31 @@ Como vimos anteriormente podemos logar com "login e senha"
 |Tipo| Como| Exemplo |
 |Com login e senha|Site |```$ ssh [username]@nomedosite.com.br```|
 
-Mas temos uma informação: precisa ser na porta 2220.
+Mas temos uma informação: precisa ser na porta 2220. 
+
+O SSH é normalmente executado na porta 22, mas há casos em que um servidor SSH pode estar configurado para escutar em uma porta diferente por motivos de segurança ou personalização.  
 
 - Primeiro vamos saber o que significa essa porta. <br>
-Encontrei essa explicação: [https://tcp-udp-ports.com/port-2220.htm](https://tcp-udp-ports.com/port-2220.htm)
+Encontrei essa explicação: [https://tcp-udp-ports.com/port-2220.htm](https://tcp-udp-ports.com/port-2220.htm) <br>
 
-- Agora vamos saber como conectar via ssh ultizando a porta 2220.<br>
+> A porta 2220 não possui um significado específico atribuído a ela. As portas são números de identificação atribuídos a diferentes serviços e protocolos de rede. As portas de 0 a 1023 são conhecidas como "portas bem conhecidas" e são atribuídas a serviços comuns, como o HTTP (porta 80) e o SSH (porta 22).
+
+> No entanto, as portas acima de 1023 até 65535 são conhecidas como "portas dinâmicas" e podem ser usadas por aplicativos ou serviços personalizados, sem um significado padrão estabelecido. A porta 2220 é uma dessas portas dinâmicas e pode ser usada por um serviço específico ou aplicativo personalizado em um servidor.
+
+ ~~configuração personalizada para aumentar a segurança ou evitar conflitos de porta.
+~~
+- Agora vamos saber como conectar via ssh na a porta 2220.<br>
 No terminal digite `man ssh`, vai listar o manual do ssh.
 
 
-Vimos que tem `[-p port]`, que podemos usar para porta `-p 2220`
+Vimos que tem a opção `[-p port]`, que é usada para especificar a porta na qual o SSH (Secure Shell) deve se conectar ao servidor remoto.
 
 ![porta ](../img/-port.png)
 
 Sabendo disso, então ficaria assim:
 
 ```bash
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh -p 2220 bandit0@bandit.labs.overthewire.org 
 ```
 - Vai aparecer uma pergunta: `yes`
 - Digite a senha: `bandit0`
