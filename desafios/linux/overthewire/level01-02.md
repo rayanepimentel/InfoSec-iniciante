@@ -31,10 +31,10 @@ Aqui encontrei uma boa solução:
 
 ```bash
 $ cat ./-
-[retornou uma serie de caractere]
+[retornou uma série de caracteres]
 ```
 
-Essa série de caractere será usada no outro nivel. Salve!
+Essa série de caracteres será a senha utilizada para fazer login no próximo nível. Por favor, salve-a.
 
 Desafio resolvido \o/
 
