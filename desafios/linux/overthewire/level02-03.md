@@ -9,7 +9,7 @@ Link: [https://overthewire.org/wargames/bandit][def]
 [https://overthewire.org/wargames/bandit/bandit3.html](https://overthewire.org/wargames/bandit/bandit3.html)
 
 > A senha para o próximo nível é armazenada em um arquivo chamado `spaces in this filename` localizado no diretório inicial 
-`
+
 Aqui precisamos logar no usuário bandit2, com a senha encontrada no desafio anterior.
 
 ```bash
