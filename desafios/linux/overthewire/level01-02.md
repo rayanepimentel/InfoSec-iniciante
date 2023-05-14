@@ -4,7 +4,7 @@ Link: [https://overthewire.org/wargames/bandit][def]
 
 [def]: https://overthewire.org/wargames/bandit
 
-## Bandit Level 0 → Level 1
+## Bandit Level 1 → Level 2
 
 [https://overthewire.org/wargames/bandit/bandit2.html](https://overthewire.org/wargames/bandit/bandit2.html)
 
