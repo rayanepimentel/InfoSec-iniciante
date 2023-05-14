@@ -4,7 +4,7 @@ Link: [https://overthewire.org/wargames/bandit][def]
 
 [def]: https://overthewire.org/wargames/bandit
 
-## Level 01
+## Bandit Level 0 → Level 1
 
 [https://overthewire.org/wargames/bandit/bandit1.html](https://overthewire.org/wargames/bandit/bandit1.html)
 
@@ -29,7 +29,7 @@ O desafio nos dar alguns comandos interessantes:
 - find: O comando `find` é usado para localizar arquivos e diretórios com base em critérios específicos, como nome, data de modificação, tamanho, permissões, etc. Ele ajuda a realizar buscas complexas no sistema de arquivos.
 
 
-## Desafio
+### Desafio
 
 Certifique que você esteja no usuário `bandti0`
 
@@ -39,13 +39,11 @@ Agora vamos lista o contéudo desse diretório:
 
 ```bash
 $ ls
-
-# Retornou:
-
 readme
 ```
+Retornou `readme`, que é o que estamos procurando.<br>
 
-Você sabe dizer se ele é um arquivo ou uma pasta:
+Você sabe dizer se ele é um arquivo ou uma pasta? Para sabermos disso, podemos usar o `file`
 
 ```bash
 $ file readme
@@ -58,8 +56,8 @@ $ cat readme
 [retornou uma serie de caractere]
 ```
 
-Essa série de caractere será usada no outro desafio. Salve!
+Essa série de caractere será usada no outro nivel. Salve!
 
-Desafio resolvido!
+Desafio resolvido \o/
 
 ![desafio resolvido](../img/senhaB0.png)
