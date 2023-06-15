@@ -1,6 +1,8 @@
 # OS Command Injection
 O estudo dessa vulnerabilidade foi realizado no dia 14/06/2023 no discord **Cantinho da Infosec**
 
+**Como foi feito**: Compartilhamento de telas das participantes e a Kali mais a Erika ajudando com dúvidas e dicas durante o estudo.
+
 ## Anotações:
 
 - Link: https://portswigger.net/web-security/os-command-injection
