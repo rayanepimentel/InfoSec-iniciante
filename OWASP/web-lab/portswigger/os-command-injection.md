@@ -3,19 +3,19 @@ O estudo dessa vulnerabilidade foi realizado no dia 14/06/2023 no discord **Cant
 
 **Como foi feito**: Compartilhamento de telas das participantes e a Kali mais a Erika ajudando com dúvidas e dicas durante o estudo.
 
-## Anotações:
+### Anotações:
 
 - Link: https://portswigger.net/web-security/os-command-injection
 - Lab: https://portswigger.net/web-security/os-command-injection/lab-simple
 - Leitura: https://owasp.org/www-community/attacks/Command_Injection
 
-## O que é: 
+### O que é: 
 É uma vulnerabilidade que permite o atacante executar comandos no sistema operacional.
 
-## Objetivo:
+### Objetivo:
 Fazer uma execução de comandos arbitrários no sistema operacional host, por meio de uma aplicação vulnerável. 
 
-## Como acontece: 
+### Como acontece: 
 
 Isso acontece quando um atacante consegue manipular parâmetros em uma solicitação e injetar comandos arbitrários. Por exemplo, quando a entrada é passada diretamente para o backend sem sanitização adequada, um atacante pode usar técnicas de escapamento para inserir comandos maliciosos.
 
@@ -53,7 +53,7 @@ https://portswigger.net/web-security/os-command-injection/lab-simple
 
 Como resolver: Pense como é enviando para o backend, como o backend irá receber os param e como o `whoami` poderá ser reconhecido como commando na requisição.
 
-## Como previnir: 
+### Como previnir: 
 
 - Sanitização de entradas 
 - Escape de caracteres
@@ -62,5 +62,5 @@ Como resolver: Pense como é enviando para o backend, como o backend irá recebe
     - Exemplos:
         - Windows: ( ) < > & * ‘ | = ? ; [ ] ^ ~ ! . ” % @ / \ : + , `
         - Linux: { } ( ) < > & * ‘ | = ? ; [ ] $ – # ~ ! . ” % / \ : + , `
-- 
+  
 
