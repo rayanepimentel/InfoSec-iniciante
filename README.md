@@ -6,4 +6,4 @@ Obrigada ˆ ˆ
 
 - [Bash](/bash/bash.md)
 - [Redes - Inicio](/redes/redes-iniciante/start.md) 
-- [Web - OWASP](/OWASP/) :pushpin: Estou aqui!
+- [Web - OWASP](/OWASP/owasp.md) :pushpin: Estou aqui!
