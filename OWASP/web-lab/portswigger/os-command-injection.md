@@ -53,7 +53,7 @@ https://portswigger.net/web-security/os-command-injection/lab-simple
 
 Como resolver: Pense como é enviando para o backend, como o backend irá receber os param e como o `whoami` poderá ser reconhecido como commando na requisição.
 
-### Como previnir: 
+### Como mitigar: 
 
 - Sanitização de entradas 
 - Escape de caracteres
