@@ -3,7 +3,7 @@ O estudo dessa vulnerabilidade foi realizado no dia 14/06/2023 no discord **Cant
 
 **Como foi feito**: Compartilhamento de telas das participantes e a Kali mais a Erika ajudando com dúvidas e dicas durante o estudo.
 
-### Anotações:
+## Anotações:
 
 - Link: https://portswigger.net/web-security/os-command-injection
 - Lab: https://portswigger.net/web-security/os-command-injection/lab-simple
@@ -47,7 +47,7 @@ ex: script {escapamento}whoami 1
 
 {escapamento} = &, &&, |, ||, ; , ` ou $(command)
 
-## Lab - simple case
+### Lab - simple case
 
 https://portswigger.net/web-security/os-command-injection/lab-simple
 
