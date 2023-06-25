@@ -22,7 +22,7 @@ A validação de entrada deve ser aplicada tanto no **nível sintático** quanto
 💡 → Nunca confie de forma alguma na entrada do usuário. 
 → Validar e rejeitar as entradas é melhor do que sanitizá-las.
 
-Leia mais [aqui](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html), [aqui](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/README) e [aqui](https://portswigger.net/burp/documentation/desktop/testing-workflow/input-validation).
+Leia mais [aqui](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html), [aqui](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/README) e [aqui](https://portswigger.net/burp/documentation/desktop/testing-workflow/input-validation)
 
 </aside>
 
@@ -32,10 +32,9 @@ Sempre valide dados em um sistema confiável(ou seja, o servidor), codifique tod
 
 A codificação de saída (output encoding) é uma técnica eficaz para prevenir ataques de Cross-Site Scripting (XSS), que é um dos principais tipos de ataques que podem ser prevenidos por meio dessa prática de segurança.
 
-<aside>
-💡 Leia mais [aqui](https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html#output-encoding) e [aqui](https://portswigger.net/web-security/cross-site-scripting/preventing#encode-data-on-output).
+ 
+ 💡 Leia mais [aqui](https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html#output-encoding) e [aqui](https://portswigger.net/web-security/cross-site-scripting/preventing#encode-data-on-output)
 
-</aside>
 
 ## 2. Segurança de autenticação e gerenciamento de acesso:
 
@@ -52,10 +51,10 @@ Todas as medidas de autenticação devem ser implementadas em um sistema confiá
 - **Armazenar senhas em local seguro:**  As senhas devem ser armazenadas em local seguro com acesso restrito.
 - **Monitorar tentativas de senha:**  as organizações devem monitorar senhas com falha para detectar e prevenir ataques de força bruta.
 
-<aside>
+
 💡 Veja sobre: [Dicas sobre armazenamento de senha](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#Use_a_cryptographically_strong_credential-specific_salt), [Dicas de autenticação](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) e [Autenticação e gerenciamento do ciclo de vida](https://pages.nist.gov/800-63-3/sp800-63b.html).
 
-</aside>
+
 
 ### 2.2 → Gerenciamento de Sessão
 
@@ -72,10 +71,10 @@ Boas práticas:
     - Os tokens de sessão devem ser longos, imprevisíveis e exclusivos.
     - Use o param “expire” para forçar o encerramento periódico da sessão como um maneira de evitar o sequestro de sessão.
 
-<aside>
+
 💡 Veja sobre: [Dicas de gerenciamento de sessão](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
 
-</aside>
+
 
 ### 2.3 → **Access control**
 
@@ -97,7 +96,6 @@ Boas práticas:
 - Princípio de defesa em profundidade
 - Evite controle de acesso baseado em funções
 
-<aside>
+
 💡 Veja sobre [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/), [Cheat Sheets](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [PortSwigger](https://portswigger.net/web-security/access-control), [Project Proactive Controls c7 enforce access controls](https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls) e [ASVS V4-Access-Control](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x12-V4-Access-Control.md)
 
-</aside>
