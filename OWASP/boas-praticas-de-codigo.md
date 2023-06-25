@@ -1,11 +1,11 @@
-
-# Boas práticas de código
+# Boas práticas de códigos
 
 Para criar esse guia usei como base **OWASP Secure Coding Practices** e **OWASP Cheat Sheets**
 
 
 - [Segurança de entrada e saída de dados](#1-segurança-de-entrada-e-saída-de-dados)
 - [Segurança de autenticação e gerenciamento de acesso](#2-segurança-de-autenticação-e-gerenciamento-de-acesso)
+- [Error handling and logging](#3-error-handling-and-logging)
 
 ## 1. Segurança de entrada e saída de dados:
 
@@ -99,3 +99,35 @@ Boas práticas:
 
 💡 Veja sobre [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/), [Cheat Sheets](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [PortSwigger](https://portswigger.net/web-security/access-control), [Project Proactive Controls c7 enforce access controls](https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls) e [ASVS V4-Access-Control](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x12-V4-Access-Control.md)
 
+
+## 3. **Error handling and logging**
+
+### 3.1 **Error handling**
+
+Verifique se a aplicação não exibe mensagens de erro que contenham dados sensíveis que possam auxiliar um atacante, incluindo ID de sessão, versões de software/framework e informações pessoais. Um dos riscos mais comuns relacionados ao tratamento inadequado de erros é o [Information Disclosure](https://portswigger.net/web-security/information-disclosure), que pode revelar informações confidenciais para usuários não autorizados.
+
+Boas práticas:
+
+- Não divulgue informações confidenciais em respostas de erro, incluindo detalhes do sistema, ID de sessão ou informações de conta
+- Implemente mensagens de erro genéricas e use páginas de erro personalizadas
+
+### 3.2 Logging
+
+Logging é essencial para a segurança do código, permitindo aos desenvolvedores monitorar e detectar incidentes de segurança. Práticas adequadas de logging envolvem capturar informações relevantes, como interações do usuário e erros, para análise posterior. Isso ajuda a identificar comportamentos suspeitos e rastrear a causa de erros, facilitando a correção de bugs e a resposta a possíveis ataques. É importante seguir práticas recomendadas, como definir uma estrutura clara de logs e proteger informações confidenciais.
+
+Boas práticas:
+
+- Restrinja o acesso aos logs apenas a usuários autorizados
+- Não armazene informações confidenciais em logs, incluindo informações desnecessárias detalhes do sistema, ID de sessão ou senhas
+- Use níveis apropriados de logging: Utilize diferentes níveis de logging (como DEBUG, INFO, WARNING, ERROR) para registrar informações com base na sua importância. Isso permite filtrar e priorizar os logs conforme necessário.
+- Faça log de exceções
+
+<aside>
+💡 Veja sobre Error handling and logging: 
+
+- [OWASP - Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
+- [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
+- [OWASP Error Handling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html)
+- [OWASP ASVS - V7: Error Logging](https://github.com/OWASP/ASVS/blob/master/5.0/en/0x15-V7-Error-Logging.md)
+
+</aside>

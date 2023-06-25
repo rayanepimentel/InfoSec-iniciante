@@ -40,5 +40,4 @@ São recomendações sobre práticas de codificacões desde a prevenção de vul
 
 ## OWASP Cheat Sheets
 
-
 Fornecem dicas rápidas e orientações para resolver problemas de segurança específicos de diferentes tecnologias e linguagens de programação.
