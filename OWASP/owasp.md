@@ -6,7 +6,7 @@ A organização mantém diversos projetos open source. Toda gestão da OWASP é 
 
 # Projetos
 
-## OWASP Top 10
+## [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 
 
 É um relatório com os 10 riscos de segurança mais criticos, encontrados em aplicações web.
@@ -14,7 +14,7 @@ A organização mantém diversos projetos open source. Toda gestão da OWASP é 
 
 [Veja mais aqui](./projetos/owasp-top10.md)
 
-## OWASP ASVS - Padrão de verificação de segurança de aplicativo
+## [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) - Padrão de verificação de segurança de aplicativo 
 
 
 É conjunto de requisitos e controle de segurança necessários ao projetar, desenvolver e testar aplicações web. É um guia para verificar a segurança das aplicações web em diferentes níveis de maturidade, do baixo ao avançado.
@@ -23,21 +23,21 @@ A organização mantém diversos projetos open source. Toda gestão da OWASP é 
 [Veja mais aqui](./projetos/owasp-asvs.md)
 
 
-## OWASP Proactive Controls
+## [OWASP Proactive Controls](https://owasp.org/www-project-proactive-controls/)
 
 É uma lista que descrevem as 10 categorias de técnica de defesa e controle. É uma lista de conhecimento prático sobre como desenvolver software seguro. 
 
 
-## OWASP Secure Coding Practices 
+## [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/) 
 
 São recomendações sobre práticas de codificacões desde a prevenção de vulnerabilidade comuns até implementação correta de controle de seguranção.
 
 
-## OWASP Code Review Guide
+## [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/)
 
 É um guia de orientações e técnicas que ajuda a identificar vulnerabilidades e erros de segurança em seu código
 
 
-## OWASP Cheat Sheets
+## [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/index.html)
 
 Fornecem dicas rápidas e orientações para resolver problemas de segurança específicos de diferentes tecnologias e linguagens de programação.
