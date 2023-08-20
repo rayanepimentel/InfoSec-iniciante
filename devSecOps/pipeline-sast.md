@@ -1,19 +1,21 @@
 # Pipeline SAST
 
-## 1. O que é pipeline
+## Contexto
+
+### 1. O que é pipeline
 - Fonte: [https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline](https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline)
 - Um pipeline, no contexto do desenvolvimento de software, refere-se a uma série de etapas ou estágios pelos quais as alterações de código passam antes de serem implantadas em produção. Cada estágio no pipeline representa uma tarefa específica, como a construção do código, a execução de testes, a análise de segurança e a implantação em diferentes ambientes.
 
-## 2. O que é SAST
+### 2. O que é SAST
 - Fonte: [https://www.zup.com.br/blog/ferramentas-ssdlc](https://www.zup.com.br/blog/ferramentas-ssdlc)
 - SAST (Teste de Segurança Estático) é uma técnica de teste de segurança usada em um pipeline de CI/CD. O SAST analisa o código-fonte em busca de vulnerabilidades conhecidas e práticas inseguras. Esses testes de segurança ajudam a identificar e corrigir problemas de segurança antes que o software seja implantado em produção, garantindo que o aplicativo seja seguro e protegido contra ameaças.
 
-## 3. Workflow
+### 3. Workflow
 - Fonte: [https://docs.github.com/en/actions/quickstart](https://docs.github.com/en/actions/quickstart)
 - Um fluxo de trabalho (workflow) refere-se à sequência de etapas ou tarefas que precisam ser realizadas para concluir um processo ou projeto específico. No desenvolvimento de software, um fluxo de trabalho geralmente inclui tarefas como codificação, teste, revisão e implantação.
 - Ele é definido a partir de um arquivo YAML dentro da pasta `.github/workflows`.
 
-## 4. Sast usado no exemplo
+### 4. Sast usado no exemplo
 - Fonte: [https://github.com/marketplace/actions/horusec](https://github.com/marketplace/actions/horusec)
 
 ## Implementação:
