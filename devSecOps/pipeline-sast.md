@@ -10,7 +10,7 @@
     1. https://docs.github.com/en/actions/quickstart
     2. Um workflow se refere à sequência de etapas ou tarefas que precisam ser realizadas para concluir um processo ou projeto específico. No desenvolvimento de software, um workflow geralmente inclui tarefas como codificação, teste, revisão e implantação.
     3. Ele é definido a partir de um arquivo YAML dentro da pasta .github/workflows
-4. Sast usando no exemplo: 
+4. Sast usado no exemplo: 
     1. https://github.com/marketplace/actions/horusec
 
 
