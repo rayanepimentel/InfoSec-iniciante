@@ -1,79 +1,67 @@
 # Pipeline SAST
 
-1. O que é pipeline
-    1. https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline
-    2. Um pipeline, no contexto do desenvolvimento de software, se refere a uma série de etapas ou estágios pelos quais as alterações de código passam antes de serem implantadas em produção. Cada estágio no pipeline representa uma tarefa específica, como construir o código, executar testes, análise de segurança e implantar em diferentes ambientes.
-2. O que é SAST
-    1. https://www.zup.com.br/blog/ferramentas-ssdlc
-    2. SAST (Teste de Segurança Estático)  são técnicas de teste de segurança usadas em um pipeline de CI/CD. O SAST analisa o código-fonte em busca de vulnerabilidades conhecidas e práticas inseguras. Esses testes de segurança ajudam a identificar e corrigir problemas de segurança antes que o software seja implantado em produção, garantindo que o aplicativo seja seguro e protegido contra ameaças.
-3. Workflow:
-    1. https://docs.github.com/en/actions/quickstart
-    2. Um workflow se refere à sequência de etapas ou tarefas que precisam ser realizadas para concluir um processo ou projeto específico. No desenvolvimento de software, um workflow geralmente inclui tarefas como codificação, teste, revisão e implantação.
-    3. Ele é definido a partir de um arquivo YAML dentro da pasta .github/workflows
-4. Sast usado no exemplo: 
-    1. https://github.com/marketplace/actions/horusec
+## 1. O que é pipeline
+- Fonte: [https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline](https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline)
+- Um pipeline, no contexto do desenvolvimento de software, refere-se a uma série de etapas ou estágios pelos quais as alterações de código passam antes de serem implantadas em produção. Cada estágio no pipeline representa uma tarefa específica, como a construção do código, a execução de testes, a análise de segurança e a implantação em diferentes ambientes.
 
+## 2. O que é SAST
+- Fonte: [https://www.zup.com.br/blog/ferramentas-ssdlc](https://www.zup.com.br/blog/ferramentas-ssdlc)
+- SAST (Teste de Segurança Estático) é uma técnica de teste de segurança usada em um pipeline de CI/CD. O SAST analisa o código-fonte em busca de vulnerabilidades conhecidas e práticas inseguras. Esses testes de segurança ajudam a identificar e corrigir problemas de segurança antes que o software seja implantado em produção, garantindo que o aplicativo seja seguro e protegido contra ameaças.
+
+## 3. Workflow
+- Fonte: [https://docs.github.com/en/actions/quickstart](https://docs.github.com/en/actions/quickstart)
+- Um fluxo de trabalho (workflow) refere-se à sequência de etapas ou tarefas que precisam ser realizadas para concluir um processo ou projeto específico. No desenvolvimento de software, um fluxo de trabalho geralmente inclui tarefas como codificação, teste, revisão e implantação.
+- Ele é definido a partir de um arquivo YAML dentro da pasta `.github/workflows`.
+
+## 4. Sast usado no exemplo
+- Fonte: [https://github.com/marketplace/actions/horusec](https://github.com/marketplace/actions/horusec)
 
 ## Implementação:
 
-### Instalação Horusec no projeto
+### Instalação do Horusec no projeto
+1. A primeira etapa é criar o arquivo `horusec-config.json`. Siga a documentação [aqui](https://docs.horusec.io/docs/pt-br/cli/installation/).
+2. Depois, faça o commit do arquivo.
 
-A primeira etapa é criar o arquivo “horusec-config.json”. Para criar você precisa seguir a documentação.
+### GitHub Actions
+- O GitHub Actions ajuda a automatizar tarefas dentro do ciclo de vida de desenvolvimento de software. Saiba mais em [aqui](https://docs.github.com/pt/actions).
+- No seu projeto no GitHub, vá em "Actions" e clique em "set up a workflow yourself" ou procure por "Simple workflow".
+- Isso abrirá um arquivo YAML.
 
-Documentação: https://docs.horusec.io/docs/pt-br/cli/installation/
-
-Depois faça o commit do arquivo.
-
-### Github Actions
-
-GitHub Actions ajuda a automatizar tarefas dentro de seu ciclo de vida de desenvolvimento de software https://docs.github.com/pt/actions
-
-No seu projeto no github, vá em "Actions" e clique em "set up a workflow yourself" ou procure por "Simple workflow"
-
-Irá abrir um arquivo yaml. 
+> Antes disso vamos entender um pouco sobre esse workflow
 
 
-`Antes disso vamos entender um pouco sobre esse workflow`
-
-Como vimos o workflow é um arquivo YAML. Vamos entender um pouco sobre esse arquivo.
-
-**Eventos**: É uma atividade que aciona um fluxo de trabalho. Exemplo, sempre que fizer push, ou quando tiver uma solicitação de PR.
-
-**Trabalhos**: Um trabalho é uma unidade de trabalho que precisa ser executada em resposta a um evento. Pode ser uma tarefa simples, como processar um arquivo de dados, ou um processo mais complexo, como executar um fluxo de trabalho completo.
+### Entendendo o workflow
+- **Eventos**: Um evento é uma atividade que aciona um fluxo de trabalho. Por exemplo, sempre que você faz um push ou quando uma solicitação de pull request é feita.
+- **Trabalhos**: Um trabalho é uma unidade de trabalho que precisa ser executada em resposta a um evento. Pode ser uma tarefa simples, como processar um arquivo de dados, ou um processo mais complexo, como executar um fluxo de trabalho completo.
 
 Exemplo:
 
-￼![eventos e jobs](./img/exemploEventosJobs.png)
+<img src="./img/exemploEventosJobs.png" alt="eventos e jobs" width="400">
 
-Eventos: O Evento sempre é acionando quando ocorrer um push  para o branch “main” ou quando uma tiver uma solicitação de Pull request para o branch “main”.
+**Eventos:** O evento sempre é acionado quando ocorre um push para o branch "main" ou quando há uma solicitação de Pull request para o branch "main".
 
-Trabalhos: 
-- Jobs: é o nome do trabalho, que nesse exemplo é “build”
-- Runs-on: indica que o trabalho "build" será executado em uma máquina virtual com o sistema operacional Ubuntu mais recente. Isso significa que todas as etapas definidas dentro desse trabalho serão executadas nesse ambiente específico.
-- Etapas (steps): As etapas (steps) são as unidades de trabalho individuais dentro de um trabalho (job). Cada etapa representa uma tarefa específica que precisa ser executada como parte do processo de construção, teste ou implantação do software.
+**Trabalhos:**
+- **Jobs:** É o nome do trabalho, que neste exemplo é "build".
+- **Runs-on:** Indica que o trabalho "build" será executado em uma máquina virtual com o sistema operacional Ubuntu mais recente. Isso significa que todas as etapas definidas dentro desse trabalho serão executadas nesse ambiente específico.
+- **Etapas (steps):** As etapas são as unidades de trabalho individuais dentro de um trabalho (job). Cada etapa representa uma tarefa específica que precisa ser executada como parte do processo de construção, teste ou implantação do software.
     - Ao usar a palavra-chave "**uses**" em uma etapa, você pode especificar a ação a ser executada e, se necessário, fornecer argumentos adicionais para personalizar o comportamento da ação. Exemplo:
-        - **uses: actions/checkout@v3**: Essa etapa usa a ação "checkout" para clonar o repositório do projeto. Essa etapa é responsável por obter o código-fonte do projeto para que ele possa ser usado nas etapas subsequentes.
+        - **uses: actions/checkout@v3:** Essa etapa usa a ação "checkout" para clonar o repositório do projeto. Essa etapa é responsável por obter o código-fonte do projeto para que ele possa ser usado nas etapas subsequentes.
     - "**name**" é usada para atribuir um nome a uma etapa (step) específica. O nome é opcional e serve para identificar e descrever a etapa de forma mais clara e legível.
 
-
-
-## Configurar workflow
+### Configurar workflow
 
 - Vamos criar os eventos:
 
 ```yaml
 name: SecurityPipeline
 on:
-#eventos
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-```
-
-- Agora vamos trabalhos. Vamos usar a documentação do "Horusec": https://github.com/marketplace/actions/horusec
-
-```yaml
+Agora vamos definir os trabalhos. Vamos usar a documentação do "Horusec": https://github.com/marketplace/actions/horusec
+yaml
+Copy code
 jobs:
   horusec-security:
     name: horusec-security
@@ -81,28 +69,27 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
-      with: # Necessário quando habilitado o autores de commit
+      with: 
         fetch-depth: 0
     - name: Running Horusec Security
       run: |
         curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
         horusec start -p="./"
 ```
-
-- O nome do job será: horusec-security
-- Irá rodar na maquina virtual Ubuntu
+- O nome do job será "horusec-security".
+- Irá rodar na máquina virtual Ubuntu.
 - Etapas:
-    - name: o que será usado para identificar a ação
-    - uses: será a ação, "actions/checkout@v2" para clocar o projeto
-    - with: configurações adicionais para a ação "actions/checkout@v3"
+    - name: O que será usado para identificar a ação.
+    - uses: Será a ação, como "actions/checkout@v2" para clonar o projeto.
+    - with: Configurações adicionais para a ação "actions/checkout@v3".
 
-No "Running Horusec Security", eu por essa documentação: https://docs.horusec.io/docs/pt-br/cli/installation/#github-actions e também adicionei mais uma etapa, como estou usando docker no meu projeto, tive que adicionar essa etapa.
+Na etapa "Running Horusec Security", eu segui esta documentação: https://docs.horusec.io/docs/pt-br/cli/installation/#github-actions e também adicionei mais uma etapa, como estou usando o Docker no meu projeto, tive que adicionar essa etapa.
 
 - O primeiro comando utiliza o utilitário "curl" para fazer o download de um script de instalação do Horusec Security a partir do repositório GitHub da ZupIT. O script é executado usando o comando "bash" com o argumento "-s latest", que especifica a versão mais recente do Horusec Security a ser instalada.
 
-- O segundo comando, "horusec start -p='./'", inicia a execução do Horusec Security no diretório atual ("./")
+- O segundo comando, "horusec start -p='./'", inicia a execução do Horusec Security no diretório atual ("./").
 
-Meu YAML ficou assim:
+Meu arquivo YAML ficou assim:
 
 ```yaml
 name: SecurityPipeline
@@ -136,8 +123,8 @@ Agora é só fazer o commit e subir esse arquivo yaml para master.
 
 - Actions > clique no workflow 
 
-![quadro](./img/sastscan.png)
+<img src="./img/sastscan.png" alt="quadro" width="800">
 
 Ao clicar em "Running Horusec Security", você verá a analise.
 
-![relatorio](./img/relatorio.png)
+<img src="./img/relatorio.png" alt="relatorio" width="800">
