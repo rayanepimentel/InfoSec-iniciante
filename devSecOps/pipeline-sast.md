@@ -61,6 +61,18 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+```
+
+- Agora vamos definir os trabalhos. Vamos usar a documentação do "Horusec": [https://github.com/marketplace/actions/horusec](https://docs.horusec.io/docs/pt-br/cli/installation/#github-actions)
+
+
+```yaml
+name: SecurityPipeline
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 Agora vamos definir os trabalhos. Vamos usar a documentação do "Horusec": https://github.com/marketplace/actions/horusec
 yaml
 Copy code
@@ -85,11 +97,11 @@ jobs:
     - uses: Será a ação, como "actions/checkout@v2" para clonar o projeto.
     - with: Configurações adicionais para a ação "actions/checkout@v3".
 
-Na etapa "Running Horusec Security", eu segui esta documentação: https://docs.horusec.io/docs/pt-br/cli/installation/#github-actions e também adicionei mais uma etapa, como estou usando o Docker no meu projeto, tive que adicionar essa etapa.
-
 - O primeiro comando utiliza o utilitário "curl" para fazer o download de um script de instalação do Horusec Security a partir do repositório GitHub da ZupIT. O script é executado usando o comando "bash" com o argumento "-s latest", que especifica a versão mais recente do Horusec Security a ser instalada.
 
 - O segundo comando, "horusec start -p='./'", inicia a execução do Horusec Security no diretório atual ("./").
+
+- Como estou usando o docker, preciso adicionar um **uses** para isso também.
 
 Meu arquivo YAML ficou assim:
 
