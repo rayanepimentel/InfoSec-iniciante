@@ -23,7 +23,7 @@
 2. Depois, faça o commit do arquivo.
 
 ### GitHub Actions
-- O GitHub Actions ajuda a automatizar tarefas dentro do ciclo de vida de desenvolvimento de software. Saiba mais em [aqui](https://docs.github.com/pt/actions).
+- O GitHub Actions ajuda a automatizar tarefas dentro do ciclo de vida de desenvolvimento de software. Saiba mais em [aqui](https://docs.github.com/pt/actions) e [aqui](https://curso-r.github.io/rladies-GYN-github-actions/#31)
 - No seu projeto no GitHub, vá em "Actions" e clique em "set up a workflow yourself" ou procure por "Simple workflow".
 - Isso abrirá um arquivo YAML.
 
