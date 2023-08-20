@@ -138,6 +138,6 @@ Agora é só fazer o commit e subir esse arquivo yaml para master.
 
 ![quadro](./img/sastscan.png)
 
-Ao clicar em "Running Horusec Security", você verá o analise.
+Ao clicar em "Running Horusec Security", você verá a analise.
 
 ![relatorio](./img/relatorio.png)
