@@ -21,7 +21,7 @@
 ## Implementação:
 
 ### Instalação do Horusec no projeto
-1. A primeira etapa é criar o arquivo `horusec-config.json` do seu projeto. Siga a documentação [aqui](https://docs.horusec.io/docs/pt-br/cli/installation/).
+1. A primeira etapa é criar o arquivo `horusec-config.json` no seu projeto. Siga a documentação [aqui](https://docs.horusec.io/docs/pt-br/cli/installation/).
 2. Depois, faça o commit do arquivo.
 
 ### GitHub Actions
