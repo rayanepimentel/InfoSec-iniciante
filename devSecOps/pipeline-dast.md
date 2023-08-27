@@ -65,7 +65,11 @@ jobs:
       - name: Executar OWASP ZAP
         uses: zaproxy/action-baseline@v0.7.0
         with:
-          target: https://voluntariamos.netlify.app/
+          token: ${{ secrets.GITHUB_TOKEN }}
+          docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
+          target: 'http://juice-shop.herokuapp.com/'
+          rules_file_name: '.zap/rules.tsv'
+          cmd_options: '-a'
 ```
 
 - O nome do job será "dast".
@@ -76,7 +80,11 @@ jobs:
     2. Executar OWASP ZAP:
     - A segunda etapa é chamada "Executar OWASP ZAP" e usa a ação "zaproxy/action-baseline@v0.7.0". Essa etapa é responsável por executar o OWASP ZAP. 
     - Possui um parâmetro chamado "with" que contém as configurações específicas para a execução do OWASP ZAP. 
-    - Neste exemplo, o parâmetro "target" é definido como "https://voluntariamos.netlify.app/", indicando que esse é o endereço do aplicativo a ser testado.
+    - token: ${{ secrets.GITHUB_TOKEN }}: Especifica o token do GitHub que será usado pela ação para criar e atualizar a issue para a varredura de linha de base. O ${{ secrets.GITHUB_TOKEN }} é um token fornecido pelo GitHub que não requer a criação de um token dedicado.
+    - docker_name: 'ghcr.io/zaproxy/zaproxy:stable': Define o nome do arquivo Docker a ser executado. Por padrão, a ação executa a versão estável do ZAP. No caso desse exemplo, o nome do arquivo Docker é ghcr.io/zaproxy/zaproxy:stable.
+    - target: 'http://juice-shop.herokuapp.com/': Especifica o URL do aplicativo da web que será varrido pelo ZAP. No exemplo, o URL é http://juice-shop.herokuapp.com/.
+    - rules_file_name: '.zap/rules.tsv': Indica o nome do arquivo de regras que será usado durante a varredura. No exemplo, o nome do arquivo é .zap/rules.tsv.
+    - cmd_options: '-a': Define as opções de linha de comando que serão passadas para o ZAP durante a execução da varredura. A opção -a é específica para o OWASP ZAP e representa as regras de varredura passiva alpha. Essas regras são úteis para identificar possíveis problemas de segurança sem causar impacto no funcionamento do aplicativo em si.
 
 
 Aqui está a configuração final do meu arquivo YAML:
@@ -95,7 +103,11 @@ jobs:
       - name: Executar OWASP ZAP
         uses: zaproxy/action-baseline@v0.7.0
         with:
-          target: https://voluntariamos.netlify.app/
+          token: ${{ secrets.GITHUB_TOKEN }}
+          docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
+          target: 'http://juice-shop.herokuapp.com/'
+          rules_file_name: '.zap/rules.tsv'
+          cmd_options: '-a'
 ```
 
 Essa programação garanti que a análise seja executada no horário especificado.
