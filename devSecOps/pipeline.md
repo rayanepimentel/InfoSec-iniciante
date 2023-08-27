@@ -4,7 +4,7 @@
 
 ### 1. O que é pipeline
 
-- Fonte: [https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline](https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline)
+- Fonte: [https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline](https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline) e [https://blog.convisoappsec.com/implementando-uma-ci-cd-pipeline-garantindo-a-qualidade-e-a-seguranca-do-software/](https://blog.convisoappsec.com/implementando-uma-ci-cd-pipeline-garantindo-a-qualidade-e-a-seguranca-do-software/)
 - Um pipeline, no contexto do desenvolvimento de software, refere-se a uma série de etapas ou estágios pelos quais as alterações de código passam antes de serem implantadas em produção. Cada estágio no pipeline representa uma tarefa específica, como a construção do código, a execução de testes, a análise de segurança e a implantação em diferentes ambientes.
 
 ### 2. O que é Workflow
