@@ -1,7 +1,7 @@
 name: OWASP ZAP Cron Job
 on:
   schedule:
-    - cron: '35 16 * * * '
+    - cron: '16 16 * * *'
 jobs:
   dast:
     runs-on: ubuntu-latest
