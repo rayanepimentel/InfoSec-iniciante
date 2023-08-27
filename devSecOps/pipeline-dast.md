@@ -68,7 +68,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
           target: 'http://juice-shop.herokuapp.com/'
-          rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
 ```
 
@@ -83,7 +82,6 @@ jobs:
     - token: ${{ secrets.GITHUB_TOKEN }}: Especifica o token do GitHub que será usado pela ação para criar e atualizar a issue para a varredura de linha de base. O ${{ secrets.GITHUB_TOKEN }} é um token fornecido pelo GitHub que não requer a criação de um token dedicado.
     - docker_name: 'ghcr.io/zaproxy/zaproxy:stable': Define o nome do arquivo Docker a ser executado. Por padrão, a ação executa a versão estável do ZAP. No caso desse exemplo, o nome do arquivo Docker é ghcr.io/zaproxy/zaproxy:stable.
     - target: 'http://juice-shop.herokuapp.com/': Especifica o URL do aplicativo da web que será varrido pelo ZAP. No exemplo, o URL é http://juice-shop.herokuapp.com/.
-    - rules_file_name: '.zap/rules.tsv': Indica o nome do arquivo de regras que será usado durante a varredura. No exemplo, o nome do arquivo é .zap/rules.tsv.
     - cmd_options: '-a': Define as opções de linha de comando que serão passadas para o ZAP durante a execução da varredura. A opção -a é específica para o OWASP ZAP e representa as regras de varredura passiva alpha. Essas regras são úteis para identificar possíveis problemas de segurança sem causar impacto no funcionamento do aplicativo em si.
 
 
@@ -105,8 +103,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
-          target: 'http://juice-shop.herokuapp.com/'
-          rules_file_name: '.zap/rules.tsv'
+          target: 'http://juice-shop.herokuapp.com/' # URL do seu site ou ip
           cmd_options: '-a'
 ```
 
@@ -119,4 +116,61 @@ Depois da análise feita com sucesso, você pode conferir em Actions
 Você receberá uma Issue chamada "ZAP Scan Baseline Report" contendo uma descrição das vulnerabilidades encontradas.
 
 <img src="./img/reportDast.png" alt="quadro" width="800">
+
+
+## OWASP ZAP 
+
+### Com Cronjob:
+
+No exemplo eu usei com o cronjob. Mas por que escolher essa abordagem? Quais são os benefícios do uso do cronjob com o OWASP ZAP?
+
+A utilização de um cronjob permite automatizar a execução regular dos testes de segurança com o OWASP ZAP, umas das vantagens:
+
+- Automação
+- Descoberta precoce de problemas
+- Monitoramento contínuo
+
+Ou seja, se você deseja realizar verificações regulares e automatizadas, pode configurar um cronjob para executar o OWASP ZAP em intervalos específicos.
+
+
+### Com push 
+
+Dessa forma, o OWASP ZAP será executado automaticamente e verificará a segurança do site antes de cada push.
+
+### Combinando Cron e Push:
+
+Seria benéfico adotar ambas as abordagens, cronjob e push? Embora eu ainda esteja explorando essa área, é possível considerar isso uma boa prática. No entanto, a decisão de usar ambas as abordagens depende das necessidades e preferências específicas do seu projeto.
+
+A combinação dessas duas abordagens pode ser altamente vantajosa, oferecendo um monitoramento contínuo através do cronjob, enquanto a verificação de segurança antes de cada push garante uma proteção mais abrangente.
+
+Ao adotar essa abordagem, o nosso arquivo de configuração poderia ser ajustado da seguinte forma:
+
+```yaml
+name: OWASP ZAP Cron Job e Push
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '* 6 * * *'
+jobs:
+  dast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v2
+      - name: Executar OWASP ZAP
+        uses: zaproxy/action-baseline@v0.7.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
+          target: 'http://juice-shop.herokuapp.com/'
+          cmd_options: '-a'
+```
+
+
+## Referências:
+
+- [https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/)
+- [https://www.zaproxy.org/blog/2020-04-09-automate-security-testing-with-zap-and-github-actions/](https://www.zaproxy.org/blog/2020-04-09-automate-security-testing-with-zap-and-github-actions/)
 
