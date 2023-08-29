@@ -32,19 +32,9 @@ on:
     branches: [ "main" ]
 ```
 
-- Agora vamos definir os trabalhos. Vamos usar a documentação do "Horusec": [https://github.com/marketplace/actions/horusec](https://docs.horusec.io/docs/pt-br/cli/installation/#github-actions)
-
+- Agora vamos definir os trabalhos. Vamos usar a documentação do "Horusec": https://github.com/marketplace/actions/horusec
 
 ```yaml
-name: SecurityPipeline
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-Agora vamos definir os trabalhos. Vamos usar a documentação do "Horusec": https://github.com/marketplace/actions/horusec
-yaml
-Copy code
 jobs:
   horusec-security:
     name: horusec-security
@@ -54,53 +44,30 @@ jobs:
       uses: actions/checkout@v2
       with: 
         fetch-depth: 0
-    - name: Running Horusec Security
-      run: |
-        curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
-        horusec start -p="./"
+      - name: Run Horusec
+        id: run_horusec
+        uses: fike/horusec-action@v0.2.2
+        with:
+          arguments: "-c=horusec-config.json -p ./ -e=false"
 ```
 - O nome do job será "horusec-security".
 - Irá rodar na máquina virtual Ubuntu.
 - Etapas:
-    - name: O que será usado para identificar a ação.
-    - uses: Será a ação, como "actions/checkout@v2" para clonar o projeto.
-    - with: Configurações adicionais para a ação "actions/checkout@v3".
+    - **name**: O que será usado para identificar a ação.
+    - **uses**: Será a ação, como "actions/checkout@v2" para clonar o projeto.
+    - **with**: Configurações adicionais para a ação "actions/checkout@v3".
+    - **name**: Run Horusec: Define um nome para essa etapa específica do fluxo de trabalho.
+    - **id**: run_horusec: Define um identificador único para essa etapa.
+    - **uses**: fike/horusec-action@v0.2.2: Essa ação é responsável por executar o Horusec no seu projeto.
+    - **with**: Define os argumentos a serem passados para a ação.
+        - arguments: "-c=horusec-config.json -p ./ -e=false":
+        - <code>-c=horusec-config.json</code>: Especifica o arquivo de configuração do Horusec a ser usado(o que criamos lá no inicio)
+        - <code>-p ./</code>: Especifica o diretório do projeto a ser analisado pelo Horusec. Nesse caso, o diretório atual é utilizado.
+        - <code>- e=false</code>: Especifica se o Horusec deve exibir erros no output da análise. Mas .
 
-- O primeiro comando utiliza o utilitário "curl" para fazer o download de um script de instalação do Horusec Security a partir do repositório GitHub da ZupIT. O script é executado usando o comando "bash" com o argumento "-s latest", que especifica a versão mais recente do Horusec Security a ser instalada.
 
-- O segundo comando, "horusec start -p='./'", inicia a execução do Horusec Security no diretório atual ("./").
 
-- Como estou usando o docker, preciso adicionar um **uses** para isso também.
 
-Meu arquivo YAML ficou assim:
-
-```yaml
-name: SecurityPipeline
-
-on:
-#eventos
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-#trabalhos
-  horusec-security:
-    name: horusec-security
-    runs-on: ubuntu-latest
-    steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-      with: # Necessário quando habilitado o autores de commit
-        fetch-depth: 0
-    - name: Setup Docker
-      uses: docker-practice/actions-setup-docker@v1
-    - name: Running Horusec Security
-      run: |
-        curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
-        horusec start -p="./"
-```
 
 Agora é só fazer o commit e subir esse arquivo yaml para master.
 
