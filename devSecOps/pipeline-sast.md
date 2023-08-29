@@ -63,7 +63,7 @@ jobs:
         - arguments: "-c=horusec-config.json -p ./ -e=false":
         - <code>-c=horusec-config.json</code>: Especifica o arquivo de configuração do Horusec a ser usado(o que criamos lá no inicio)
         - <code>-p ./</code>: Especifica o diretório do projeto a ser analisado pelo Horusec. Nesse caso, o diretório atual é utilizado.
-        - <code>- e=false</code>: Especifica se o Horusec deve exibir erros no output da análise. Mas .
+        - <code>- e=false</code>: O argumento -e=false foi incluído porque, na análise, se uma vulnerabilidade for encontrada, o processo não será considerado bem-sucedido, mas sim como uma falha, devido à detecção de uma ou mais vulnerabilidades.
 
 
 
