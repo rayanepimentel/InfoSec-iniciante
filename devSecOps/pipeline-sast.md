@@ -60,7 +60,7 @@ jobs:
     - **id**: run_horusec: Define um identificador único para essa etapa.
     - **uses**: fike/horusec-action@v0.2.2: Essa ação é responsável por executar o Horusec no seu projeto.
     - **with**: Define os argumentos a serem passados para a ação.
-        - arguments: "-c=horusec-config.json -p ./ -e=false":
+        - <code>arguments: "-c=horusec-config.json -p ./ -e=false"</code>:
         - <code>-c=horusec-config.json</code>: Especifica o arquivo de configuração do Horusec a ser usado(o que criamos lá no inicio)
         - <code>-p ./</code>: Especifica o diretório do projeto a ser analisado pelo Horusec. Nesse caso, o diretório atual é utilizado.
         - <code>- e=false</code>: O argumento -e=false foi incluído porque, na análise, se uma vulnerabilidade for encontrada, o processo não será considerado bem-sucedido, mas sim como uma falha, devido à detecção de uma ou mais vulnerabilidades. Como uma melhoria de estudo, estou planejando uma etapa adicional nessa fase. Em caso de detecção de vulnerabilidades, a intenção é automatizar a criação de um "issue" que documente detalhadamente as vulnerabilidades encontradas.
