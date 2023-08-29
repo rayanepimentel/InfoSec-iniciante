@@ -73,7 +73,7 @@ Agora é só fazer o commit e subir esse arquivo yaml para master.
 
 - Actions > clique no workflow 
 
-<img src="./img/sastscan.png" alt="quadro" width="800">
+<img src="./img/scan.png" alt="quadro" width="800">
 
 Ao clicar em "Running Horusec Security", você verá a analise.
 
