@@ -1,10 +1,10 @@
 name: OWASP ZAP Cron Job e Push
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '* 6 * * *'
+  # push:
+  #   branches:
+  #     - main
+  # schedule:
+  #   - cron: '* 6 * * *'
 jobs:
   dast:
     runs-on: ubuntu-latest
