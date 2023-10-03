@@ -48,7 +48,7 @@ jobs:
         id: run_horusec
         uses: fike/horusec-action@v0.2.2
         with:
-          arguments: "-c=horusec-config.json -p ./ -e=false"
+          arguments: -c=horusec-config.json -p ./
 ```
 - O nome do job será "horusec-security".
 - Irá rodar na máquina virtual Ubuntu.
