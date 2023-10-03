@@ -50,22 +50,21 @@ jobs:
         with:
           arguments: -c=horusec-config.json -p ./
 ```
-- O nome do job será "horusec-security".
+- O nome do **job** será `horusec-security`.
 - Irá rodar na máquina virtual Ubuntu.
 - Etapas:
-    - **name**: O que será usado para identificar a ação.
-    - **uses**: Será a ação, como "actions/checkout@v2" para clonar o projeto.
-    - **with**: Configurações adicionais para a ação "actions/checkout@v3".
-    - **name**: Run Horusec: Define um nome para essa etapa específica do fluxo de trabalho.
-    - **id**: run_horusec: Define um identificador único para essa etapa.
-    - **uses**: fike/horusec-action@v0.2.2: Essa ação é responsável por executar o Horusec no seu projeto.
-    - **with**: Define os argumentos a serem passados para a ação.
-        - <code>arguments: -c=horusec-config.json -p ./ </code>:
-        - <code>-c=horusec-config.json</code>: Especifica o arquivo de configuração do Horusec a ser usado(o que criamos lá no inicio)
-        - <code>-p ./</code>: Especifica o diretório do projeto a ser analisado pelo Horusec. Nesse caso, o diretório atual é utilizado.
-        
-
-
+    - |Tipo| Significado |
+      |--|--|
+      | **name** | O que será usado para identificar a ação. |
+      | **uses** | Será a ação, como `actions/checkout@v2` para clonar o projeto.|
+      |**with**|Configurações adicionais para a ação `actions/checkout@v3`.|
+      | **name**| `Run Horusec`: Define um nome para essa etapa específica do fluxo de trabalho.|
+      | **id**| `run_horusec`: Define um identificador único para essa etapa.|
+      | **uses**|`fike/horusec-action@v0.2.2`: Essa ação é responsável por executar o Horusec no seu projeto.|
+      | **with**| Define os argumentos a serem passados para a ação.|
+      | | `arguments: -c=horusec-config.json -p ./` |
+      | | `-c=horusec-config.json`: Especifica o arquivo de configuração do Horusec a ser usado(o que criamos lá no inicio)|
+      | |`-p ./`: Especifica o diretório do projeto a ser analisado pelo Horusec. Nesse caso, o diretório atual é utilizado.|
 
 
 Agora é só fazer o commit e subir esse arquivo yaml para master.
