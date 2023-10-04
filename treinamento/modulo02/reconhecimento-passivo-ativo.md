@@ -103,7 +103,7 @@ Usamos o `nslookup` para consultar o DNS e obter mapeamentos de nomes de domíni
 
 ```bash
 # no terminal digite
-> nslookup dominio
+nslookup dominio
 ```
 
 ![ns dominio](./img/ns.png)
@@ -151,5 +151,52 @@ Temos outra forma de usar o nslookup
 Ex: retornar todos endereços de IPv6 no DNS primario do Cloudflare
 
 ```bash
-> nslookup -type=A tryhackme.com 1.1.1.1
+nslookup -type=AAA tryhackme.com 1.1.1.1
+# ou
+nslookup -type=aaa tryhackme.com 1.1.1.1
 ```
+![nslookup aaa](./img/nslookupaaa.png)
+
+Verificar servidores de e-mail:
+
+![nslookup mx](./img/nsloookmx.png)
+
+```
+Essas informações são usadas para entregar emails para o domínio tryhackme.com. Quando um servidor de email envia um email para tryhackme.com, ele consulta os registros MX para determinar para qual servidor de email entregar o email.
+``` 
+
+Um comando interessante também é o `debug`.  No modo de depuração, o nslookup exibirá informações adicionais que podem ser úteis para solução de problemas, como os detalhes da consulta DNS e os registros retornados pelo servidor DNS
+
+![nslookup debug(./img/nsdebug.png)
+
+Mais comandos você pode encontrar [aqui](https://www.hostinger.com/tutorials/what-is-nslookup)
+
+
+#### dig
+
+O `dig` é bem parecido com o `nslookup` oferece uma saída mais detalhada e mais opções de consulta, enquanto `nslookup` oferece uma saída mais simples e menos opções de consulta. Ou seja, o `dig` tem mais funcionalidades
+
+```bash
+# sitaxe
+dig [server] [name] [type]
+```
+
+- [server] – o endereço do IP ou hostname do servidor a ser consultado. Se você não especificar, será o servidor listado em `/etc/resolv.conf`.
+- [name] - o nome do registro de recurso que deve ser pesquisado.
+- [type] - o tipo de pesquisa solicitada pelo dig. Exemplo: A, AAA, SOA, MX, TXT. Por padrão será o A.
+
+Exemplo:
+```bash 
+dig tryhackme.com MX
+```
+
+![dig mx](./img/digmx.png)
+
+Mais `type`:
+
+- `+short` - para obter respostas mais curtas
+- `+noall +answer` - para respostas detalhadas
+- `ANY` - consulta todos os tipos de registro DNS
+- [Veja mais aqui](https://www.hostinger.com.br/tutoriais/como-usar-comando-dig-no-linux)
+
+## DNSDumpster 
