@@ -12,7 +12,8 @@ Sumário
     - [Passive](#passive)
     - [Ative](#ative)
     - [Diferenças](#diferenças)
-- [2. Whois](#whois)
+- [2. whois](#whois)
+- [3. nslookup e dig](#nslookup-e-dig)
 
 
 ## Passive vs ative
@@ -62,6 +63,8 @@ WHOIS é um protocolo usado para consultar os bancos de dados que armazenam as i
 
 O objetivo disso é ter um registro de quem possui cada site existente na internet. Dessa forma, se houver algo publicado em um site que viole a lei, há uma maneira de localizar o proprietário do site. [Fonte](https://www.hostgator.com.br/blog/o-que-e-whois/)
 
+Usamos o protocolo `WHOIS` para obter diversas informações sobre um domínio especifico.
+
 ### → Como usar
 
 <!-- Sintaxe
@@ -89,3 +92,64 @@ Você pode usar via terminal: `whois dominio|subdomino|ip`
 Ou por algum site, como https://mxtoolbox.com/SuperTool.aspx escolhendo a opção `Whois`
 
 <img src="./img/whoisSite.png" alt="whois via site" width="400"> 
+
+## nslookup e dig
+
+### nslookup
+
+Usamos o `nslookup` para consultar o DNS e obter mapeamentos de nomes de domínio ou endereços IP, ou outros registros DNS. O objetivo é esse, recuperar informações sobre o domínio especificado e solucionar problemas relacionados ao DNS. 
+
+`Como usar`:
+
+```bash
+# no terminal digite
+> nslookup dominio
+```
+
+![ns dominio](./img/ns.png)
+
+Aqui temos uma visão geral da infraestrutura de DNS do domínio.
+
+
+1. Informacões do servidor DNS local na minha rede, que foi utilizado para obter as informações. Esse servidor de DNS especifico, tá disponivel em  `/etc/resolv.conf`
+![nameserver](./img/nameserver.png)
+2. `Non-authoritative answer`: Isto significa que o nameserver local não é autoridade sobre o nome de domínio especificado. Que as informações fornecidas não são da fonte autoritativa para o domínio, a resposta veio de um armazenado de cache, que foi obtida de um servidor autoritativo em uma consulta anterior.
+3. `Name` é o host
+4. `Address` valor tipo A (endereço IP) para o domínio especificado.
+
+Vimos que o tryhack tem dois endereços de IP associados a ele, isso é chamado de [DNS Round Robin](https://www.cloudflare.com/pt-br/learning/dns/glossary/round-robin-dns/).
+
+
+Temos outra forma de usar o nslookup
+
+> nslookup OPTIONS DOMAIN_NAME SERVER
+
+
+    `OPTIONS`: São as opções que você pode usar com o comando nslookup para personalizar a consulta.
+
+    `DOMAIN_NAME`: É o nome de domínio que você deseja pesquisar.
+
+    `SERVER`: É o servidor DNS que você deseja usar para a consulta. Se você não especificar um servidor, o comando nslookup usará o servidor DNS padrão 
+
+
+| Tipo de consulta | Resultado            |
+|------------------|----------------------|
+| A                | Endereços IPv4      |
+| AAAA             | Endereços IPv6      |
+| CNAME            | Nome Canônico        |
+| MX               | Servidores de e-mail|
+| SOA              | Start of Authority|
+| TXT              | Registros TXT        |
+
+
+| DNS Provider  | Primary DNS   | Secondary DNS    |
+|---------------|---------------|------------------|
+| Cloudflare    | 1.1.1.1       | 1.0.0.1          |
+| Google        | 8.8.8.8       | 8.8.4.4          |
+| Quad9         | 9.9.9.9       | 149.112.112.112  |
+
+Ex: retornar todos endereços de IPv6 no DNS primario do Cloudflare
+
+```bash
+> nslookup -type=A tryhackme.com 1.1.1.1
+```
