@@ -200,3 +200,32 @@ Mais `type`:
 - [Veja mais aqui](https://www.hostinger.com.br/tutoriais/como-usar-comando-dig-no-linux)
 
 ## DNSDumpster 
+
+DNSDumpster é uma ferramenta de varredura de domínio para encontrar informações relacionadas ao host.
+
+O DNSDumpster fornece informações como:
+
+- subdomínio
+- servidor DNS
+- registro MX
+- registro TXT
+- mapeamento
+
+Para acessar é super simples, basta navegar para endereço [https://dnsdumpster.com/](https://dnsdumpster.com/) e digitar o o dominio no campo de pesquisa.
+
+Eu particularmente adorei essa ferramenta, o mapeamento é incrível. você tem uma visão bem clara das informações.
+
+
+## Shodan.io 
+
+Na fase do reconhecimento passivo, o Shodan pode ser muito util. O Shodan pode ser considerado um dos buscadores mais poderosos da internet. 
+
+O Shodan asculha a internet e procura dispositivos conectados a rede, permitindo encontrar webcams, roteadores domésticos e empresariais, smartphones, tablets, servidores, computadores e etc. 
+
+Ao obter uma resposta, o Shodan coleta todas as informações relacionadas ao serviço e as salva no banco de dados para torná-las pesquisáveis.
+
+Ao pesquisar `tryhackme` no shodan, encontramos informações como:
+
+![Shodan](./img/shodan.png)
+
+Para saber mais como pesquisar, usar o shodan, aqui tem uma sala: https://tryhackme.com/room/shodan
