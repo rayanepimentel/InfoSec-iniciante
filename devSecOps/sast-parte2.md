@@ -20,7 +20,7 @@ O SAST que estamos utilizando é o [Horusec](https://docs.horusec.io/docs/pt-br/
 - `main`: main é o branch principal da aplicação. É o código estável.
 - `feature`: é onde estamos escrevendo nossos códigos
 - `commit`: commit das nossas alterações
-- `push request`: estamos enviando uma solicitação para mesclar nossas alterações na `main`
+- `pull request`: estamos enviando uma solicitação para mesclar nossas alterações na `main`
 - `github action`: quando criamos PR ou fazemos um push com `github actions` configurado, ele é acionado para executar os fluxos de trabalho definidos.
  - `CI`: Toda vez que ele foi acionado, ele executa o trabalho: clona o projeto, roda todos os testes, gerar o build(arquivos que você precisa para a aplicação rodar) da aplicação. E tbm no nosso caso, executa o Horusec.
  Ou seja, todas as vezes que fizermos um PR, esse processo garante que código de forma segura possa estar integrado na aplicação principal.
@@ -66,13 +66,12 @@ jobs:
 ## Análise - CLI
 
 
-Como vimos o Horusec encontrou 34 vulnerabilidades e nesse caso precisamos analisar todas vulnerabilidade e classificá-las:
+Como vimos o Horusec encontrou 34 vulnerabilidades. Uma vulnerabilidde é uma possível falha de segurança e nesse caso precisamos analisar todas vulnerabilidade e classificá-las, se realmente é uma vulnerabilidade ou:
 
 
 - `falso-positivo`: a ferramenta detectou com vulnerabilidade mas não é uma vulnerabilidade, ela não entendeu o contexto por isso classificou errado.
 - `risco-aceito`: é uma vulnerabilidade mas por algum motivo a empresa aceita o risco, mas precisa de correção. O certo é não virar um débito técnico e sim entrar em um planejamento para próximas sprints.
-- `vulnerabilidade`: uma possível falha de segurança foi encontrada e acusada na análise.
-
+ 
 
 Quando identificamos `falso-positivo` e aceitamos `risco-aceito`, precisamos add o hash delas no arquivo `horusec-config.json`
 
@@ -125,7 +124,6 @@ Outra implementação que podemos fazer é ignorar pastas/arquivos. Só faça is
 
 
 
-
 ```js
 {
  ...
@@ -152,7 +150,8 @@ Para ignorar um diretório ou arquivo, você pode passar o caminho exato ou usar
  ...
 }
 ```
-usando `**` o Horusec busca em qualquer lugar do projeto essa pasta `modules` e ignora. Ou seja, não terá análise de vulnerabilidade nessa pasta, por isso precisamos usar com muito cuidado.
+
+Usando `**` o Horusec busca em qualquer lugar do projeto essa pasta `modules` e ignora. Ou seja, não terá análise de vulnerabilidade nessa pasta, por isso precisamos usar com muito cuidado.
 
 
 Como todos os arquivos da pasta `modules` foram ignorados, diminuiu o total de vulnerabilidades.
@@ -186,7 +185,10 @@ Por que não colocar o arquivo de configuração `config.py` na pasta ignore?
 
 Nesse caso não é uma boa prática, porque pode ser que alguém esqueça alguma credencial e realmente seja uma vulnerabilidade e não um falso-positivo, por isso a boa prática é analisar hash por hash.
 
-Depois de analisar todas vulnerabilidade, se você encontrou realmente uma vulnerabilidade/risco-aceito, precisa comunicar o time, conforme o processo definido pela sua empresa.
+Depois de analisar todas vulnerabilidades, se você realmente encontrou uma vulnerabilidade, precisa comunicar o time. Esse comunidado é o relatório, onde você irá descrever as vulnerabilidades encontradas e possiveis soluções. 
+
+Só lembrando que `risco-aceito`, não é definido por nós. Nós validamos e reportamos as vulnerabilidades. Só vamos classifica-lá como `risco-aceito`, após o report do relatório.
+
 
 E depois de todas correções, agora você pode rodar o Horusec novamente.
 
