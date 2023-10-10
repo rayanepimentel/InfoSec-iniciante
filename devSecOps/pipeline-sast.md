@@ -75,4 +75,17 @@ Agora é só fazer o commit e subir esse arquivo yaml para master.
 
 Ao clicar em "Running Horusec Security", você verá a analise.
 
-<img src="./img/relatorio.png" alt="relatorio" width="800">
+<img src="./img/relatorioSast.png" alt="relatorio" width="800">
+
+
+Análise:
+
+- Vulnerabilidade encontrada: 35
+- Nivel: Critical
+- Pipeline fail
+
+Ou seja, não nesse cenário vamos conseguir fazer o merge para `master` e a configuração horusec funcinou porque encontrou vulnerabilidades e quebrou o pipeline.
+
+
+
+[Parte 2](parte2-sast.md)
