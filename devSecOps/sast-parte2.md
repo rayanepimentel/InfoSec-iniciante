@@ -183,7 +183,7 @@ O que podemos fazer também é surgerir melhorias. Continuando com o nosso exemp
 Por que não colocar o arquivo de configuração `config.py` na pasta ignore?
 
 
-Nesse caso não é uma boa prática, porque pode ser que alguém esqueça alguma credencial e realmente seja uma vulnerabilidade e não um falso-positivo, por isso uma boa prática é analisar hash por hash.*
+Nesse caso não é uma boa prática, porque pode ser que alguém esqueça alguma credencial e realmente seja uma vulnerabilidade e não um falso-positivo, por isso uma boa prática é analisar hash por hash.
 
 Depois de analisar todas vulnerabilidades, se você realmente encontrou uma vulnerabilidade, precisa comunicar o time, conforme foi definido pela sua empresa.
 
@@ -201,8 +201,6 @@ Fim \o/
 ## Referências
 - https://docs.horusec.io/docs/pt-br/tutorials/how-to-classify-a-vulnerability/
 
-
-*
 
 
 
