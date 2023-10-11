@@ -187,7 +187,7 @@ Nesse caso não é uma boa prática, porque pode ser que alguém esqueça alguma
 
 Depois de analisar todas vulnerabilidades, se você realmente encontrou uma vulnerabilidade, precisa comunicar o time, conforme foi definido pela sua empresa.
 
-Só lembrando que `risco-aceito`, não é definido por nós. Nós validamos e reportamos as vulnerabilidades. Só vamos classifica-lá como `risco-aceito`, após o report do relatório.
+Só lembrando que `risco-aceito`, não é definido por nós. Nós validamos e reportamos as vulnerabilidades. Só vamos classifica-lá como `risco-aceito`, após o report do time.
 
 
 E depois de todas correções, agora você pode rodar o Horusec novamente.
