@@ -78,7 +78,7 @@ Ao clicar em "Running Horusec Security", você verá a analise.
 
 Análise:
 
-- Vulnerabilidade encontrada: 35
+- Vulnerabilidade encontrada: 34
 - Nivel: Critical
 - Pipeline fail
 
