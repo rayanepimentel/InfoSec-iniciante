@@ -22,7 +22,7 @@ O SAST que estamos utilizando é o [Horusec](https://docs.horusec.io/docs/pt-br/
 - `commit`: commit das nossas alterações
 - `pull request`: estamos enviando uma solicitação para mesclar nossas alterações na `main`
 - `github action`: quando criamos PR ou fazemos um push com `github actions` configurado, ele é acionado para executar os fluxos de trabalho definidos.
- - `CI`: Toda vez que ele foi acionado, ele executa o trabalho: clona o projeto, roda todos os testes, gerar o build(arquivos que você precisa para a aplicação rodar) da aplicação. E tbm no nosso caso, executa o Horusec.
+ - `CI`: Toda vez que ele foi acionado, ele executa o trabalho: clona o projeto, roda todos os testes, gerar o build(arquivos que você precisa para a aplicação rodar) da aplicação. E também no nosso caso, executa o Horusec.
  Ou seja, todas as vezes que fizermos um PR, esse processo garante que código de forma segura possa estar integrado na aplicação principal.
  - `horusec`: O Horusec é uma ferramenta de segurança que analisa o código em busca de vulnerabilidades de segurança.
 
@@ -183,9 +183,9 @@ O que podemos fazer também é surgerir melhorias. Continuando com o nosso exemp
 Por que não colocar o arquivo de configuração `config.py` na pasta ignore?
 
 
-Nesse caso não é uma boa prática, porque pode ser que alguém esqueça alguma credencial e realmente seja uma vulnerabilidade e não um falso-positivo, por isso a boa prática é analisar hash por hash.
+Nesse caso não é uma boa prática, porque pode ser que alguém esqueça alguma credencial e realmente seja uma vulnerabilidade e não um falso-positivo, por isso uma boa prática é analisar hash por hash.*
 
-Depois de analisar todas vulnerabilidades, se você realmente encontrou uma vulnerabilidade, precisa comunicar o time. Esse comunidado é o relatório, onde você irá descrever as vulnerabilidades encontradas e possiveis soluções. 
+Depois de analisar todas vulnerabilidades, se você realmente encontrou uma vulnerabilidade, precisa comunicar o time.
 
 Só lembrando que `risco-aceito`, não é definido por nós. Nós validamos e reportamos as vulnerabilidades. Só vamos classifica-lá como `risco-aceito`, após o report do relatório.
 
@@ -202,7 +202,7 @@ Fim \o/
 - https://docs.horusec.io/docs/pt-br/tutorials/how-to-classify-a-vulnerability/
 
 
-
+*
 
 
 
