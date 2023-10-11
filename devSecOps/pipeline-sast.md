@@ -82,7 +82,7 @@ Análise:
 - Nivel: Critical
 - Pipeline fail
 
-Ou seja, não nesse cenário vamos conseguir fazer o merge para `master` e a configuração horusec funcinou porque encontrou vulnerabilidades e quebrou o pipeline.
+Ou seja, nesse cenário não vamos conseguir fazer o merge para `master` e a configuração horusec funcinou porque encontrou vulnerabilidades e quebrou o pipeline.
 
 
 
