@@ -1,11 +1,75 @@
 ## Fundamentos
 
-### Módulo 2 - Identificar componentes de Hardware de Computador
+## Módulo 2 - Identificar componentes de Hardware de Computador
 
 
-#### Aula 1 - Grandezas Computacionais e sistemas numéricos 
+### Aula 1 - Grandezas Computacionais e sistemas numéricos 
 
 - [x] Vídeo 1: https://youtube.com/watch?v=J5q7s7l2EuI 
 - [ ] Vídeo 2: https://youtube.com/watch?v=eD56zn5kYfU
 - [ ] Vídeo 3: https://www.youtube.com/watch?v=gIXiFhEA-Qw&ab_channel=CursoemV%C3%ADdeo
 
+#### Anotações:
+
+##### Convertendo binário para decimal
+
+   <img width="348" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/0febf1e1-f55f-40f2-80cd-53690a2b146f">
+   
+```js
+//numero em binário:
+1100
+//potencia de 2
+1 1 0 0
+2^3 2^2 2^1 2^0
+//elimina os 0 (zeros) e soma apenas os 1 (uns)
+1   1
+8 + 4 = (12)10
+//verifica na tabela se o numero 1100 tá no 12
+```
+Resumo: 
+- Coloca todos os elementos e as potencias de 2
+- E soma somente o que tem 1 (um)
+
+##### Convertendo decimal para binário
+
+Exemplo:
+- Número decimal: 13
+- Pega o número decimal e divide por 2 repetivamente até não conseguir mais, resultado 0 (é divisao inteira e não por virgula)
+  
+<img width="252" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/44a41997-4aab-4c0f-9d27-a424b5f3fffd">
+
+- Pega todos os restos, de tras para frente: 1101
+- Representar na base 2: (1101)2
+- Verifica na tabela
+
+**Outra forma:**
+
+- Você vai montar as casas: <img width="150" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/e66fd7eb-8609-435b-8c24-b4da7bd7d74e">
+
+- Colocar as potencias: <img width="150" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/799b2e2a-e859-4a67-a28b-b802bcc3087c">
+
+- Quais valores na potencia ao somar dará 13(só tem uma combinação possível): 8 + 4 + 1 <img width="150" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/7199d587-643c-4d2d-8d2f-dac4473009a2">
+
+- O que estiver "aceso" add numero 1(um) e "apagado" add numero 0(zero): <img width="150" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/50c6f999-0dfe-4b2d-b3d8-7b9534e348a7">
+
+- Pode eliminar o zero a esquerda e ficaria **1101**
+- Verificar tabela
+
+**Outro exemplo:**
+
+- Numero decimal: (18)10
+- Potencia: 16 8 4 2 1
+- Valores que dará 18: 16 + 2
+- 10010
+
+**Outro exemplo:**
+- Numero decimal: (40)10
+- Potencia: 32 16 8 4 2 1
+- Valores que dará 40: 32 + 8
+- 101000
+
+##### Prova real
+
+<img width="348" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/7d08c168-bb67-4ffe-802b-155d25fd0479">
+
+  
