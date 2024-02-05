@@ -14,7 +14,7 @@
 
 ## Aula 2 - Arquitetura de Hardware: CPU, placa mãe, memória, BIOS
 
-- [ ] Vídeo 1: https://youtube.com/watch?v=CGDryR8fdHo
+- [x] Vídeo 1: https://youtube.com/watch?v=CGDryR8fdHo
 
 - [ ] Vídeo 2: https://youtube.com/watch?v=ttw8Aycf7RY
 
