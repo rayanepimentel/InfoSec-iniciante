@@ -12,7 +12,7 @@
 
 #### Anotações: [Aula 01](m2a1.md)
 
-## Aula 2 - Arquitetura de Hardware: CPU, placa mãe, memória, BIOS
+### Aula 2 - Arquitetura de Hardware: CPU, placa mãe, memória, BIOS
 
 - [x] Vídeo 1: https://youtube.com/watch?v=CGDryR8fdHo
 
@@ -24,3 +24,4 @@
 
 - [ ] Vídeo 5: https://youtube.com/watch?v=Qg0D5L-IjiU
 
+#### Anotações: [Aula 21](m2a2.md)
