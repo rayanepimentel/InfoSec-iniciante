@@ -8,4 +8,6 @@ Obrigada ˆ ˆ
 - [Redes - Inicio](/redes/redes-iniciante/start.md) 
 - [Web - OWASP](/OWASP/owasp.md) 
 - [DevSecOps/AppSec](/devSecOps/pipeline.md) :pushpin: Estou aqui!
-- [Cursos](/cursos/hackersDoBem/init.md) :pushpin: Estou aqui!
+- Cursos: :pushpin: Estou aqui!
+    - [Hackers do Bem](/cursos/hackersDoBem/init.md)
+    - [Security for developers](/cursos/Security-for-developers)
