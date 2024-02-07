@@ -9,7 +9,7 @@
 - [x] [Broken access control](01-broken-access-control.md)
 - [x] [Insecure hash](02-insecure-hash.md)
 - [x] [Insecure Randomness](03-InsecureRandomness.md)
-- [ ] Cross-site scripting (XSS)
+- [x] [Cross-site scripting (XSS)](04-xss.md)
 - [ ] Code injection
 - [ ] Cross site request forgery (CSRF)
 - [ ] Prototype pollution
