@@ -8,7 +8,7 @@
 
 ## Reflected XSS
 
-<img width="1341" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/f9102e02-c99c-41e9-b8de-946dce3092ab">
+<img width="967" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/51481c05-438f-4136-92fc-6402302042df">
 
 ## Stored XSS
 
