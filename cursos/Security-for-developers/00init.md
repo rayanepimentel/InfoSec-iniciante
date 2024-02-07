@@ -11,7 +11,7 @@
 - [x] [Insecure Randomness](03-InsecureRandomness.md)
 - [x] [Cross-site scripting (XSS)](04-xss.md)
 - [x] Code injection
-- [ ] Cross site request forgery (CSRF)
+- [x] Cross site request forgery (CSRF)
 - [ ] Prototype pollution
 - [ ] NoSQL injection attack
 - [ ] SQL injection (SQLi)
