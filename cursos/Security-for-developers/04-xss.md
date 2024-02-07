@@ -23,7 +23,8 @@
 
 ## Mitigações
 
-<img width="879" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/2015ccea-d563-4c86-bb3d-9e369bd6a31b">
+<img width="758" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/a7273d40-d9e6-458c-8a82-da56e75b24de">
+
 
 ## Resumo:
 
