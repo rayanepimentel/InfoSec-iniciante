@@ -10,7 +10,7 @@
 - [x] [Insecure hash](02-insecure-hash.md)
 - [x] [Insecure Randomness](03-InsecureRandomness.md)
 - [x] [Cross-site scripting (XSS)](04-xss.md)
-- [ ] Code injection
+- [x] Code injection
 - [ ] Cross site request forgery (CSRF)
 - [ ] Prototype pollution
 - [ ] NoSQL injection attack
