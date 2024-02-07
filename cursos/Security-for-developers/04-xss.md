@@ -4,7 +4,8 @@
 
 ## Tipos:
 
-<img width="443" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/3ec7e7f0-2d53-40db-a352-a9ae5a189147">
+<img width="491" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/70eaea7c-ca4a-475f-8dee-e510d3afe494">
+
 
 ## Reflected XSS
 
@@ -14,9 +15,15 @@
 
 <img width="1075" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/d509e01e-4332-45aa-b61f-63377e2393a9">
 
+## XSS DOM
+
+<img width="1072" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/5941d807-c6e2-4d1f-bb1e-092ddc5733cb">
+
+
+
 ## Mitigações
 
-<img width="598" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/2015ccea-d563-4c86-bb3d-9e369bd6a31b">
+<img width="879" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/2015ccea-d563-4c86-bb3d-9e369bd6a31b">
 
 ## Links
 - https://portswigger.net/web-security/cross-site-scripting
