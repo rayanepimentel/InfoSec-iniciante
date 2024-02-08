@@ -1,6 +1,6 @@
 # Hackers do Bem
 
-> Programa do governo https://hackersdobem.org.br/
+> Programa do governo https://hackersdobem.org.br/ | Grátis | :brazil: |
 
 Material de auxilio/sugestão que eu estou utilizando para complementar o meu estudo.
 
