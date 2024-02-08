@@ -12,7 +12,7 @@
 - [x] [Cross-site scripting (XSS)](04-xss.md)
 - [x] [Code injection](05-code-injection.md)
 - [x] [Cross site request forgery (CSRF)](06-csrf.md)
-- [ ] Prototype pollution
+- [x] [Prototype pollution](07-prototype-pollution.md)
 - [ ] NoSQL injection attack
 - [ ] SQL injection (SQLi)
 - [ ] XML external entity injection (XXE)
