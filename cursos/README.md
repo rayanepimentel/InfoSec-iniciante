@@ -4,5 +4,5 @@ Recomendo que faça devagar, fazendo todos os labs (principalemnte os iniciantes
 
 > não tem uma ordem a ser seguida
 
-- [Hackers do Bem](./hackersDoBem/init.md) | :brazil: 
-- [Security for developers](./Security-for-developers/00-init.md) | :us: 
+- [Hackers do Bem](./hackersDoBem/README.md) | :brazil: 
+- [Security for developers](./Security-for-developers/README.md) | :us: 
