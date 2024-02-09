@@ -4,6 +4,12 @@ Recomendo que faça devagar, fazendo todos os labs (principalmente os labs inici
 
 > não tem uma ordem a ser seguida
 
-- [Hackers do Bem](./hackersDoBem/README.md) | :brazil: 
-- [Security for developers](./Security-for-developers/README.md) | :us:
-- [Desenvolvimento Seguro]() | :brazil: 
+
+| | | |
+|-|-|-|
+|Curso | Status | Info|
+|[Hackers do Bem](./hackersDoBem/README.md) | Em andamento | :brazil: - Gratuito |
+|[Security for developers](./Security-for-developers/README.md) | Em andamento | :us: - Gratuito |
+|[Desenvolvimento Seguro](https://cursos.alura.com.br/formacao-desenvolvimento-seguro) | Não iniciado | :brazil: - Pago (mas recebi uma bolsa da [SysAdminas](https://sysadminas.com.br/))| 
+
+
