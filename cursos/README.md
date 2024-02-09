@@ -1,6 +1,6 @@
 # Cursos
 
-Recomendo que faça devagar, fazendo todos os labs (principalemnte os iniciantes), para entender cada tópico e claro, muito importante a leitura complementar :) 
+Recomendo que faça devagar, fazendo todos os labs (principalmente os labs iniciante), para entender cada tópico e claro, muito importante a leitura complementar :) 
 
 > não tem uma ordem a ser seguida
 
