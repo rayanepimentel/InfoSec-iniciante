@@ -14,7 +14,7 @@
 - [x] [Cross site request forgery (CSRF)](06-csrf.md)
 - [x] [Prototype pollution](07-prototype-pollution.md)
 - [x] [NoSQL injection attack](08-NoSQL.md)
-- [ ] SQL injection (SQLi)
+- [x] [SQL injection (SQLi)](09-sql.md)
 - [ ] XML external entity injection (XXE)
 - [ ] XPath injection
 - [ ] Insecure design
