@@ -5,6 +5,7 @@
 - [Hack tricks](https://book.hacktricks.xyz/v/portugues-ht/pentesting-web/deserialization/nodejs-proto-prototype-pollution)
 - [PortSwigger](https://portswigger.net/web-security/prototype-pollution)
 - [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Prototype_Pollution_Prevention_Cheat_Sheet.html)
+- [Portswigger Daily](https://portswigger.net/daily-swig/prototype-pollution-the-dangerous-and-underrated-vulnerability-impacting-javascript-applications)
 
 | | | |
 |-|-|-|
