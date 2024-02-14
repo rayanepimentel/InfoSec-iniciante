@@ -15,7 +15,7 @@
 - [x] [Prototype pollution](07-prototype-pollution.md)
 - [x] [NoSQL injection attack](08-NoSQL.md)
 - [x] [SQL injection (SQLi)](09-sql.md)
-- [ ] XML external entity injection (XXE)
+- [x] [XML external entity injection (XXE)](10-xml.md)
 - [ ] XPath injection
 - [ ] Insecure design
 - [ ] Vulnerable and outdated components
