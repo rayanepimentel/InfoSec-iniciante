@@ -6,3 +6,6 @@
 - [Acunetix](https://www.acunetix.com/blog/articles/xml-external-entity-xxe-vulnerabilities/)
 - [OWASP](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
 - [OWASP Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
+
+
+<img width="797" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/eff9220d-688d-4e4d-86de-d4453b2bb2c1">
