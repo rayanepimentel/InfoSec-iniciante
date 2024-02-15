@@ -16,7 +16,7 @@
 - [x] [NoSQL injection attack](08-NoSQL.md)
 - [x] [SQL injection (SQLi)](09-sql.md)
 - [x] [XML external entity injection (XXE)](10-xml.md)
-- [ ] XPath injection
+- [x] [XPath injection](11-xpath.md)
 - [ ] Insecure design
 - [ ] Vulnerable and outdated components
 - [ ] Directory traversal
