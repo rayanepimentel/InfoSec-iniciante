@@ -11,5 +11,3 @@
 
 <img width="1296" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/ec5bfed3-b043-43b9-b40b-2e2e73e05f9d">
 
-
-<img width="1296" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/9b798f3f-50b4-421d-9563-452eee5726e0">
