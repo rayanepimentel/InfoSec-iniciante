@@ -17,7 +17,7 @@
 - [x] [SQL injection (SQLi)](09-sql.md)
 - [x] [XML external entity injection (XXE)](10-xml.md)
 - [x] [XPath injection](11-xpath.md)
-- [ ] Insecure design
+- [x] [Insecure design](12-insecure-design.md)
 - [ ] Vulnerable and outdated components
 - [ ] Directory traversal
 - [ ] Logging vulnerabilities
