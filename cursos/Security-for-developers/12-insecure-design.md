@@ -8,6 +8,7 @@
 - https://blog.convisoappsec.com/design-segundo-samm-modelagem-de-ameacas-em-seguranca-de-aplicacoes/
 - https://blog.convisoappsec.com/design-segundo-samm-requisitos-de-seguranca-em-seguranca-de-aplicacoes/
 - https://blog.convisoappsec.com/arquitetura-segura-em-seguranca-de-aplicacoes-segundo-samm/
+- https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 
 <img width="1296" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/ec5bfed3-b043-43b9-b40b-2e2e73e05f9d">
 
