@@ -26,3 +26,12 @@ O cenário mostra uma vulnerabilidade de  design inseguro, onde um atacante expl
 |**Perda de Confiança dos Usuários**: A falta de práticas de segurança robustas pode resultar em uma perda de confiança dos usuários, afetando a utilização e a adoção do sistema.	|**Revisão de Design e Arquitetura**: Garantir que o design e a arquitetura do sistema sejam revisados e ajustados para incorporar práticas de segurança.|
 |**Danos Financeiros e de Dados**: Atacantes podem explorar as vulnerabilidades para realizar transações fraudulentas ou acessar dados sensíveis, resultando em perdas financeiras e comprometimento de dados.| **Implementação de Controles de Acesso**: Implementar controles de acesso rígidos e verificar que eles sejam seguidos corretamente em todas as etapas do desenvolvimento.|
 |**Comprometimento do Sistema**: Um design inseguro pode levar a um controle total do sistema por atacantes, permitindo ações não autorizadas.	|**Testes de Segurança**: Realizar testes de segurança abrangentes para identificar e corrigir vulnerabilidades antes do lançamento do sistema.|
+
+
+
+## Modelagem de ameaça
+
+Link do canva para melhor visualização: [Canva - Modelagem de ameaça](https://www.canva.com/design/DAF9nm9HgJE/hrleeqIZqQrYostRDqRDbA/view?utm_content=DAF9nm9HgJE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+![Canva - Modelagem de ameaça](https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/be4a06e5-f726-4d74-a14a-b4a7d555ac16)
+
