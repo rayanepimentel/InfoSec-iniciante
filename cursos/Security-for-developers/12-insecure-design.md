@@ -11,3 +11,8 @@
 
 <img width="1296" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/ec5bfed3-b043-43b9-b40b-2e2e73e05f9d">
 
+## Cenário
+
+O cenário mostra uma vulnerabilidade de  design inseguro, onde um atacante explora falhas no sistema de controle  de acesso e manipulação de sessão para ganhar controle sobre o sistema.
+
+<img width="1296" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/92963cce-d2a2-47a0-95d9-f57e46ea5de6">
