@@ -6,8 +6,8 @@
 
 | | | |
 |-|-|-|
-|Sobre | Status | Info|
-|[Conceito Pipeline - Geral](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline.html) | Concluído | :brazil: - Gratuito |
-|[Implementação SAST I](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline-sast.html) | Concluído | :us: - Gratuito |
-|[Implementação SAST II](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/sast-parte2.html) | Concluído | :us: - Gratuito |
-|[Implementação DAST](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline-dast.html) | Concluído | :brazil: - Gratuito| 
+|Sobre | Status |
+|[Conceito Pipeline - Geral](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline.html) | Concluído |
+|[Implementação SAST I](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline-sast.html) | Concluído |
+|[Implementação SAST II](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/sast-parte2.html) | Concluído | 
+|[Implementação DAST](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline-dast.html) | Concluído |
