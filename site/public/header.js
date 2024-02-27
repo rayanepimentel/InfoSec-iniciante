@@ -4,7 +4,7 @@ class Header extends HTMLElement {
       <header>
         <div class="nav-container">
           <nav>
-            <div class="logo"></div><a href="/" style="font-size: xx-large;">&#x1F47E;</a>
+            <div class="logo"></div><a href="/InfoSec-iniciante" style="font-size: xx-large;">&#x1F47E;</a>
             <div class="nav-bar"><a href="/InfoSec-iniciante">Início_</a>
             <a href="/InfoSec-iniciante/site/cronograma/cronograma.html">Cronograma_</a><a href="">WhereAmI_</a><a href="">Técnicas e mais_</a></div>
           </nav>
