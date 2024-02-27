@@ -20,13 +20,18 @@ A validação de entrada deve ser aplicada tanto no **nível sintático** quanto
 - **A validação sintática** deve reforçar a sintaxe correta dos campos estruturados (por exemplo, SSN, data, símbolo de moeda).
 - **A validação semântica** deve reforçar a correção de seus *valores* no contexto de negócios específico (por exemplo, a data de início é anterior à data de término, o preço está dentro do intervalo esperado).
 
-<aside>
-💡 → Nunca confie de forma alguma na entrada do usuário. 
+
+
+→ Nunca confie de forma alguma na entrada do usuário. <br>
 → Validar e rejeitar as entradas é melhor do que sanitizá-las.
 
-Leia mais [aqui](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html), [aqui](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/README) e [aqui](https://portswigger.net/burp/documentation/desktop/testing-workflow/input-validation)
+💡 Leia mais:
 
-</aside>
+- [https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.htm](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+- [https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/README](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/README)
+- [https://portswigger.net/burp/documentation/desktop/testing-workflow/input-validation](https://portswigger.net/burp/documentation/desktop/testing-workflow/input-validation)
+
+
 
 ### 1.2 → **Output encoding**
 
@@ -35,7 +40,7 @@ Sempre valide dados em um sistema confiável(ou seja, o servidor), codifique tod
 A codificação de saída (output encoding) é uma técnica eficaz para prevenir ataques de Cross-Site Scripting (XSS), que é um dos principais tipos de ataques que podem ser prevenidos por meio dessa prática de segurança.
 
  
- 💡 Leia mais [aqui](https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html#output-encoding) e [aqui](https://portswigger.net/web-security/cross-site-scripting/preventing#encode-data-on-output)
+ 💡 Leia mais: [aqui](https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html#output-encoding) e [aqui](https://portswigger.net/web-security/cross-site-scripting/preventing#encode-data-on-output)
 
 
 ## 2. Segurança de autenticação e gerenciamento de acesso:
@@ -54,7 +59,11 @@ Todas as medidas de autenticação devem ser implementadas em um sistema confiá
 - **Monitorar tentativas de senha:**  as organizações devem monitorar senhas com falha para detectar e prevenir ataques de força bruta.
 
 
-💡 Veja sobre: [Dicas sobre armazenamento de senha](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#Use_a_cryptographically_strong_credential-specific_salt), [Dicas de autenticação](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) e [Autenticação e gerenciamento do ciclo de vida](https://pages.nist.gov/800-63-3/sp800-63b.html).
+💡 Veja sobre: 
+
+- [Dicas sobre armazenamento de senha](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#Use_a_cryptographically_strong_credential-specific_salt)
+- [Dicas de autenticação](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+- [Autenticação e gerenciamento do ciclo de vida](https://pages.nist.gov/800-63-3/sp800-63b.html).
 
 
 
@@ -74,7 +83,9 @@ Boas práticas:
     - Use o param “expire” para forçar o encerramento periódico da sessão como um maneira de evitar o sequestro de sessão.
 
 
-💡 Veja sobre: [Dicas de gerenciamento de sessão](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
+💡 Veja sobre: 
+
+- [Dicas de gerenciamento de sessão](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
 
 
 
@@ -99,7 +110,12 @@ Boas práticas:
 - Evite controle de acesso baseado em funções
 
 
-💡 Veja sobre [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/), [Cheat Sheets](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [PortSwigger](https://portswigger.net/web-security/access-control), [Project Proactive Controls c7 enforce access controls](https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls) e [ASVS V4-Access-Control](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x12-V4-Access-Control.md)
+💡 Veja sobre: 
+
+- [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
+- [Cheat Sheets](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [PortSwigger](https://portswigger.net/web-security/access-control)
+- [Project Proactive Controls c7 enforce access controls](https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls)
+- [ASVS V4-Access-Control](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x12-V4-Access-Control.md)
 
 
 ## 3. **Error handling and logging**
