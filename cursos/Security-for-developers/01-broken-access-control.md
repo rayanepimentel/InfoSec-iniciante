@@ -1,3 +1,5 @@
+[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/README.md)
+
 # Broken access control
 
 <img width="1051" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/37708757-6566-4286-a4c5-85b30e8aaf0f">
@@ -22,4 +24,5 @@
 <br>
 <hr>
 <br>
-[Voltar para Secuity For Developers](README.md)
+
+[< Anterior](/cursos/Security-for-developers/README.md) | [Próxima >](02-insecure-hash.md)
