@@ -8,12 +8,18 @@
 
 ## Leia mais:
 
-- https://gitbook.ganeshicmc.com/web/semana-2/15_idor
+- [https://gitbook.ganeshicmc.com/web/semana-2/15_idor](https://gitbook.ganeshicmc.com/web/semana-2/15_idor)
 
-- https://portswigger.net/web-security/access-control/idor
+- [https://portswigger.net/web-security/access-control/idor](https://portswigger.net/web-security/access-control/idor)
 
-- https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf
+- [https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf](https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf)
 
-- https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
+- [https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
+](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
+)
+- [https://owasp.org/Top10/A01_2021-Broken_Access_Control/](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 
-- https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+<br>
+<hr>
+<br>
+[Voltar para Secuity For Developers](README.md)
