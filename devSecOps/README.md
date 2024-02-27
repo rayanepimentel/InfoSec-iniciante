@@ -4,8 +4,8 @@
 
 ## Implementação SAST e DAST
 
-| | | |
-|-|-|-|
+| | |
+|--|--|
 |Sobre | Status |
 |[Conceito Pipeline - Geral](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline.html) | Concluído |
 |[Implementação SAST I](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline-sast.html) | Concluído |
