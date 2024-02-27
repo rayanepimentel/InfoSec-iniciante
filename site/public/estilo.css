@@ -1,0 +1,146 @@
+html {
+    /* background-color: #eaedf7; */
+    background-color: #ebebf3;
+    color: #222831;
+}
+
+body {
+    /* padding: 10px; */
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+hr {
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+    color: #a047b6;
+    -webkit-text-stroke-width: 1px;
+}
+
+.subInicio {
+    color:#a047b6 ;
+    -webkit-text-stroke-width: 1px;
+}
+
+.sub {
+    -webkit-text-stroke-width: 1px;
+}
+
+.obs {
+    font-size: 13px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar a:hover {
+    background-color: #9778c4;
+    color: #222831;
+}
+
+.nav-bar a {
+    padding: 8px;
+    margin-left: 70px;
+    background-color: #222831;
+    color: #9778c4;
+    border-radius: 10px;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.subtitle {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    float:right;
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title * {
+    margin-right: 20px;
+}
+
+.subtitle h1 {
+    margin: 0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.text-muted {
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+code, pre {
+	font: 15px "Roboto Mono", mono;
+    background-color: #222831;
+    color: #9778c4;
+	border-radius: 3px;
+    font-size: 18px;
+    max-width: 1000px;
+}
+
+.corDestaque {
+    background-color: #F0E3B9;
+    -webkit-text-stroke-width: 1px;
+}
+
+
+.animacao {
+    animation: go-back 1s infinite alternate;
+    background-color: #353236;
+    color: #eaedf7;
+}
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
