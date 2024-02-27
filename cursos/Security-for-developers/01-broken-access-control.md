@@ -1,4 +1,5 @@
-[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/)
+[Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/site/cronograma/cronograma.html)| [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) | [Security For Developers](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/Security-for-developers/)
+
 
 # Broken access control
 
