@@ -1,3 +1,5 @@
+[Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/site/cronograma/cronograma.html)
+
 # Cursos
 
 Recomendo que faça devagar, fazendo todos os labs (principalmente os labs iniciante) para entender cada tópico e claro, muito importante a leitura complementar :) 
