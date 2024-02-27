@@ -4,7 +4,7 @@
 
 > Oferecido pelo Synk 
 
-- [Curso Security for developers](https://learn.snyk.io/learning-paths/security-for-developers/?utm_source=nyu-tandon&utm_medium=link&utm_campaign=security-for-developers) | Grátis| :us: |
+- [Curso Security for developers](https://learn.snyk.io/learning-paths/security-for-developers/?utm_source=nyu-tandon&utm_medium=link&utm_campaign=security-for-developers) | Grátis| 🇺🇸 |
 
 ## Tópicos
   

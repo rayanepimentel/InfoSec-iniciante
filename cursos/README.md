@@ -10,8 +10,8 @@ Recomendo que faça devagar, fazendo todos os labs (principalmente os labs inici
 | | | |
 |-|-|-|
 |Curso | Status | Info|
-|[Hackers do Bem](./hackersDoBem/README.md) | Em andamento | :brazil: - Gratuito |
-|[Security for developers](./Security-for-developers/README.md) | Em andamento | :us: - Gratuito |
-|[Desenvolvimento Seguro](https://cursos.alura.com.br/formacao-desenvolvimento-seguro) | Não iniciado | :brazil: - Pago (mas recebi uma bolsa da [SysAdminas](https://sysadminas.com.br/))| 
+|[Hackers do Bem](./hackersDoBem/README.md) | Em andamento | 🇧🇷 - Gratuito |
+|[Security for developers](./Security-for-developers/README.md) | Em andamento | 🇺🇸 - Gratuito |
+|[Desenvolvimento Seguro](https://cursos.alura.com.br/formacao-desenvolvimento-seguro) | Não iniciado | 🇧🇷 - Pago (mas recebi uma bolsa da [SysAdminas](https://sysadminas.com.br/))| 
 
 
