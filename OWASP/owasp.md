@@ -43,3 +43,8 @@ São recomendações sobre práticas de codificacões desde a prevenção de vul
 ## [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/index.html)
 
 Fornecem dicas rápidas e orientações para resolver problemas de segurança específicos de diferentes tecnologias e linguagens de programação.
+
+# Para pessoas desenvolvedoras
+
+- [Boas Práticas de Código](https://rayanepimentel.github.io/InfoSec-iniciante/OWASP/boas-praticas-de-codigo.html)
+- [Checklist Desenvolvimento Seguro](https://rayanepimentel.github.io/InfoSec-iniciante/OWASP/checklist-desenvolvimento-seguro.html)
