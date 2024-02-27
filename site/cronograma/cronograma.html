@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../public/estilo.css">
-    <script src="../public/header.js"></script>
-    <title>Cronograma</title>
-  </head>
-  <body>
-    <meu-header></meu-header>
-    <div class="container">
-      <div class="title">
-        <h1>Cronograma_</h1>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../public/estilo.css">
+  <script src="../public/header.js"></script>
+  <title>Cronograma</title>
+</head>
+
+<body>
+  <meu-header></meu-header>
+  <div class="container">
+    <div class="title">
+      <h1>Cronograma_</h1>
     </div>
-    <h3 class="subtitle"><a name="init">Por onde eu comecei?</a></h3>
-    <div class="container">
-      <p>Seguindo conselhos de pessoas que já trabalham na área.</p>
-    </div>
-    <h3 class="subtitle"><a name="encontrar">O que irei encontrar aqui?</a></h3>
-    <div class="container">
-      <p>
-        Conteúdo gratuito e muita analogia. Eu estudo fazendo analogia, isso me
-        ajuda muito.
-      </p>
-      <h2>Conteúdo_</h2>
-      <h3>Parte I → <a href="/InfoSec-iniciante/site/cronograma/parteUm.html">Bash e Redes&#x2197;</a></h3>
-      <h3>Parte II → <a href="/InfoSec-iniciante/site/cronograma/web.html">Web&#x2197;</a></h3>
-      <h3>
-        parte III →
-        <a
-          href="https://github.com/rayanepimentel/InfoSec-iniciante/tree/main/OWASP"
-          >OWASP&#x2197;</a
-        >
-      </h3>
-      <h3>
-        Parte IV →
-        <a
-          href="https://github.com/rayanepimentel/InfoSec-iniciante/blob/main/devSecOps/pipeline.md"
-          >DevSecOps&#x2197;</a
-        >
-      </h3>
-      <h3>
-        Parte V →
-        <a
-          href="InfoSec-iniciante/cursos/"
-          >Cursos&#x2197;</a
-        >
-      </h3>
-      <!-- .btn!= tw('Cronograma de estudo da Infosec iniciante: ')-->
-      <!-- .btn!=linkedin('/cronograma/index')-->
-    </div>
-  </body>
+  </div>
+  <h3 class="subtitle"><a name="init">Por onde eu comecei?</a></h3>
+  <div class="container">
+    <p>Seguindo conselhos de pessoas que já trabalham na área.</p>
+  </div>
+  <h3 class="subtitle"><a name="encontrar">O que irei encontrar aqui?</a></h3>
+  <div class="container">
+    <p>
+      Conteúdo gratuito e muita analogia. Eu estudo fazendo analogia, isso me
+      ajuda muito.
+    </p>
+    <h2>Conteúdo_</h2>
+    <h3>Parte I → <a href="/InfoSec-iniciante/site/cronograma/parteUm.html">Bash e Redes&#x2197;</a></h3>
+    <h3>Parte II → <a href="/InfoSec-iniciante/site/cronograma/web.html">Web&#x2197;</a></h3>
+    <h3>
+      parte III →
+      <a href="https://github.com/rayanepimentel/InfoSec-iniciante/tree/main/OWASP">OWASP&#x2197;</a>
+    </h3>
+    <h3>
+      Parte IV →
+      <a
+        href="https://github.com/rayanepimentel/InfoSec-iniciante/blob/main/devSecOps/pipeline.md">DevSecOps&#x2197;</a>
+    </h3>
+    <h3>
+      Parte V →
+      <a href="InfoSec-iniciante/cursos/">Cursos&#x2197;</a>
+    </h3>
+    <!-- .btn!= tw('Cronograma de estudo da Infosec iniciante: ')-->
+    <!-- .btn!=linkedin('/cronograma/index')-->
+  </div>
+</body>
+<script>
+  const menuLinks = this.querySelectorAll('.menu-link');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault(); // Prevenir o comportamento padrão de seguir o link
+      const href = link.getAttribute('href');
+      window.history.pushState({}, '', href); // Altera a URL sem recarregar a página
+    });
+  });
+</script>
+
 </html>
