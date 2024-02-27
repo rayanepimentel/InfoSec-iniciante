@@ -88,4 +88,8 @@ Ou seja, nesse cenário não vamos conseguir fazer o merge para `master` e a con
 
 
 
-[Parte 2](parte2-sast.md)
+<br>
+<hr>
+<br>
+
+[< Anterior](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline.html) | [Próxima >](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/sast-parte2.html)

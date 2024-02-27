@@ -52,3 +52,8 @@ O evento sempre é acionado quando ocorre um push para o branch "main" ou quando
     - Ao usar a palavra-chave "**uses**" em uma etapa, você pode especificar a ação a ser executada e, se necessário, fornecer argumentos adicionais para personalizar o comportamento da ação. Exemplo:
         - **uses: actions/checkout@v3:** Essa etapa usa a ação "checkout" para clonar o repositório do projeto. Essa etapa é responsável por obter o código-fonte do projeto para que ele possa ser usado nas etapas subsequentes.
     - "**name**" é usada para atribuir um nome a uma etapa (step) específica. O nome é opcional e serve para identificar e descrever a etapa de forma mais clara e legível.
+<br>
+<hr>
+<br>
+
+[Próxima >](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/pipeline-sast.html)

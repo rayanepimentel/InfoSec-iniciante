@@ -176,3 +176,9 @@ jobs:
 - [https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/)
 - [https://www.zaproxy.org/blog/2020-04-09-automate-security-testing-with-zap-and-github-actions/](https://www.zaproxy.org/blog/2020-04-09-automate-security-testing-with-zap-and-github-actions/)
 
+
+<br>
+<hr>
+<br>
+
+[< Anterior](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/sast-parte2.html) | 
