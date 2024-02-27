@@ -1,3 +1,5 @@
+[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/)
+
 # Cross site request forgery (CSRF)
 
 <img width="685" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/4269604c-ee40-4178-b1e2-0e17ee7fde62">
@@ -12,6 +14,12 @@
 
 ## Links
 
-- https://portswigger.net/web-security/csrf#
-- https://hackersec.com/o-que-e-csrf/
-- https://dadario.com.br/csrf-o-que-e/
+- [https://portswigger.net/web-security/csrf#](https://portswigger.net/web-security/csrf#)
+- [https://hackersec.com/o-que-e-csrf/](https://hackersec.com/o-que-e-csrf/)
+- [https://dadario.com.br/csrf-o-que-e/](https://dadario.com.br/csrf-o-que-e/)
+
+<br>
+<hr>
+<br>
+
+[< Anterior](05-code-injection.md) | [Próxima >](07-prototype-pollution.md)

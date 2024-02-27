@@ -1,4 +1,4 @@
-[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/README.md)
+[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/)
 
 # Broken access control
 
@@ -25,4 +25,4 @@
 <hr>
 <br>
 
-[< Anterior](/cursos/Security-for-developers/README.md) | [Próxima >](02-insecure-hash.md)
+[< Anterior](/cursos/Security-for-developers/) | [Próxima >](02-insecure-hash.md)

@@ -1,3 +1,5 @@
+[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/)
+
 # XML external entity injection (XXE)
 
 ## Leitura
@@ -9,3 +11,9 @@
 
 
 <img width="797" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/eff9220d-688d-4e4d-86de-d4453b2bb2c1">
+
+<br>
+<hr>
+<br>
+
+[< Anterior](10-xml.md) | [Próxima >](11-xpath.md)

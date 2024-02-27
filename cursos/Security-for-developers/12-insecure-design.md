@@ -1,3 +1,5 @@
+[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/)
+
 # Insecure design
 
 ## Leitura
@@ -38,3 +40,9 @@ Link do canva para melhor visualização: [Canva - Modelagem de ameaça](https:/
 
 ![Canva - Modelagem de ameaça](https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/be4a06e5-f726-4d74-a14a-b4a7d555ac16)
 
+
+<br>
+<hr>
+<br>
+
+[< Anterior](11-xpath.md) | [Próxima >]()

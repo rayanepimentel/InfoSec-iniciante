@@ -1,3 +1,6 @@
+[Cursos](/cursos/README.md) | [Security For Developers](/cursos/Security-for-developers/)
+
+
 # Cross-site scripting(XSS)
 
 <img width="1067" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/23655888-cb4c-4c7d-9a38-8467f2a77d5f">
@@ -53,8 +56,15 @@ Os ataques XSS podem ser organizados em duas categorias principais: **XSS basead
 
 
 ## Links
-- https://portswigger.net/web-security/cross-site-scripting
-- https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CSP
-- https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html
-- https://owasp.org/www-community/attacks/xss/#stored-and-reflected-xss-attacks
-- https://owasp.org/www-community/Types_of_Cross-Site_Scripting
+- [https://portswigger.net/web-security/cross-site-scripting](https://portswigger.net/web-security/cross-site-scripting)
+- [https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CSP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CSP)
+- [https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
+- [https://owasp.org/www-community/attacks/xss/#stored-and-reflected-xss-attacks](https://owasp.org/www-community/attacks/xss/#stored-and-reflected-xss-attacks)
+- [https://owasp.org/www-community/Types_of_Cross-Site_Scripting](https://owasp.org/www-community/Types_of_Cross-Site_Scripting)
+
+
+<br>
+<hr>
+<br>
+
+[< Anterior](03-InsecureRandomness.md) | [Próxima >](05-code-injection.md)
