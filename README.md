@@ -1,11 +1,34 @@
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/)
+
 # Estudo InfoSec
 
-Esse material é totalmente iniciante. Se encontrar alguma informação errada ou fora de contexto, por favor abra uma issue.
+Minha trajetória documentada sobre **InfoSec**
 
-Obrigada ˆ ˆ
+Esse material é totalmente iniciante.
 
-- [Bash](https://rayanepimentel.github.io/InfoSec-iniciante/bash/bash.html)
+Se você encontrar alguma informação errada ou fora de contexto, por favor abra uma issue :)
+
+Obrigada 💜
+
+<!-- - [Bash](https://rayanepimentel.github.io/InfoSec-iniciante/bash/bash.html)
 - [Redes - Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/start.html) 
 - [Web - OWASP](https://rayanepimentel.github.io/InfoSec-iniciante/OWASP/owasp.html)
-- [DevSecOps/AppSec](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/) :pushpin: Estou aqui!
-- [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) :pushpin: Estou aqui!
+- [DevSecOps/AppSec](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/) 📌 Estou aqui!
+- [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) 📌 Estou aqui! -->
+
+<br>
+<hr>
+<br>
+
+<footer class="footer">
+        <p class="text-muted">
+          Feito por <a href="/">Rayane Pimentel</a> |
+          <a href="https://www.linkedin.com/in/rayanepimentel/" target="_blank"
+            >LinkedIn&#x2197;</a
+          >
+          |
+          <a href="https://github.com/rayanepimentel/" target="_blank"
+            >Github&#x2197;</a
+          >
+        </p>
+</footer>
