@@ -10,6 +10,8 @@ Se você encontrar alguma informação errada ou fora de contexto, por favor abr
 
 Obrigada 💜
 
+![](giphy.gif)
+
 <!-- - [Bash](https://rayanepimentel.github.io/InfoSec-iniciante/bash/bash.html)
 - [Redes - Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/start.html) 
 - [Web - OWASP](https://rayanepimentel.github.io/InfoSec-iniciante/OWASP/owasp.html)
