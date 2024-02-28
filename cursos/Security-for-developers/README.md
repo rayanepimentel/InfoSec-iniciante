@@ -1,4 +1,4 @@
-[Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/site/cronograma/cronograma.html)| [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/)
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/)
 
 # Security for developers
 
