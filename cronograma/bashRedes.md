@@ -1,16 +1,12 @@
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/)
+
 # Bash e Redes 
+
    
 Comecei meus estudos com Bash e Redes, seguindo o Roadmap.
 
 A execução do Lab: Linux e Redes, foi do "Cantinho da Infosec"
 
-<!-- | Contéudo 📟 | Link |
-|------------------------|------|
-| Bash [video aula, livro e apostila] | [Bash&#x2197;](https://rayanepimentel.github.io/InfoSec-iniciante/bash/bash.html) |
-| Redes [Protocolos, Modelo OSI e TCP/IP] | [Redes&#x2197;](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/parte1/2.modelosOSI.html) |
-| Conceitos importantes de Redes | [+conceitos&#x2197;](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/parte1/outrosConceitos.html) |
-| Lab - Linux e Redes | [Linux & Redes&#x2197;](https://rayanepimentel.github.io/InfoSec-iniciante/redes/exercicios/linuxRedes) |
-| Desafios "OverTheWire" | [+Desafios Linux&#x2197;](https://rayanepimentel.github.io/InfoSec-iniciante/desafios/linux/overthewire/level00-00.html) | -->
 
 <table width="100%" cellspacing="10px" cellpadding="10px" border="2px">
       <thead width="70%" style="width: 100%">

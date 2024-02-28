@@ -1,6 +1,6 @@
 # Começo - Básico
 
-[Rede parte I ](/redes/redes-iniciante/parte1/0.menu.md)
+[Rede parte I ](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/parte1/menu.html)
 
 Refêrencias:
 

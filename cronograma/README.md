@@ -1,4 +1,4 @@
-[Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/)
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | 
 
 # Cronograma
 
