@@ -10,7 +10,7 @@ Se você encontrar alguma informação errada ou fora de contexto, por favor abr
 
 Obrigada 💜
 
-![](giphy.gif)
+<img src="giphy.gif" style='max-width: 30%;'>
 
 <!-- - [Bash](https://rayanepimentel.github.io/InfoSec-iniciante/bash/bash.html)
 - [Redes - Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/start.html) 
