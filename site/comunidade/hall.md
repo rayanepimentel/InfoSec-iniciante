@@ -1,4 +1,4 @@
-👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) 
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Técnicas e Ferramentas](https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/ferramentas.html)
 
 ## Lista de pessoas e/ comunidades
 
@@ -20,7 +20,6 @@
   <li>Juliana Gaioso → <a href="https://www.linkedin.com/in/juligaioso/" target="_blank">LinkedIn&#x2197;</a></li>
   <li>DevSecOps Global [Discord] → Gabriel Galdino <a href="https://twitter.com/gabogaldino/status/1688930267443118080" target="_blank">Twitter&#x2197;</a></li>
   
- <br>
  <br>
 
  | | |

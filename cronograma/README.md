@@ -1,4 +1,5 @@
-👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | 
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Comunidades](https://rayanepimentel.github.io/InfoSec-iniciante/site/comunidade/hall.html) | [Técnicas e Ferramentas](https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/ferramentas.html)
+
 
 # Cronograma
 
