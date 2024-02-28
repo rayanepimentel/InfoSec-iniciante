@@ -30,7 +30,7 @@ A execução do Lab: Linux e Redes, foi do "Cantinho da Infosec"
           <td>Redes [Protocolos, Modelo OSI e TCP/IP]</td>
           <td>
             <a
-              href="https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/parte1/2.modelosOSI.html"
+              href="hhttps://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/parte1/menu.html"
               target="_blank"
               >Redes↗</a
             >
