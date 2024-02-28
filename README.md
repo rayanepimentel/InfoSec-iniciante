@@ -18,9 +18,7 @@ Obrigada 💜
 - [DevSecOps/AppSec](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps/) 📌 Estou aqui!
 - [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) 📌 Estou aqui! -->
 
-<br>
 <hr>
-<br>
 
 <footer class="footer">
         <p class="text-muted">
