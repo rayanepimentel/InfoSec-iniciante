@@ -1,4 +1,4 @@
-👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Bash e Redes](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/bashRedes) | [Redes](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/start.html)| [Rede parte I ](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/parte1/menu.html)
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Bash e Redes](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/bashRedes) | [Redes](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/start.html) | [Rede parte I ](https://rayanepimentel.github.io/InfoSec-iniciante/redes/redes-iniciante/parte1/menu.html)
 
 # Aspectos Históricos
 
