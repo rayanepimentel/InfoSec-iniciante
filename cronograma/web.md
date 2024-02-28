@@ -3,20 +3,14 @@
 Eu já tenho background em programação, então resolvi estudar vulnerabilidades web.
 
 Fortemente realizado no servidor "Cantinho da Infosec" <3
-      <center>
-        <table
-          width="100%"
-          cellspacing="10px"
-          cellpadding="10px"
-          border="2px"
-        >
-          <thead>
-            <tr>
-              <th>Contéudo &#x1F4DF;</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
+<table width="100%" cellspacing="10px" cellpadding="10px" border="2px">
+      <thead width="70%" style="width: 100%">
+        <tr>
+          <th style="width: 30%">Contéudo 📟</th>
+          <th style="width: 10%">Link</th>
+        </tr>
+      </thead>
+      <tbody width="70" style="width: 800px">
             <tr>
               <td>OWASP [projetos]</td>
               <td>
@@ -49,7 +43,6 @@ Fortemente realizado no servidor "Cantinho da Infosec" <3
             </tr>
           </tbody>
         </table>
-      </center>
  
 ## Referências:
 <ul>

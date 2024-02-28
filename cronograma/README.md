@@ -11,8 +11,8 @@ Conteúdo gratuito e muita analogia. Eu estudo fazendo analogia, isso me ajuda m
 ## Conteúdo
 
 
-<h3>Parte I → <a href="/InfoSec-iniciante/site/cronograma/parteUm.html">Bash e Redes&#x2197;</a></h3>
-<h3>Parte II → <a href="/InfoSec-iniciante/site/cronograma/web.html">Web&#x2197;</a></h3>
+<h3>Parte I → <a href="https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/bashRedes">Bash e Redes&#x2197;</a></h3>
+<h3>Parte II → <a href="https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/web">Web&#x2197;</a></h3>
 <h3>Parte III →
     <a href="https://rayanepimentel.github.io/InfoSec-iniciante/OWASP/owasp.html">OWASP&#x2197;</a>
 </h3>
