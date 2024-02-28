@@ -1,7 +1,7 @@
 👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Comunidades](https://rayanepimentel.github.io/InfoSec-iniciante/site/comunidade/hall.html) | [Técnicas e Ferramentas](https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/ferramentas.html)
 
 
-# Cronograma <img src="calen.gif" style='max-width: 5%;'>
+# Cronograma <img src="calen.gif" style='max-width: 10%;'>
 
 
 **Por onde eu comecei?** <br>
