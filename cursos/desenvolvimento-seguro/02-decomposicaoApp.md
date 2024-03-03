@@ -1,3 +1,5 @@
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) | [Desenvolvimento Seguro](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/Desenvolvimento-seguro/)
+
 # Decomposição da aplicacão
 
 
@@ -109,3 +111,4 @@ Descrição: descrição textual do nível de confiança detalhando a entidade e
 A decomposição da aplicação tem como objetivo entender a aplicação e como ela interage com entidades externas. Isso é alcançado por meio de coleta e documentação de informações, utilizando uma estrutura claramente definida para garantir a coleta correta das informações
 
 
+[< Anterior](01-modelagemDeAmeaca.md) | 

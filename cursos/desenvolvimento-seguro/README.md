@@ -7,4 +7,4 @@
 
 - [ ] Modelagem de ameaça
   - [x] [Aula 01 - Termologias](01-modelagemDeAmeaca.md)
-  - [x] [Aula 02 - Decomposição](02-decomposicaoApp.md)
+  - [x] [Aula 02 - Decomposição da aplicacão](02-decomposicaoApp.md)
