@@ -25,7 +25,8 @@ Ela me mandou o instagram da loja XPTO.
 - Conta com uma quantidade significativa de seguidores, mas segue poucas pessoas.
 - O perfil da loja inclui um link para o site oficial.
 
-<img width="30%" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/628a4f5d-214a-4427-bb05-7e623dc55f36">
+<img width="30%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/2b7a72f0-c74c-4b29-a857-f9cd1cf4888d">
+
 
 Ao revisar os "Marcados", não foi possível encontrar nenhuma marcação.
 
