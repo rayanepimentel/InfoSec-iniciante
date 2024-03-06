@@ -114,8 +114,6 @@ Analise do CNPJ:
 Baseado na minha análise, concluo que o site da loja XPTO pode ser suspeito, possivelmente utilizado para fins de golpe. A criação recente do CNPJ e do site, o site com milhares de produtos com desconto atrativo e limitação de comentários nas fotos do Instagram e ausência de marcações, levantando questões sobre a legitimidade da atividade
 
 <hr>
-<br>
-
 
 <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/osint/lojafalsa.html" target="_blank">Compartilhar no LinkedIn</a>
 
