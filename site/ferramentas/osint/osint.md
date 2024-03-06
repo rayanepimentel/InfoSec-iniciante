@@ -6,3 +6,7 @@ OSINT, refere-se a todas as informações que podem ser encontradas publicamente
 
 ## Ferramentas:
 - [Osintgram↗](https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/osint/osintgram.html)
+
+## Casos de uso
+
+- [Avaliando a veracidade de uma loja no Instagram com OSINT](lojafalsa.md)
