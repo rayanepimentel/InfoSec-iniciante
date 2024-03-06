@@ -106,7 +106,7 @@ Analise do CNPJ:
 | Tempo de atividade do site: Menos de 1 mês                                                                                     |
 | CNPJ registrado há menos de 1 mês                                                                                              |
 | Site apresenta descontos de 70% em todos os produtos                                                                            |
-| Limitação de comentários nas fotos do Instagram e ausência de marcações, levantando questões sobre a legitimidade da atividade |
+| Limitação de comentários nas fotos do Instagram e ausência de marcações |
 
 
 ### Conclusão
