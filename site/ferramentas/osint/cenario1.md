@@ -91,7 +91,7 @@ Clique em "Consultar QSA"
 
 <img width="30%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/e869f64d-5750-44da-ac58-c49310c3a560">
 
-Só uma pessoa de sócia e capital inicial 15k, o que é estranho já que a loja tem milhares de itens 🤔
+
 
 Analise do CNPJ: 
 
