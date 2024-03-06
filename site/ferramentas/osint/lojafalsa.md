@@ -94,6 +94,6 @@ Analise do CNPJ:
 
 ### Conclusão
 
-Baseado na minha análise, concluo que o site da loja XPTO pode ser suspeito, possivelmente utilizado para fins de golpe. A criação recente do CNPJ e do site, o site com milhares de produtos com desconto atrativo e o instagram com limitação de comentários, o levataram algumas questões sobre a veracidade da loja.
+Baseado na minha análise, concluo que o site da loja XPTO pode ser suspeito, possivelmente utilizado para fins de golpe. A criação recente do CNPJ e do site, o site com milhares de produtos com desconto atrativo e o instagram com limitação de comentários, levataram algumas questões sobre a veracidade da loja.
 
 
