@@ -116,6 +116,6 @@ Baseado na minha análise, concluo que o site da loja XPTO pode ser suspeito, po
 
 <hr>
 
-<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/osint/lojafalsa.html" target="_blank">Compartilhar no LinkedIn</a>
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/osint/cenario1.html" target="_blank">Compartilhar no LinkedIn</a>
 
 

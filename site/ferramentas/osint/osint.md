@@ -9,4 +9,4 @@ OSINT, refere-se a todas as informações que podem ser encontradas publicamente
 
 ## Casos de uso
 
-- [Avaliando a veracidade de uma loja no Instagram com OSINT](lojafalsa.md)
+- [Avaliando a veracidade de uma loja no Instagram com OSINT](cenario1.md)
