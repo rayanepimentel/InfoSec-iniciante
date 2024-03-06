@@ -95,9 +95,9 @@ Só uma pessoa de sócia e capital inicial 15k, o que é estranho já que a loja
 
 Analise do CNPJ: 
 
-- O CNPJ foi registrado há menos de um mês, o que é bastante incomum.
-- A loja foi registrada com um capital inicial de 15k
-- Uma única pessoa como sócia, o que parece estranho para uma loja com um catálogo tão vasto.
+- O CNPJ foi registrado há menos de um mês.
+- A loja foi registrada com um capital inicial de 15k.
+- Uma única pessoa como sócia.
 
 ### Resumo
 
@@ -106,7 +106,6 @@ Analise do CNPJ:
 | Tempo de atividade do site: Menos de 1 mês                                                                                     |
 | CNPJ registrado há menos de 1 mês                                                                                              |
 | Site apresenta descontos de 70% em todos os produtos                                                                            |
-| Única pessoa como sócia, com capital inicial de apenas 15k, contrastando com o vasto catálogo de produtos da loja              |
 | Limitação de comentários nas fotos do Instagram e ausência de marcações, levantando questões sobre a legitimidade da atividade |
 
 
