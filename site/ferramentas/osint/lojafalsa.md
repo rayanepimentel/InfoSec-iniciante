@@ -2,7 +2,12 @@
 
 # Avaliando a veracidade de uma loja no Instagram com OSINT
 
-Ferramentas Utilizadas:
+<img width="80%%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/2acdd6f1-e72a-4fb8-9bbd-e70a04326364">
+
+<br>
+<br>
+
+**Ferramentas Utilizadas:**
 
 - Instagram: [https://instagram.com/](https://instagram.com/)
 - Site do Governo (Consulta de CNPJ): [https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp](https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp)
@@ -106,5 +111,11 @@ Analise do CNPJ:
 ### Conclusão
 
 Baseado na minha análise, concluo que o site da loja XPTO pode ser suspeito, possivelmente utilizado para fins de golpe. A criação recente do CNPJ e do site, o site com milhares de produtos com desconto atrativo e limitação de comentários nas fotos do Instagram e ausência de marcações, levantando questões sobre a legitimidade da atividade
+
+<hr>
+<br>
+
+
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/osint/lojafalsa.html" target="_blank">Compartilhar no LinkedIn</a>
 
 
