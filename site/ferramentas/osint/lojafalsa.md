@@ -2,7 +2,7 @@
 
 # Avaliando a veracidade de uma loja no Instagram com OSINT
 
-<img width="80%%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/2acdd6f1-e72a-4fb8-9bbd-e70a04326364">
+<img width="50%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/2acdd6f1-e72a-4fb8-9bbd-e70a04326364">
 
 <br>
 <br>
