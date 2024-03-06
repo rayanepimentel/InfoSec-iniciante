@@ -78,7 +78,7 @@ Entrei no site da governo [https://solucoes.receita.fazenda.gov.br/Servicos/cnpj
 <img width="30%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/ebdb1e3c-8561-41ac-a5d3-850b718c1c47">
 
 
-Menos de 1 mês que CNPJ foi aberto? Mto estranho 🤔
+Menos de 1 mês que CNPJ foi aberto? Muito estranho 🤔
 
 Clique em "Consultar QSA"
 
