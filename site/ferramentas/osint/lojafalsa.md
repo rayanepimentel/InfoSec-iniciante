@@ -15,8 +15,6 @@ Ela me mandou o instagram da loja XPTO.
 
 ### Instagram
 
-Analise do instagram: 
-
 - 3 anos de vendas.
 - Conta com uma quantidade significativa de seguidores, mas segue poucas pessoas.
 - O perfil da loja inclui um link para o site oficial.
@@ -27,9 +25,23 @@ Ao revisar os "Marcados", não foi possível encontrar nenhuma marcação.
 
 <img width="30%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/7f576d3c-178e-455e-bd50-5ccb3a2b3d4a">
 
-
 Muito estranho, tantos seguidores, 3 anos de mercado e ninguém comprou e marcou? 🤔
 
+As ultimas fotos estão com comentários bloquea-dos
+
+<img width="30%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/6f172b36-2490-4336-bba9-10f71b5dff7b">
+
+E as fotos que estão com comentários, estão limitados, não consigo ve-los.
+
+<img width="30%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/d80e0996-ffc8-40a1-90c7-c29663647dde">
+
+<img width="30%" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/0116ad54-9015-45d3-a2c2-11c80c675c95">
+
+Analise do instagram: 
+
+- Fotos com comentários bloqueados.
+- Fotos que tem comentários estão limitados.
+- Nenhuma marcação.
 
 ### Whois site
 
