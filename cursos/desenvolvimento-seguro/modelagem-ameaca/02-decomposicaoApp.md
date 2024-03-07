@@ -7,6 +7,19 @@ Link do canva para melhor visualização: [Canva - Modelagem de ameaça](https:/
 
 ![Canva - Modelagem de ameaça](https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/be4a06e5-f726-4d74-a14a-b4a7d555ac16)
 
+## Inicio
+
+Para iniciar a modelagem de ameaça, você precisa responder 4 perguntas:
+
+
+    O que você está construindo?
+    O que pode dar errado?
+    O que você deve fazer em relação a essas coisas que podem dar errado?
+    Você fez um bom trabalho de análise?
+
+### O que você está construindo?
+
+
 
 ## Processo
 

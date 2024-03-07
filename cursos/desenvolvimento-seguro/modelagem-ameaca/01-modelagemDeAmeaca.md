@@ -2,6 +2,11 @@
 
 # Modelagem de ameaça
 
+Ao aprender uma nova língua, é preciso desenvolver a memória muscular e a consciência de falar essa língua. No início, o pronunciamento não será perfeito, e pode ser frustrante. No entanto, com prática constante, você começa a reconhecer os sons e a gramática, tornando-se mais confiante e fluente. Na modelagem de ameaça acontece a mesma coisa, é necessário "pratica, pratica e pratica" 
+
+
+
+
 ## Terminologias
 
 ![Alt text](image.png)
