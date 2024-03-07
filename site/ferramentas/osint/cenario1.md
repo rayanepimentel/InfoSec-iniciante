@@ -8,6 +8,13 @@
 <br>
 <br>
 
+**Contexto**
+
+O que é OSINT?
+
+OSINT refere-se a todas as informações que podem ser encontradas publicamente(informações no facebook, instagram e outras contas publicamente disponíveis), via internet, sem violar quaisquer leis de direitos autorais ou privacidade.
+
+
 **Ferramentas Utilizadas:**
 
 - Instagram: [https://instagram.com/](https://instagram.com/)
