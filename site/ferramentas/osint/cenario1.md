@@ -124,4 +124,5 @@ Baseado na minha análise, concluo que o site da loja XPTO pode ser suspeito, po
 
 <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/osint/cenario1.html" target="_blank">Compartilhar no LinkedIn</a>
 
+<a href="#avaliando-a-veracidade-de-uma-loja-no-instagram-com-osint" style="display: inline-block; border-radius: 50%; padding: 10px; border: 2px solid black; color: black; position: fixed; bottom: 20px; right: 20px; z-index: 100;">^</a>
 
