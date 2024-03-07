@@ -6,5 +6,11 @@
 ## Tópicos
 
 - [ ]  Modelagem de ameaça
-  - [x]  [Aula 01 - Termologias](01-modelagemDeAmeaca.md)
-  - [x]  [Aula 02 - Decomposição da aplicacão](02-decomposicaoApp.md)
+  - [x]  [Aula 01 - Termologias](./modelagem-ameaca/01-modelagemDeAmeaca.md)
+  - [x]  [Aula 02 - Decomposição da aplicacão](./modelagem-ameaca/02-decomposicaoApp.md)
+  - [ ] [Aula 03 - Determinar e caterizar ameaças](./modelagem-ameaca/03-determinarAmeaca.md)
+
+
+|Tópico | Descrição |
+|-------|-----------|
+|Modelagem de ameaça | | 

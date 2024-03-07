@@ -1,4 +1,4 @@
-👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) | [Desenvolvimento Seguro](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/Desenvolvimento-seguro/)
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) | [Desenvolvimento Seguro](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/desenvolvimento-seguro/)
 
 # Modelagem de ameaça
 
@@ -63,4 +63,4 @@ A modelagem de ameaça é uma estratégia essencial para o desenvolvimento segur
 <hr>
 <br>
 
-[< Anterior](README.md) | [Próxima >](02-decomposicaoApp.md)
+[< Anterior](../README.md) | [Próxima >](02-decomposicaoApp.md)
