@@ -7,7 +7,7 @@
 
 ## Processo
 
-Você precisa anotar o processo, as evidencias da sua modelagem de ameaça, que servirá para consulta e analise prosteriormente.
+Você precisa criar o processo, as evidencias da sua modelagem de ameaça, que servirá para consulta e analise prosteriormente.
 
 O que precisa ter nesse documento? 
 
@@ -22,6 +22,23 @@ Informações sobre a equipe e o projeto:
 **Participantes**: participantes envolvidos no processo de moldagem de ameaças para essa aplicação<br>
 **Revisor**: revisor(es) do modelo de ameaça. <br>
 
+Por exemplo
+
+**Informações sobre o modelo de ameaça**
+
+**Versão da aplicação**: 1.0 <br>
+**Descrição**: Site universitário para alunos(clientes) e funcionários da universidade. Nesse primeiro momento, teremos três tipos de usuários: 
+
+- Alunos
+- Professores 
+- Equipe administradora. 
+
+Os alunos poderão fazer login, realizar re-matrícula, visualizar suas notas e frequência. Os professores, poderão adicionar e alterar notas e frequência dos alunos. A equipe administradora poderá alterar, excluir cadastros dos alunos e dos professores. <br>
+
+**Proprietário**: Rayane Pimentel <br>
+**Participantes**: Any Maria <br>
+**Revisor**: Joana Daria <br>
+
 ### Dependências externas
 
 São itens externos ao código da aplicação que podem representar uma ameaça a aplicação. 
@@ -34,11 +51,12 @@ Incluir na documentação:
 - ID: ID exclusivo atribuído a dependência externa
 - Descrição: descrição contextual da dependência externa
 
-Ex: 
+Exemplo: **Dependências externas**
 
 |ID|Descrição |
 |--|--|
-|1	|O servidor web está protegido por um firewall e a única comunicação disponível é TLS|
+|1 |O servidor web está protegido por um firewall e a única comunicação disponível é TLS|
+|2 |A conexão entre o servidor web e o servidor de banco de dados será através de uma rede privada.|
 
 
 ### Pontos de entrada
@@ -58,11 +76,12 @@ Os pontos de entrada e saída definem um limite de confiaça.
 - Descrição: descrição contextual detalhando a interação ou processamento que ocorrer no ponto de entrada
 - Níveis de confiança: o nível de acesso exigido no ponto de entrada. Esses serão cruzados com os níveis de confiança definidos posteriormente no documenta.
 
-Ex:
+Exemplo: **Pontos de entrada**
 
 |ID	  |Nome             |Descrição   |	Níveis de confiança|
 |--|--| -- | --|
-1.2.1| Função de login	|Função de login aceita credenciais fornecidas pelo usuário e as compraram com as do banco de dados Usuário com credenciais de login válidas. |(2) Usuário com credenciais de login válidas. (3) Usuário com credenciais de login inválidas (4) Usuário ADM|
+|1| Pagina de login| A função de login recebe as credenciais fornecidas pelo usuário e compara no banco de dados | Usuário com credencial válida|
+|1.2| Função de login	|Função de login aceita credenciais fornecidas pelo usuário e as compraram com as do banco de dados Usuário com credenciais de login válidas. |(2) Usuário com credenciais de login válidas. (3) Usuário com credenciais de login inválidas (4) Usuário ADM|
 
 
 ### Pontos de saída
@@ -80,15 +99,21 @@ O sistema deve ter algo que interesse o invasor; esses itens ou áreas são defi
 - Descrição: descrição contextual do que é o ativo e pq ele precisa ser protegido
 - Níveis de confiança: o nível de acesso necessário para acessar o ponto de entrada está documentado aqui. Estes serrano cruzados com os níveis de confiança definidos na próxima etapa.
 
+Exemplo: **Pontos de saída**
 
 |ID	|Nome	|Descrição	|Níveis de confiança|
 |--|--| -- | --|
-|1	|Acesso ao servidor de banco de dados	|O acesso ao servidor de banco de dados permite administrar o banco de dados, dando-lhe acesso total aos usuários do banco de dados e a todos os dados contidos no banco de dados.|	Administrador do servidor de banco de dados.|
+|1 | Usuários(cliente) e funcionários(professores e equipe administrativa)| |
+|1.1| Detalhe de login | Credenciais de login dos usuários e dos professores da universidade|Usuário com credencial válida; Administrador do Servidor do banco de dados; Banco de dados de leitura de usuário |
+|1.2|Detalhes do Login da equipe administrativa| Equipe ADM; Administrador do Servidor de Banco de Dados; Banco de dados de leitura de usuário|
+|1.3|Dados pessoais| Dados que a universidade armazenará informações pessoais relacionadas aos alunos e dos funcionário|Usuários;Professores; Equipe ADM; Administrador do Servidor de Banco de Dados; Banco de dados de leitura de usuário
 
 
 ### Níveis de confiança
 
 Os níveis de confiança representam os direitos de acesso que a aplicação concederá a entidades externas. Os níveis de confiança são cruzados com os pontos de entrada e ativos. Isso permite-nos definir os direitos de acesso ou privilégios necessários em cada ponto de entrada e aqueles necessários para interagir com cada ativo.
+
+> Os níveis de confiança referem-se ao nível de acesso necessário em cada ponto de entrada/sa;ida para interagir com a aplicação ou fornecer dados a ela.
 
 ID: Exclusivo e atribuído a cada nível de confiança. 
 Nome: nome descritivo que permite identificar as entidades externas as quais foi concedido esse nível de confiança
@@ -96,12 +121,18 @@ Descrição: descrição textual do nível de confiança detalhando a entidade e
 
 |ID	|Nome	|Descrição|
 |--|--| --|
-|1	|Usuário anonimo da web	|Um usuário que se conectou ao site, mas não forneceu credenciais válidas|
+|1	|Usuário anonimo da web	|Um usuário que se conectou ao site, mas não forneceu credenciais válidas.|
+|2  |Usuário com credenciais de login válidas| Um usuário que se conectou ao site da faculdade e fez login usando credenciais de login válidas.|
+|3|Usuário com credenciais de login inválido|Um usuário que se conectou ao site da faculdade e está tentando fazer login usando credenciais de login inválidas.|
 
 
 ### Diagramas de Fluxo de Dados
 
-A decomposição da aplicação tem como objetivo entender a aplicação e como ela interage com entidades externas. Isso é alcançado por meio de coleta e documentação de informações, utilizando uma estrutura claramente definida para garantir a coleta correta das informações.
+#### Elementos do diagrama do fluxo de dados
+
+<img width="800" src="image-6.png">
+
+<img width="800" src="image-7.png">
 
 
 <br>
