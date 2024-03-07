@@ -180,4 +180,8 @@ Descrição: descrição textual do nível de confiança detalhando a entidade e
 A decomposição da aplicação tem como objetivo entender a aplicação e como ela interage com entidades externas. Isso é alcançado por meio de coleta e documentação de informações, utilizando uma estrutura claramente definida para garantir a coleta correta das informações.
 
 
-[< Anterior](01-modelagemDeAmeaca.md) | 
+<br>
+<hr>
+<br>
+
+[< Anterior](01-coletar-inform.md) | [Próxima >](03-determinarAmeaca.md)

@@ -19,3 +19,10 @@ Vamos entender um pouco sobre esses ataques:
 
 
 ![Alt text](image-4.png)
+
+
+<br>
+<hr>
+<br>
+
+[< Anterior](03-determinarAmeaca.md) | [Próxima >](03-determinarAmeaca.md)
