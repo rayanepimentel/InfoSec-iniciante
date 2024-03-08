@@ -22,5 +22,5 @@
 - [x] [Insecure design](12-insecure-design.md)
 - [x] [Vulnerable and outdated components](13-vulnerable-components.md)
 - [x] [Directory traversal](14-directory-traversal.md)
-- [ ] Logging vulnerabilities
-- [ ] Server-side request forgery (SSRF)
+- [x] [Logging vulnerabilities](15-logging-vuln.md)
+- [x] [Server-side request forgery (SSRF)](16-ssrf.md)
