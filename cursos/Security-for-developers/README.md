@@ -20,7 +20,7 @@
 - [x] [XML external entity injection (XXE)](10-xml.md)
 - [x] [XPath injection](11-xpath.md)
 - [x] [Insecure design](12-insecure-design.md)
-- [ ] Vulnerable and outdated components
-- [ ] Directory traversal
+- [x] Vulnerable and outdated components
+- [x] Directory traversal
 - [ ] Logging vulnerabilities
 - [ ] Server-side request forgery (SSRF)
