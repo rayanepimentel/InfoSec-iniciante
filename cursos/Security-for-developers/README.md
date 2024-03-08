@@ -21,6 +21,6 @@
 - [x] [XPath injection](11-xpath.md)
 - [x] [Insecure design](12-insecure-design.md)
 - [x] [Vulnerable and outdated components](13-vulnerable-components.md)
-- [x] [Directory traversal](directory-traversal.md)
+- [x] [Directory traversal](14-directory-traversal.md)
 - [ ] Logging vulnerabilities
 - [ ] Server-side request forgery (SSRF)
