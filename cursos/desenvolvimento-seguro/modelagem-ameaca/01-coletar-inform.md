@@ -94,6 +94,9 @@ Ao responde-las, você terá uma lista de possíveis ameaças.
 
 ## O que você deve fazer em relação a essas coisas que podem dar errado?
 
+> Priorize ameaças por risco!
+
+
 Com uma lista de ameaças encontradas no passo anterior, o próximo passo é percorrer cada item e desenvolver estratégias para enfrentá-las. Para cada ameaça identificada, você tem a opção de adotar uma das quatro abordagens: **mitigar, eliminar, transferir ou aceitar**.
 
 |Risco | Definição |
@@ -110,6 +113,16 @@ Exemplo de mitigação:
 |Login(alguém se passando por outro usuário) | Identificação e autenticação de login(o sistema sabe/tem) | Senha, Tokens e MFA|
 |Monitoramento de rede| Criptografia | HTTPS/SSL e IPsec |
 |Segurança de Dados|Proteção de dados|Criptografia de dados, autenticação forte, firewalls|
+
+**Backlog**
+
+Adicione itens de correção e mitigação ao seu backlog de desenvolvimento. Esses itens devem ser priorizados com base na gravidade da ameaça identificada e na probabilidade de ocorrerem.
+
+Exemplo:
+
+    Dado a solicitação de visualização da página de detalhes da conta,
+    Quando não há um token de solicitação válido para esse usuário,
+    Então a solicitacão é rejeitada como não autorizada.
 
 
 ## Fizemos um bom trabalho?

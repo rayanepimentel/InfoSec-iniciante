@@ -117,9 +117,9 @@ Os níveis de confiança representam os direitos de acesso que a aplicação con
 
 > Os níveis de confiança referem-se ao nível de acesso necessário em cada ponto de entrada/sa;ida para interagir com a aplicação ou fornecer dados a ela.
 
-ID: Exclusivo e atribuído a cada nível de confiança. 
-Nome: nome descritivo que permite identificar as entidades externas as quais foi concedido esse nível de confiança
-Descrição: descrição textual do nível de confiança detalhando a entidade externa a quem foi concedido o nível de confiança.
+- ID: Exclusivo e atribuído a cada nível de confiança. 
+- Nome: nome descritivo que permite identificar as entidades externas as quais foi concedido esse nível de confiança
+- Descrição: descrição textual do nível de confiança detalhando a entidade externa a quem foi concedido o nível de confiança.
 
 |ID	|Nome	|Descrição|
 |--|--| --|
