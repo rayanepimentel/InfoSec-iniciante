@@ -26,4 +26,4 @@ Vamos entender um pouco sobre esses ataques:
 <hr>
 <br>
 
-[< Anterior](03-determinarAmeaca.md) | [Próxima >](03-determinarAmeaca.md)
+[< Anterior](02-decomposicaoApp.md) | [Próxima >](03-determinarAmeaca.md)
