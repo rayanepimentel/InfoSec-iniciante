@@ -52,22 +52,24 @@ Agora vamos desenhar o sistema.
 
 <img width="500" alt="image" src="image-11.png">
 
-Depois começa as perguntas: 
-
-    Esse site web é para toda internet ou é intranet? 
-    o banco de dados tá hospedado em qual provedor? 
-    ...
-
-Depois de responder-las, você pode melhorar o seu diagrama. Você pode dividir em limites de confiança. 
 
 **Limite de confiança**
 
 Os limites de confiança são definidos como os pontos de controle de acesso e segurança que separam diferentes zonas de confiança dentro de um sistema. Eles influenciam a segurança do sistema ao determinar quais dados e serviços podem ser acessados e como esses acessos são verificados e autorizados. 
 
+Perguntas:
+
+
+    Esse site web é para toda internet ou é intranet? 
+    o banco de dados tá hospedado em qual provedor? 
+    ...
+
+
+Depois de responder-las, você pode melhorar o seu diagrama. 
 
 <img width="500" alt="image" src="image-12.png">
 
-Limites de confiança são conhecidos tbm por "limites de autorização"
+Limites de confiança são conhecidos também por "limites de autorização".
 
 **Mostre os seus ativos**
 
