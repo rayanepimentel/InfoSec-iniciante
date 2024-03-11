@@ -5,6 +5,8 @@
 <img width="338" alt="image" src="https://github.com/rayanepimentel/InfoSec-iniciante/assets/37915359/25829c34-87c8-4d3a-b678-7fa54c495ffb">
 
 
+<img width="700" alt="image" src="image-8.png">
+
 ## Processo
 
 Você precisa criar o processo, as evidencias da sua modelagem de ameaça, que servirá para consulta e analise prosteriormente.
