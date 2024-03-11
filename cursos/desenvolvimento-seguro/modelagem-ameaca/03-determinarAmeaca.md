@@ -18,7 +18,8 @@ Vamos entender um pouco sobre esses ataques:
 |Elevation of Privilege| Autorização | Quando o atacante realiza ações que não é permitido, autorizado a fazer| Quando usuário comum, consegue ter as mesmas permissões que o usuário administrador. Podendo modificar, criar e excluir outros usuário|
 
 
-![Alt text](image-4.png)
+<img width="500" src="image-14.png">
+
 
 
 <br>
