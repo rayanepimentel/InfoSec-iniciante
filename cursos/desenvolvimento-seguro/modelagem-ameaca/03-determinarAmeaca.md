@@ -2,7 +2,8 @@
 
 # Determinar e classificar as ameaças
 
-<img width="338" src="image-17.png">
+<img width="338" src="image-23.png">
+
 
 ## STRIDE
 
@@ -41,7 +42,7 @@ Estou usando o Threat Dragon da OWASP
 
 <br>
 
-- Add tile, tipo do STRIDE e a descrição:
+- Add tile, tipo do STRIDE, descrição e determinar risco(baixo, médio ou alto):
 
 <img width="500" src="image-21.png">
 
