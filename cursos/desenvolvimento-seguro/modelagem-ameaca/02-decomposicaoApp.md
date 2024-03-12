@@ -133,8 +133,8 @@ Os níveis de confiança representam os direitos de acesso que a aplicação con
 |ID	|Nome	|Descrição|
 |--|--| --|
 |1	|Usuário anonimo da web	|Um usuário que se conectou ao site, mas não forneceu credenciais válidas.|
-|2  |Usuário com credenciais de login válidas| Um usuário que se conectou ao site da faculdade e fez login usando credenciais de login válidas.|
-|3|Usuário com credenciais de login inválido|Um usuário que se conectou ao site da faculdade e está tentando fazer login usando credenciais de login inválidas.|
+|2  |Usuário com credenciais de login válidas| Um usuário que se conectou ao site e fez login usando credenciais de login válidas.|
+|3|Usuário com credenciais de login inválido|Um usuário que se conectou ao site e está tentando fazer login usando credenciais de login inválidas.|
 
 
 ### Diagramas de Fluxo de Dados
