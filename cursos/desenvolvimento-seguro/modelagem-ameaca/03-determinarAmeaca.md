@@ -2,6 +2,8 @@
 
 # Determinar e classificar as ameaças
 
+<img width="338" src="image-17.png">
+
 ## STRIDE
 
 O modelo de ameaça STRIDE é um modelo focado para identificar e classificar ameaças sob 6 tipos de ataques – **Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.**
@@ -20,7 +22,30 @@ Vamos entender um pouco sobre esses ataques:
 
 <img width="500" src="image-14.png">
 
+## Como usar modelo STRIDE na nossa aplicação
 
+Estou usando o Threat Dragon da OWASP
+
+<img width="500" src="image-18.png">
+
+<img width="500" src="image-19.png">
+
+<img width="500" src="image-20.png">
+
+<br>
+
+- Clica no componente
+- Depois em "+ New Threat"
+
+<img width="500" src="image-22.png">
+
+<br>
+
+- Add tile, tipo do STRIDE e a descrição:
+
+<img width="500" src="image-21.png">
+
+- Mtigações será no próximo passo.
 
 <br>
 <hr>
