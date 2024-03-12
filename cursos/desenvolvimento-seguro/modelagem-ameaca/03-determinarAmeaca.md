@@ -42,11 +42,11 @@ Estou usando o Threat Dragon da OWASP
 
 <br>
 
-- Add tile, tipo do STRIDE, descrição e determinar risco(baixo, médio ou alto):
+- Add title, tipo do STRIDE, descrição e determinar risco(baixo, médio ou alto):
 
 <img width="500" src="image-21.png">
 
-- Mtigações será no próximo passo.
+- Mitigações será no próximo passo.
 
 <br>
 <hr>
