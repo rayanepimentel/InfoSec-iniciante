@@ -93,6 +93,11 @@ Com base no diagrama anterior, você começa a fazer perguntas sobre o que pode 
 
 Ao responde-las, você terá uma lista de possíveis ameaças.
 
+Vocês podem add post it nos pontos que podem dar errado/nao deveria acontecer, escrevendo pequenas descrições para seres analisada depois.
+
+<img width="500" alt="image" src="image-24.png">
+
+
 ## O que você deve fazer em relação a essas coisas que podem dar errado?
 
 > Priorize ameaças por risco!
