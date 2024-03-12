@@ -81,7 +81,8 @@ Exemplo:
     As informacões de identificação pessoal (PII)
 
 
-<img width="500" alt="image" src="image-13.png">
+<img width="500" alt="image" src="image-16.png">
+
 
 ## O que pode dar errado?
 

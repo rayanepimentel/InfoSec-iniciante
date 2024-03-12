@@ -7,9 +7,20 @@
 
 <img width="700" alt="image" src="image-8.png">
 
-## Processo
+## Contexto
 
-Você precisa criar o processo, as evidencias da sua modelagem de ameaça, que servirá para consulta e analise prosteriormente.
+Digamos que você é uma desenvolvedora e foi chamada para participar de um reunião sobre de modelagem de ameaça de uma nova feature.
+
+Primeira coisa que vamos fazer é descobrir o que essa feature faz:
+
+História: 
+
+    Eu como cliente, preciso de uma página onde possa ver os detalhes da minha conta, 
+    para poder confirmar se estão corretos.
+
+## Processo
+<!-- 
+Você precisa criar o processo, as evidencias da sua modelagem de ameaça, que servirá para consulta e analise prosteriormente. -->
 
 O que precisa ter nesse documento? 
 
@@ -29,14 +40,7 @@ Por exemplo
 **Informações sobre o modelo de ameaça**
 
 **Versão da aplicação**: 1.0 <br>
-**Descrição**: Site universitário para alunos(clientes) e funcionários da universidade. Nesse primeiro momento, teremos três tipos de usuários: 
-
-- Alunos
-- Professores 
-- Equipe administradora. 
-
-Os alunos poderão fazer login, realizar re-matrícula, visualizar suas notas e frequência. Os professores, poderão adicionar e alterar notas e frequência dos alunos. A equipe administradora poderá alterar, excluir cadastros dos alunos e dos professores. <br>
-
+**Descrição**: Usuário precisa visualizar os seus dados, para poder confirmar se estão corretos. <br>
 **Proprietário**: Rayane Pimentel <br>
 **Participantes**: Any Maria <br>
 **Revisor**: Joana Daria <br>
@@ -57,8 +61,9 @@ Exemplo: **Dependências externas**
 
 |ID|Descrição |
 |--|--|
-|1 |O servidor web está protegido por um firewall e a única comunicação disponível é TLS|
+|1 |O usuário acessará a página através de um browser qualquer que tenha à disposição, como Chrome ou Firefox.|
 |2 |A conexão entre o servidor web e o servidor de banco de dados será através de uma rede privada.|
+|3 |O banco de dados é hospedado em um serviço de armazenamento em nuvem|
 
 
 ### Pontos de entrada
@@ -76,17 +81,19 @@ Os pontos de entrada e saída definem um limite de confiaça.
 - ID: ID exclusivo ao ponto de entrada. Será usado para cruzar o ponto de entrada com quaisquer ameaças ou vulnerabilidades encontradas. 
 - Nome: nome descritivo que identifica o ponto de entrada e sua finalidade
 - Descrição: descrição contextual detalhando a interação ou processamento que ocorrer no ponto de entrada
-- Níveis de confiança: o nível de acesso exigido no ponto de entrada. Esses serão cruzados com os níveis de confiança definidos posteriormente no documenta.
+- Níveis de confiança: o nível de acesso exigido no ponto de entrada. Esses serão cruzados com os níveis de confiança definidos posteriormente no documento. É nível de autorização que a pessoa que vai interagir com este ponto precisa ter.
 
 Exemplo: **Pontos de entrada**
 
 |ID	  |Nome             |Descrição   |	Níveis de confiança|
 |--|--| -- | --|
-|1| Pagina de login| A função de login recebe as credenciais fornecidas pelo usuário e compara no banco de dados | Usuário com credencial válida|
-|1.2| Função de login	|Função de login aceita credenciais fornecidas pelo usuário e as compraram com as do banco de dados Usuário com credenciais de login válidas. |(2) Usuário com credenciais de login válidas. (3) Usuário com credenciais de login inválidas (4) Usuário ADM|
+|1| Acesso a pagina de "Detalhes da conta"| Onde usuário verá seus dados| Usuário precisa tá autenticado.
+|2| Solicitação de dados do cliente |Serviço(Backend), recebe solicitação para informar os dados do cliente | Usuário com credenciais válidas.|
 
 
 ### Pontos de saída
+
+> 
 
 Ativos
 
@@ -105,10 +112,12 @@ Exemplo: **Pontos de saída**
 
 |ID	|Nome	|Descrição	|Níveis de confiança|
 |--|--| -- | --|
-|1 | Usuários(cliente) e funcionários(professores e equipe administrativa)| |
-|1.1| Detalhe de login | Credenciais de login dos usuários e dos professores da universidade|Usuário com credencial válida; Administrador do Servidor do banco de dados; Banco de dados de leitura de usuário |
-|1.2|Detalhes do Login da equipe administrativa| Equipe ADM; Administrador do Servidor de Banco de Dados; Banco de dados de leitura de usuário|
-|1.3|Dados pessoais| Dados que a universidade armazenará informações pessoais relacionadas aos alunos e dos funcionário|Usuários;Professores; Equipe ADM; Administrador do Servidor de Banco de Dados; Banco de dados de leitura de usuário
+|1 | Usuários(cliente)| |
+|1.1| Detalhe de login | Credenciais de login do usuário |Usuário com credencial válida |
+|1.2|Dados pessoais| Dados que a aplicação armazenará informações pessoais relacionadas aos clientes|Usuários|
+|1.3|Interface Frontend (UI)|A interface web onde os usuários visualizam e editem seus detalhes de perfil.| Usuário autenticado
+|1.4|Serviço de Backend para Detalhes do Cliente|O serviço responsável por gerenciar os dados do perfil do cliente e interagir com o Banco de Dados.|Serviço de Backend|
+|1.5|Banco de dados |O armazenamento onde os dados do perfil do cliente são armazenados.|Acesso restrito ao Serviço de Backend|
 
 
 ### Níveis de confiança
@@ -134,7 +143,7 @@ Os níveis de confiança representam os direitos de acesso que a aplicação con
 
 <img width="800" src="image-6.png">
 
-<img width="800" src="image-7.png">
+<img width="800" src="image-15.png">
 
 
 <br>
