@@ -14,6 +14,10 @@ Para iniciar a modelagem de ameaça, você precisa responder 4 perguntas:
     Fizemos um bom trabalho?
 
 
+>Agora vamos entender um pouco como essas perguntas podem nos ajudar na modelagem de ameaça.
+>E depois veremos como Decompor a Aplicação, Determinar e Classificar as Ameaças e Determinar Contramedidas e Mitigação, com a coleta de informações.
+
+
 
 ## O que você está construindo?
 
@@ -24,9 +28,9 @@ Digamos que você é um desenvolvedor e foi chamado para participar das reuniõe
 Primeira coisa que vamos fazer é descobrir o que essa feature faz:
 
 História: 
-```
-Eu como cliente, preciso de uma página onde possa ver os detalhes da minha conta, para poder confirmar se estão corretos.
-```
+
+>Eu como cliente, preciso de uma página onde possa ver os detalhes da minha conta, para poder confirmar se estão corretos.
+
 Agora vamos desenhar o sistema.
 
 
