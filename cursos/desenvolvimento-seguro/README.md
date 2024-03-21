@@ -5,8 +5,8 @@
 
 ## Tópicos
 
-- [x]  [Modelagem de ameaça](./modelagem-ameaca/00-modelagem.md)
-
+- [x] [Modelagem de ameaça](./modelagem-ameaca/00-modelagem.md)
+- [ ] [Desenvolvimento Seguro - Parte I](./desenvolvimento-seguro1/inicio.md)
 
 |Tópico | Descrição |
 |-------|-----------|
