@@ -5,7 +5,7 @@
 
 ## Tópicos
 
-- [ ]  [Modelagem de ameaça](./modelagem-ameaca/00-modelagem.md)
+- [x]  [Modelagem de ameaça](./modelagem-ameaca/00-modelagem.md)
 
 
 |Tópico | Descrição |
