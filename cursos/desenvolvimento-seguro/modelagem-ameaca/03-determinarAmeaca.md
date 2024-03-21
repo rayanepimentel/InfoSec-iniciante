@@ -42,9 +42,26 @@ Estou usando o Threat Dragon da OWASP
 
 <br>
 
-- Add title, tipo do STRIDE, descrição e determinar risco(baixo, médio ou alto):
+- Adicione title, tipo do STRIDE, descrição e determinar o risco(baixo, médio ou alto):
 
 <img width="500" src="image-21.png">
+
+Para determinar o risco você pode usar essa tabela [https://chandanbn.github.io/cvss/](https://chandanbn.github.io/cvss/) ou [https://owasp-risk-rating.com/](https://owasp-risk-rating.com/)
+
+## Priorize ameaças por risco!
+
+
+Com uma lista de ameaças encontradas, o próximo passo é percorrer cada item e desenvolver estratégias para enfrentá-las. Para cada ameaça identificada, você tem a opção de adotar uma das quatro abordagens: **mitigar, eliminar, transferir ou aceitar**.
+
+|Risco | Definição |
+|------|-----------|
+|**Mitigar**| É quando são tomadas ações para reduzir a probabilidade (de ocorrer) e/ou o (potencial) impacto negativo dela.| |
+|**Eliminar**| É quando são tomadas ações para remover essa ameaça do projeto.| |
+|**Transferir**| É quando o impacto dela é transferido/compartilhado para terceiros.| |
+|**Aceitar** | É quando não é tomada nenhuma ação para lidar com ela. O custo para mitigar essa vulnerabilidade é alto e a probabilidade de ocorrer é baixa. | 
+
+
+## Mitigações
 
 - Mitigações será no próximo passo.
 
@@ -52,4 +69,4 @@ Estou usando o Threat Dragon da OWASP
 <hr>
 <br>
 
-[< Anterior](02-decomposicaoApp.md) | [Próxima >](03-determinarAmeaca.md)
+[< Anterior](02-decomposicaoApp.md) | [Próxima >](04-contramedidas-mitigacao.md)

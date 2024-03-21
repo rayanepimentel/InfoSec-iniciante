@@ -10,7 +10,7 @@ Ao aprender uma nova língua, é preciso desenvolver a memória muscular e a con
 - [Coletar Informações](01-coletar-inform.md)
 - [Decomposicão da Aplicação](02-decomposicaoApp.md)
 - [Determinar e classificar ameaças](03-determinarAmeaca.md)
-- [ Determinar contramedidas e mitigação]()
+- [ Determinar contramedidas e mitigação](04-contramedidas-mitigacao.md)
 
 
 
