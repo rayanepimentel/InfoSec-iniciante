@@ -1,3 +1,5 @@
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Cursos](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/) | [Desenvolvimento Seguro](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/desenvolvimento-seguro/) | [Modelagem de Ameaça](https://rayanepimentel.github.io/InfoSec-iniciante/cursos/desenvolvimento-seguro/modelagem-ameaca/00-modelagem)
+
 # Determinar Contramedidas e Mitigação
 
 > Após a identificação e classificação das ameaças, são definidas contramedidas específicas para mitigar cada uma delas. Isso pode incluir a implementação de medidas de segurança, como autenticação forte, criptografia de dados e validação de entrada 
