@@ -147,4 +147,8 @@ Se você respondeu todas sim, é porque o seu diagrama já pode ir para o próxi
 
 A modelagem de ameaças é um processo contínuo que deve ser atualizado e refinado à medida que o sistema evolui.
 
+## Continuação
+
+Agora, entendemos o fluxo para coletar informações, uma tarefa realizada em conjunto com a decomposição da aplicação. Isso significa que, à medida que nos aprofundamos nas informações, avançamos na decomposição e na criação do escopo para a modelagem de ameaças.
+
 [< Anterior](00-modelagem.md) | [Próxima >](02-decomposicaoApp.md)
