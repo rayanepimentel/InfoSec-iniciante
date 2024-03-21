@@ -6,7 +6,7 @@
 
 ## Contramedidas e Mitigação
 
-Em [Determinar Ameaças](03-determinarAmeaca.md), usmaos o modelo STRIDE e identificamos algumas vulnerabilidades:
+Em [Determinar Ameaças](03-determinarAmeaca.md), usamos o modelo STRIDE e identificamos algumas vulnerabilidades e agora vamos adiconar ações de mitigação para cada um delas:
 
 | Ameaça | Controle | Descrição | Mitigação |
 |--------|----------|-----------| --------- |
@@ -22,3 +22,9 @@ Depois de mitigada é só alterar o status:
 <img width="500" src="image-30.png">
 <img width="420" src="image-31.png">
 
+
+<br>
+<hr>
+<br>
+
+[< Anterior](03-determinarAmeaca.md) | [Inicio >](00-modelagem.md)
