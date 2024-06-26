@@ -19,7 +19,12 @@
   <li>Marília Rocha → <a href="https://www.linkedin.com/in/mar%C3%ADliadarocha/" target="_blank">LinkedIn&#x2197;</a></li>
   <li>Juliana Gaioso → <a href="https://www.linkedin.com/in/juligaioso/" target="_blank">LinkedIn&#x2197;</a></li>
   <li>DevSecOps Global [Discord] → Gabriel Galdino <a href="https://twitter.com/gabogaldino/status/1688930267443118080" target="_blank">Twitter&#x2197;</a></li>
-  <li>Crowsec → <a href="https://www.instagram.com/carlos.crowsec/ target="_blank"">Instagram&#x2197;</a></li>
+  <li>Crowsec → <a href="https://www.instagram.com/carlos.crowsec/" target="_blank">Instagram&#x2197;</a></li>
+  <li>Boitatech → <a href="https://heylink.me/boitatech/" target="_blank">Todas as redes&#x2197;</a></li>
+  <li>I Hack My Future → <a href="https://www.ihackmyfuture.com/" target="_blank">Todas as redes&#x2197;</a></li>
+  <li>Garoa Hacker Club → <a href="https://garoa.net.br/wiki/P%C3%A1gina_principal" target="_blank">Site&#x2197;</a></li>
+  <li>Mente Binária → <a href="https://www.mentebinaria.com.br/" target="_blank">Site&#x2197;</a></li>
+  <li>Defcon Group5511 → <a href="https://linktr.ee/dcg5511" target="_blank">Todas as redes&#x2197;</a></li>
   
  <br>
 
