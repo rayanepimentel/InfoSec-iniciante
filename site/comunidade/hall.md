@@ -25,17 +25,17 @@
  | | |
  |---|--|
  |OWASP BR | Link|
- |Belém | https://owasp.org/www-chapter-belem/ |
- |Belo Horizonte | https://owasp.org/www-chapter-belo-horizonte/ |
- |Brasília | https://owasp.org/www-chapter-brasilia/|
- |Curitiba | https://owasp.org/www-chapter-curitiba/ |
- |Florianopólis | https://owasp.org/www-chapter-florianopolis/|
- |Fortaleza | https://owasp.org/www-chapter-fortaleza/|
- |João Pessoa | https://owasp.org/www-chapter-joao-pessoa/|
- |Natal | https://owasp.org/www-chapter-natal/|
- |Porto Alegre | https://owasp.org/www-chapter-porto-alegre/|
- |Recife | https://owasp.org/www-chapter-recife/ |
- |São José dos Campos | https://owasp.org/www-chapter-sao-jose-dos-campos/|
- |São Paulo | https://owasp.org/www-chapter-sao-paulo/|
- |Vitória | https://owasp.org/www-chapter-vitoria/|
+ |Belém | [https://owasp.org/www-chapter-belem/](https://owasp.org/www-chapter-belem/) |
+ |Belo Horizonte | [https://owasp.org/www-chapter-belo-horizonte/](https://owasp.org/www-chapter-belo-horizonte/) |
+ |Brasília | [https://owasp.org/www-chapter-brasilia/](https://owasp.org/www-chapter-brasilia/)|
+ |Curitiba | [https://owasp.org/www-chapter-curitiba/](https://owasp.org/www-chapter-curitiba/ )|
+ |Florianopólis |[ https://owasp.org/www-chapter-florianopolis/](https://owasp.org/www-chapter-florianopolis/)|
+ |Fortaleza | [https://owasp.org/www-chapter-fortaleza/](https://owasp.org/www-chapter-fortaleza/)|
+ |João Pessoa | [https://owasp.org/www-chapter-joao-pessoa/](https://owasp.org/www-chapter-joao-pessoa/)|
+ |Natal |[ https://owasp.org/www-chapter-natal/](https://owasp.org/www-chapter-natal/)|
+ |Porto Alegre | [https://owasp.org/www-chapter-porto-alegre/](https://owasp.org/www-chapter-porto-alegre/)|
+ |Recife | [https://owasp.org/www-chapter-recife/](https://owasp.org/www-chapter-recife/) |
+ |São José dos Campos | [https://owasp.org/www-chapter-sao-jose-dos-campos/](https://owasp.org/www-chapter-sao-jose-dos-campos/)|
+ |São Paulo | [https://owasp.org/www-chapter-sao-paulo/](https://owasp.org/www-chapter-sao-paulo)|
+ |Vitória | [https://owasp.org/www-chapter-vitoria/](https://owasp.org/www-chapter-vitoria/)|
  
