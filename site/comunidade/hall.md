@@ -19,6 +19,7 @@
   <li>Marília Rocha → <a href="https://www.linkedin.com/in/mar%C3%ADliadarocha/" target="_blank">LinkedIn&#x2197;</a></li>
   <li>Juliana Gaioso → <a href="https://www.linkedin.com/in/juligaioso/" target="_blank">LinkedIn&#x2197;</a></li>
   <li>DevSecOps Global [Discord] → Gabriel Galdino <a href="https://twitter.com/gabogaldino/status/1688930267443118080" target="_blank">Twitter&#x2197;</a></li>
+  <li>Crowsec → <a href="https://www.instagram.com/carlos.crowsec/ target="_blank"">Instagram&#x2197;</a></li>
   
  <br>
 
