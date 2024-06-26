@@ -1,6 +1,8 @@
 👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [Técnicas e Ferramentas](https://rayanepimentel.github.io/InfoSec-iniciante/site/ferramentas/ferramentas.html)
 
-## Lista de pessoas e/ comunidades <img src="image.png" style='max-width: 10%;'>
+## Lista de pessoas e/ comunidades 
+
+<img src="image.png" style='max-width: 50%;'>
 
   <li>OWASP Community → <a href="https://owasp.org/www-community/meetings/" target="_blank">Pagina Web&#x2197;</a></li>
   <li>Cantinho de Infosec [Discord] → Kali Nathalie <a href="https://twitter.com/K4L1_FS" target="_blank">Twitter&#x2197;</a></li>
