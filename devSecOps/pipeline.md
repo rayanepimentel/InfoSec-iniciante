@@ -1,4 +1,4 @@
-👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [DevSecOps](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps)
+👾 [Inicio](https://rayanepimentel.github.io/InfoSec-iniciante/site/) | [Cronograma](https://rayanepimentel.github.io/InfoSec-iniciante/cronograma/) | [DevSecOps](https://rayanepimentel.github.io/InfoSec-iniciante/devSecOps)
 
 # Pipeline 
 
