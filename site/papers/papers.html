@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../public/estilo.css" />
+    <link rel="stylesheet" href="../public/publicacoes.css" />
     <script src="../public/header.js"></script>
     <title>Artigos e papers</title>
 </head>
@@ -20,211 +21,100 @@
 
         <!-- Seção Artigos e Papers -->
         <section class="section">
-            <h3 class="subtitle">
+            <h3 class="subtitle" onclick="toggleSection('artigos')" style="cursor: pointer;">
                 <a name="artigos">→ Artigos e Papers</a>
+                <span class="toggle-icon" id="toggle-artigos">[ver tudo]</span>
             </h3>
             
-            <div class="publication-card">
-                <span class="card-type">Paper</span>
-                <h4 class="card-title">Avaliação comparativa do desempenho de inteligências artificiais generativas e ferramentas tradicionais na análise de código-fonte JavaScript</h4>
-                <div class="card-meta">
-                    <div class="meta-item">
-                        <span class="meta-label">Autores:</span>
-                        <span>Seu Nome, Co-autor</span>
+            <div id="artigos-content" class="section-content" style="display: none;">
+                <div class="publication-card">
+                    <span class="card-type">Paper</span>
+                    <h4 class="card-title">Avaliação comparativa do desempenho de inteligências artificiais generativas e ferramentas tradicionais na análise de código-fonte JavaScript</h4>
+                    <div class="card-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Autores:</span>
+                            <span>Seu Nome, Co-autor</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Publicado em:</span>
+                            <span>SBSeg 2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ano:</span>
+                            <span>2025</span>
+                        </div>
                     </div>
-                    <div class="meta-item">
-                        <span class="meta-label">Publicado em:</span>
-                        <span>SBSeg 2025</span>
-                    </div>
-                    <div class="meta-item">
-                        <span class="meta-label">Ano:</span>
-                        <span>2025</span>
-                    </div>
+                    <a href="https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36756" target="_blank" class="pub-link">
+                        Acessar publicação &#x2197;
+                    </a>
                 </div>
-                <a href="https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36756" target="_blank" class="pub-link">
-                    Acessar publicação &#x2197;
-                </a>
-            </div>
 
-            <div class="publication-card">
-                <span class="card-type">Artigo</span>
-                <h4 class="card-title">Título do segundo artigo exemplo</h4>
-                <div class="card-meta">
-                    <div class="meta-item">
-                        <span class="meta-label">Autores:</span>
-                        <span>Nome Autor 1, Nome Autor 2</span>
+                <div class="publication-card">
+                    <span class="card-type">Artigo</span>
+                    <h4 class="card-title">Título do segundo artigo exemplo</h4>
+                    <div class="card-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Autores:</span>
+                            <span>Nome Autor 1, Nome Autor 2</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Publicado em:</span>
+                            <span>Conferência Exemplo 2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ano:</span>
+                            <span>2025</span>
+                        </div>
                     </div>
-                    <div class="meta-item">
-                        <span class="meta-label">Publicado em:</span>
-                        <span>Conferência Exemplo 2025</span>
-                    </div>
-                    <div class="meta-item">
-                        <span class="meta-label">Ano:</span>
-                        <span>2025</span>
-                    </div>
+                    <a href="#" target="_blank" class="pub-link">
+                        Acessar publicação &#x2197;
+                    </a>
                 </div>
-                <a href="#" target="_blank" class="pub-link">
-                    Acessar publicação &#x2197;
-                </a>
             </div>
         </section>
 
         <!-- Seção Leituras -->
         <section class="section">
-            <h3 class="subtitle">
+            <h3 class="subtitle" onclick="toggleSection('leituras')" style="cursor: pointer;">
                 <a name="leituras">→ Leituras Recomendadas</a>
+                <span class="toggle-icon" id="toggle-leituras">[ver tudo]</span>
             </h3>
             
-            <ul class="reading-list">
-                <li class="reading-item">
-                    <span class="reading-title">Título da leitura ou livro recomendado</span>
-                    <span class="reading-source">Autor - Editora, 2024</span>
-                </li>
-                <li class="reading-item">
-                    <span class="reading-title">Outra leitura importante na área</span>
-                    <span class="reading-source">Nome do Autor - Revista Científica, 2023</span>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Seção Resumos -->
-        <section class="section">
-            <h3 class="subtitle">
-                <a name="resumos">→ Resumos</a>
-            </h3>
-            
-            <div class="publication-card">
-                <span class="card-type">Resumo</span>
-                <h4 class="card-title">Resumo sobre tema específico</h4>
-                <div class="card-meta">
-                    <div class="meta-item">
-                        <span class="meta-label">Tema:</span>
-                        <span>Segurança da Informação</span>
-                    </div>
-                    <div class="meta-item">
-                        <span class="meta-label">Data:</span>
-                        <span>2025</span>
-                    </div>
-                </div>
-                <a href="#" class="pub-link">
-                    Ver resumo completo &#x2197;
-                </a>
+            <div id="leituras-content" class="section-content" style="display: none;">
+                <ul class="reading-list">
+                    <li class="reading-item">
+                        <a href="#" target="_blank" class="reading-link">
+                            <span class="reading-title">Título da leitura ou livro recomendado &#x2197;</span>
+                            <span class="reading-source">Autor - Editora, 2024</span>
+                        </a>
+                    </li>
+                    <li class="reading-item">
+                        <a href="#" target="_blank" class="reading-link">
+                            <span class="reading-title">Outra leitura importante na área &#x2197;</span>
+                            <span class="reading-source">Nome do Autor - Revista Científica, 2023</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
+
     </div>
 
-    <style>
-        .section {
-            margin-bottom: 50px;
+    <script>
+        function toggleSection(sectionId) {
+            const content = document.getElementById(sectionId + '-content');
+            const toggle = document.getElementById('toggle-' + sectionId);
+            
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                toggle.textContent = '[ocultar]';
+            } else {
+                content.style.display = 'none';
+                toggle.textContent = '[ver tudo]';
+            }
         }
+    </script>
 
-        .publication-card {
-            background-color: white;
-            border-left: 4px solid #a047b6;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 25px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-        }
-
-        .publication-card:hover {
-            box-shadow: 0 4px 12px rgba(160, 71, 182, 0.2);
-            transform: translateX(5px);
-        }
-
-        .card-type {
-            display: inline-block;
-            padding: 5px 15px;
-            background-color: #222831;
-            color: #9778c4;
-            border-radius: 5px;
-            font-size: 14px;
-            font-weight: bold;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-        }
-
-        .card-title {
-            font-size: 20px;
-            font-weight: bold;
-            color: #222831;
-            margin-bottom: 15px;
-            line-height: 1.4;
-        }
-
-        .card-meta {
-            background-color: #f5f5f5;
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 15px;
-        }
-
-        .meta-item {
-            margin-bottom: 8px;
-            font-size: 16px;
-        }
-
-        .meta-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .meta-label {
-            color: #a047b6;
-            font-weight: bold;
-            -webkit-text-stroke-width: 1px;
-        }
-
-        .pub-link {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #222831;
-            color: #9778c4;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-
-        .pub-link:hover {
-            background-color: #9778c4;
-            color: #222831;
-        }
-
-        .reading-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .reading-item {
-            background-color: white;
-            border-left: 4px solid #a047b6;
-            padding: 15px 20px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-
-        .reading-item:hover {
-            box-shadow: 0 2px 8px rgba(160, 71, 182, 0.2);
-            transform: translateX(5px);
-        }
-
-        .reading-title {
-            display: block;
-            font-weight: bold;
-            color: #222831;
-            margin-bottom: 8px;
-            font-size: 18px;
-        }
-
-        .reading-source {
-            display: block;
-            color: #666;
-            font-size: 15px;
-            font-style: italic;
-        }
-    </style>
 </body>
 
 </html>
