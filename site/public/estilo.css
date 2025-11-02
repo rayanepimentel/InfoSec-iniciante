@@ -144,3 +144,116 @@ code, pre {
       transform: translateX(0);
     }
   }
+
+  /* Adicione isso no final do seu estilo.css */
+
+/* Responsividade - Tablets e telas menores */
+@media (max-width: 1024px) {
+    .nav-container {
+        max-width: 90%;
+        padding: 0 20px;
+    }
+    
+    .nav-bar a {
+        margin-left: 30px;
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+    
+    .container {
+        max-width: 90%;
+        padding: 0 20px;
+    }
+    
+    hr {
+        width: 90%;
+    }
+}
+
+/* Responsividade - Mobile */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .logo a {
+        font-size: x-large !important;
+    }
+    
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    
+    .nav-bar a {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .nav-container {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .title {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .title h1 {
+        font-size: 1.8rem;
+    }
+    
+    .title h2 {
+        font-size: 1.3rem;
+    }
+    
+    .container {
+        max-width: 95%;
+        padding: 0 10px;
+    }
+    
+    .subtitle {
+        max-width: 95%;
+        padding: 0 10px;
+    }
+    
+    hr {
+        width: 95%;
+    }
+}
+
+/* Responsividade - Mobile pequeno */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .nav-bar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .title h1 {
+        font-size: 1.5rem;
+    }
+    
+    .title h2 {
+        font-size: 1.1rem;
+    }
+    
+    code, pre {
+        font-size: 14px;
+        overflow-x: auto;
+    }
+}
