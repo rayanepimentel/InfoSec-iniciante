@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3; url=./site/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionando - InfoSec Iniciante</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-color: #ebebf3;
+            color: #222831;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .emoji {
+            font-size: 80px;
+            animation: bounce 1s infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #222831;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .redirect-link {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #222831;
+            color: #9778c4;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: 2px solid #222831;
+        }
+
+        .redirect-link:hover {
+            background-color: #9778c4;
+            color: #222831;
+            border-color: #9778c4;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(160, 71, 182, 0.3);
+        }
+
+        .spinner {
+            margin: 30px auto;
+            width: 50px;
+            height: 50px;
+            border: 4px solid #e0e0e0;
+            border-top: 4px solid #a047b6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .emoji {
+                font-size: 60px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .redirect-link {
+                padding: 12px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">👾</div>
+        <h1>InfoSec Iniciante</h1>
+        <p>Redirecionando para o site...</p>
+        <div class="spinner"></div>
+        <a href="./site/" class="redirect-link">Clique aqui se não for redirecionado</a>
+        <p class="info">Você será redirecionado em 3 segundos</p>
+    </div>
+</body>
+</html>
