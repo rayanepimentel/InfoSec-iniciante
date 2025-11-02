@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../public/estilo.css" />
     <link rel="stylesheet" href="../public/publicacoes.css" />
     <script src="../public/header.js"></script>
-    <title>Artigos e papers</title>
+    <title>Docs</title>
 </head>
 
 <body>
@@ -15,18 +15,18 @@
     
     <div class="container">
         <div class="title">
-            <h1>Artigos</h1>
-            <h2>Papers</h2>
+            <h1>Conhecimento</h1>
+            <h2>Estudos e Publicações_</h2>
         </div>
 
-        <!-- Seção Artigos e Papers -->
+        <!-- Seção Publicações Científicas -->
         <section class="section">
-            <h3 class="subtitle" onclick="toggleSection('artigos')" style="cursor: pointer;">
-                <a name="artigos">→ Artigos e Papers</a>
-                <span class="toggle-icon" id="toggle-artigos">[ver tudo]</span>
+            <h3 class="subtitle" onclick="toggleSection('publicacoes')" style="cursor: pointer;">
+                <a name="publicacoes">→ Publicações Científicas</a>
+                <span class="toggle-icon" id="toggle-publicacoes">[ver tudo]</span>
             </h3>
             
-            <div id="artigos-content" class="section-content" style="display: none;">
+            <div id="publicacoes-content" class="section-content" style="display: none;">
                 <div class="publication-card">
                     <span class="card-type">Paper</span>
                     <h4 class="card-title">Avaliação comparativa do desempenho de inteligências artificiais generativas e ferramentas tradicionais na análise de código-fonte JavaScript</h4>
@@ -73,15 +73,21 @@
             </div>
         </section>
 
-        <!-- Seção Leituras -->
+        <!-- Seção Leituras e Resumos -->
         <section class="section">
             <h3 class="subtitle" onclick="toggleSection('leituras')" style="cursor: pointer;">
-                <a name="leituras">→ Leituras Recomendadas</a>
+                <a name="leituras">→ Leituras e Resumos</a>
                 <span class="toggle-icon" id="toggle-leituras">[ver tudo]</span>
             </h3>
             
             <div id="leituras-content" class="section-content" style="display: none;">
                 <ul class="reading-list">
+                    <li class="reading-item">
+                        <a href="#" target="_blank" class="reading-link">
+                            <span class="reading-title">NIST SP 800-115 - Technical Guide to Information Security Testing &#x2197;</span>
+                            <span class="reading-source">NIST - National Institute of Standards and Technology</span>
+                        </a>
+                    </li>
                     <li class="reading-item">
                         <a href="#" target="_blank" class="reading-link">
                             <span class="reading-title">Título da leitura ou livro recomendado &#x2197;</span>
